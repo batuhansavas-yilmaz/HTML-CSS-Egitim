@@ -1,0 +1,104 @@
+@charset "utf-8";
+*{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+body{
+	margin: 0px;
+}
+
+.baslik{
+	text-align: center;
+	font-size: 30px;
+	color: purple;
+}
+
+.altBaslik{
+    text-align: center;
+	font-size: 25px;
+  
+}
+main{
+	text-align: center;
+}
+
+.telefonFiyatTablo{
+	width: 1000px;
+	border-collapse: collapse;
+	text-align: center;
+	margin: auto;
+	
+}
+
+.telefonFiyatTablo > tbody >tr:nth-child(odd){
+	background-color: lightgray;
+    
+}.telefonFiyatTablo > tbody >tr:nth-child(even){
+	background-color: rgb(218, 212, 212);
+    
+}
+
+.telefonFiyatTablo > thead,tfoot{
+	background-color: black;
+	color: white;
+}
+
+.telefonFiyatTablo > tbody > tr:hover{
+	background-color: white;
+	color: black;
+}
+
+.telefonFiyatTablo td{
+	padding: 10px;
+}
+
+.telefonFiyatTablo:hover{
+	box-shadow: 5px 5px 10px gray; 
+	transition: 0.5s;
+}
+
+hr{
+	margin: 50px 0px;
+	padding: 0px;
+	border: 1px solid black;
+}
+
+.iletisimForm{
+    width: 800px;
+    height: 25px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border : 1px solid gray;
+    
+}
+.mesaj{
+    width: 800px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.iletisimForm[type="email"]:invalid{
+    color: red;
+}
+
+.gondermeButonu{
+    border-radius: 5px;
+	border:none;
+    padding: 20px 40px;
+    background-color: lightseagreen;
+	color: white;
+	font-weight: 600;
+}
+.gondermeButonu:hover{
+    background-color: seagreen;
+    cursor: pointer;
+	box-shadow: 2px 2px 5px gray;
+	transition: 0.3s;
+}
+
+#copyright{
+    text-align: center;
+    
+}
