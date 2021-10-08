@@ -1,0 +1,9 @@
+ @charset "utf-8";
+/* EleAlınanTag:any-link{}  ==> Döküman içerisinde bulunan HTML'in 
+link elementinin / elementlerinin URL değeri boş değilse stil tanımlar Yani href özelliği almayanlar için geçerli*/
+a:any-link{
+    color: red;
+    border-style: double;
+    border-color: blue;
+    font-size: 100px;
+}

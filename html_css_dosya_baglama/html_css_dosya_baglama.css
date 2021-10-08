@@ -1,0 +1,7 @@
+@charset "utf-8";
+@import "ek.css";
+@import url(ek2.css);
+body{
+    background-color: red;
+   
+}

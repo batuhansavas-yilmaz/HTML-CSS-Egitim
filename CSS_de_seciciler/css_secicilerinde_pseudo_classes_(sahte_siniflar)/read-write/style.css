@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* EleAlınanTag:read-write{}  ==> ele alınan tag okunabilir ve yazıalbilir (düzenlenebilir) olduğunda stil tanımlar.*/
+
+input[name="53"]:read-only{
+    color: red;
+}
+input[name="53.5"]:read-write{
+    background-color: red;
+}

@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* EleAlınanTag:valid{}  ==> ele alınan tagda bilgi girişi geçerli bir değer olduğunda stil tanımlar. Değer geçersizleşirse stil normale döner. */
+
+#mail:valid{
+    color: red;
+}

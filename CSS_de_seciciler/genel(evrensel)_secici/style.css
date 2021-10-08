@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/*h4{
+  background-color: red;
+    color: blue;
+    border-style:  solid;
+    border-color: black;
+}
+p{
+    background-color: red;
+    color: blue;
+    border-style:  solid;
+    border-color: black;
+}
+ul{
+   background-color: red;
+    color: blue;
+    border-style:  solid;
+    border-color: black;
+}*/ 
+/* bu şekilde yapmak bizi çok yorabilir. 
+yani ekrandaki her rengi..vs aynı yapcaksak  tek tek yazmak yerine
+evrensel seçiçi ile hepsini seçebiliriz.*/
+*{background-color: red;
+    color: blue;
+    border-style:  solid;
+    border-color: black;
+}

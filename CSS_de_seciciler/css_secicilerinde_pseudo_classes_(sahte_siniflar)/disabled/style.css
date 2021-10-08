@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* EleAlınanTag:disabled{}  ==> belirtilen tag etkin olmadığında stil tanımlar. */
+
+.uyeNum:disabled{
+    background-color: pink;
+    border: none;
+}
+.uyeAdSoyad:disabled{
+    background-color: pink;
+    border: none;
+}

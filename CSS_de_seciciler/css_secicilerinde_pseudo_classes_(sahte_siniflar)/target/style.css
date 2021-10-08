@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* :target{}  ==> ele alınan html tagına çapa türündeki linklerle bağlanmış (id'lerle) olan ve tıklandığında hedeflenmiş olan taga stil tanımlaması yapar.*/
+
+:target[id="BatuhanSavass"]{
+    color: blue;
+    border-style: double;
+}
+:target[id="Selinay"]{
+    color: RED;
+    border-style: inset;
+}

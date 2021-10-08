@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang="tr">
+
+<head>
+
+    <title>META TAGLARI</title>
+    <!--
+        Meta tagı, arama motorlarına sitemiz ile bilgiler sunmaktadır. Sitenin sadece kaynak kodunda görünür. Ön yüzünde görünmez.
+        Böylelikle arama motorlarının sitemizi detaylıca tanıyarak aramalarda daha rahat bulunmasını sağlanır.
+    -->
+
+    <!-- HTML4 ve ÜZERİ SÜRÜMLER İÇİN
+      HER ZAMAN KULLANIMA GEREK YOK. TARAYICILARA GÖRE FARKLILIK GÖSTERİR.-->
+    <meta name="content-type" content="text/html; charset=utf-8"/>
+    <!-- content type= içerik tipi demektir. content-type ın  charset özelliğine sitemizin karakter seti hakkında bilgi veririz, content özelliğine de sitemizin metinsel özelliği hakkında bilgi veririz.content e  text/html ve charset'e utf-8 ekleyerek sitemizin text tabanlı bir html dosyasına yazıldığı ve  türkçe karakter kullanılan bir site olduğunu belirtmiş oluruz.Kullanılması Gereklidir-->
+
+
+    
+    <meta name="absract" content="Site İle İlgili Özet Bilgi Verir"/> *
+    <meta name="author" content="Site Yazılımcısı İle İlgili Bilgi Verir"/>
+    <meta name="author" content="Batuhan Savaş Yılmaz - batuhansavasyilmaztr@gmail.com - +905396198697"/> *
+    <meta name="cache-control" content="Sitenin önbelleğe alınıp alınmamasını sağlar. DEfault olarak ALINIR haldedir. Alınamamsını istiyorsak no-cache yazmalıyız."/> 
+    <meta name="cache-control" content="no-cache"/> 
+    <meta name="classification" content="Web sitesinin içeriğine ait sınıf yani hangi branşda bir site olduğu hakkında burda bilgi vermeliyiz. Bu sınıflara belirlenmiş bir döküman üzerinden ulaşmalıyız"/>
+    <meta name="classification" content="Bussines"/>
+    <meta name="content-language" content="Burda tire koyup, tirenin soluna dil,sağına ise hangi ülke aksanı ile yazıldığını yazarız.Kullanılması Gereklidir"/>
+    <meta name="content-language" content="EN-US (Burda amerikan aksanıyla ingilizce dili içerdiğini belirttik)"/>
+    <meta http-equiv="content-style-type" content="text/css" Burda sitemizin metin tabanlı bir stil dosyası içerdiğini belirttik.Kullanılması Gereklidir/>
+    <meta http-equiv="content-script-type" content="text/javascript" Burda sitemizin metin tabanlı bir script dosyası içerdiğini belirttik.Kullanılması Gereklidir/>
+
+
+
+    <!--copyright = SAYFA İÇERİĞİ  HAKKINDA TELİF HAKKI BİLGİLERİ TANIMLAMA İŞLEMİDİR.META TAGININ NAME ÖZELLİĞİNDE KULLANILIR.-->
+    <meta name="copyright" content="Bilgiyi buraya yazarak arama motorlarına ve dizin indexleyicilerine sitemizin 
+    telif hakkı olduğunu ve firmaya ait içeriklerinin izinsiz yayınlayamacağını bildiriyoruz. SADECE İSİM SOY İSİM YETERLİ"/>
+
+
+
+    <!-- designer = Sayfa içeriğini hazırlayan hakkında bilgi vermek için kullanılır (Görsel-Tasarım).
+  Author'un aynısı, authorda yazılımcı hakkında bilgi veririrz. Bunda tasarımcı hakkında. -->
+    <meta name="designer" content="Tasarımcının adı,maili,numarası..vb"/>
+
+
+
+    <!-- description = Burada arama motorlarına web sitemiz hakkkında kısa ve öz bi bilgi veririz. -->
+    <meta name="description" content="Dünya takımlarının formaları ezekuel forma da.Kullanılması Gereklidir"/>
+
+
+
+    <!-- distribution = Sayfamızın hitap ettiği bölgeyi tanımlar.3 şekilde kullanılır.
+        1. Global = sayfamızın tüm internet ağına hitap ettiğini belirtiriz.
+        2. Local  = sayfamızın sadece sitenin yayın yaptığı IP Bloğuna hitap ettiğini belitiriz.
+        3. IU     = sayfamızın hiç bir şekilde kamuya hitap etmediğini belirtiriz.
+        Eğer bu etiketi hiç kullanmaz isek default olarak global olarak döndürülür.-->
+      <meta name="distribution" content="Global"/>
+    
+        
+        
+        <!-- expires = Web sitemizin yayından kalkacağı zamanı bildirmek için kullanılır.-->
+        <!-- Kullandığı saat formatı GMT (Greenwich Mean Time)-->
+        <!-- GMT Formatı = Sat, 10 Jan 2015 18:00:00 GMT-->
+        <!-- Günler      = İngilizce Günlerin 3 harfli kısaltılması-->
+        <!-- Ayların     = İngilizce ayların 3 harfli kısaltılması-->
+        <!-- 2 Türlü kullanılır :
+                1.Kullanım Türü =   <meta name="expires" content = "Zaman Bildirimi" />
+                2.Kullanım Türü =   <meta http-equiv="expires" content = "Zaman Bildirimi" />
+        -->
+        <!-- Aşağıda, arama motorlarına sayfamızın 10 ocak 2015 cumartesi günü
+             saat 18:00:00'da yayından kaldırılacağını bildirmiş oluyoruz-->
+        <meta name="expires" content="Sat, 10 Jan 2015 18:00:00 GMT" />
+       
+        
+
+        <!-- generator     = web sayfamızın hangi yazılım programıyla yazıldığını bildirmemize yarıyor.-->
+        <!-- Aşağıda, arama motorlarına sayfamızın vs code ile yazıldığını bildirdik.-->
+        <meta name="generator" content="Visual Studio Code" />
+    
+        
+
+        <!-- google  = Google arama motoruna, sayfamızın otomatik olarak kullanıcın sistem diline çevrilip çevrilmeyeceği özelliği tanımıdır.-->
+        <!-- Aşağıda sadece google arama motoru için sayfa çeviri önerisini durdurduk.-->
+        <meta name="google" content="notranslate" />
+
+        <!-- googlebot = Sadece google arama motoru botu sayfamızı gezerken hangi davranışları sergilemesini belirlememize yarar-->
+        <!-- robots = Tüm arama motorları botları sayfamızı gezerken hangi davranışları sergilemesini belirlememize yarar-->
+                    <!-- CONTENT TANIMLARI -->
+            <!-- index        = sayfanın  arama motorunda indexlenmesini bildirir.-->
+            <!-- noindex      = sayfanın  arama motorunda indexe alınmasını engeller.-->
+            <!-- follow       = sayfamız içerisindeki URL(link)'lerin  takip edilmesini bildirir.-->
+            <!-- nofollow     = sayfamız içerisindeki URL(link)'lerin  takip edilmesini engeller.-->
+            <!-- archive      = sayfamız ön izleme için ekran görüntüsü oluşturmasını bildirir.-->
+            <!-- noarchive    = sayfamız ön izleme için ekran görüntüsü oluşturmasını engeller. 
+                Eğer daha önce oluşturulmuş ise oluşan ön izlemeyi siler-->
+            <!-- none         = sayfamızın göz ardı edilmesini sağlar-->
+            <!-- noodp        = Sayfamız DMOZ dizinine Kayıtlı ise, arama sonuçlarında DMOZ dizinindeki açıklamanın yerine 
+                kendi açıklamasını kullanacağını bildirir.-->
+            <!-- all          = Tüm olumlu bildirimleri uygular (index,follow,archive..vb tanımlarını otomatik kullanır).--> 
+            <!-- nosnippet    = Sadece Google Arama Motoru için Sayfamızın ön bilgisinin arama sonuçlarında görünmesini engeller.--> 
+            <!-- noimageindex = Sadece Google Arama Motoru için Sayfanın google arama motorunda arama sonucunda görünen bir 
+                resim için yönlendirilen sayfa olarak görünmemesini belirtir.--> 
+            <!--Aşağıda google arama motoru için index,follow,ve archive komutlarına izin verdik. -->
+        <meta name="googlebot" content="index,follow,archive"/> 
+        <meta name="robots" content="index,follow,archive"/>
+
+         <!-- keywords = Web sayfanın arama motorları için indexlemede kullanacağı anahtar kelimeleri belirtir. 
+        Burda yazacağımız kelimeler, keywords tagını yazdığımız sayfanın body etiketinin içinde de geçmeli ki google + puan versin. 
+        Geçmiyor ise - puan verir.-->
+       <!--    <meta name="keywords" content="Anahtar kelimeler (Önerilen max kelime adedi 20)"/>-->
+      <meta name="keywords" content="jersey, soccer, football, messi, ronaldo, mbappe, neymar, world cup" />
+      <body>jersey, soccer, football, messi, ronaldo, mbappe, neymar, world cup</body>
+
+      <!-- language = Arama motorlarına sayfamızın hangi dilde ve bölgede olduğunu belirtmeye yarar.-->
+    <meta name="language" content="TR" />
+
+
+    <!-- owner = Arama motorlarına sayfamızın kime/hangi firmaya (yada ikisi birlikte) ait olduğunu belirtiriz.-->
+    <meta name="owner" content="Batuhan Savaş Yılmaz" />
+    <meta name="owner" content="US Studio" />
+    <meta name="owner" content="US Studio - Batuhan Savaş Yılmaz" />
+
+
+    <!-- pragma = Internet Explorer tarayıcısı için Sitemizin ön belleğe alınma işlemiyle ilgili komutdur.-->
+    <!-- Aşağıda sitemizin sadece Internet Explorerde ön belleğe alınmamasını tanımladık.-->
+    <meta name="pragma" content="no-cache" />
+
+    
+    <!-- publisher = sitenin yayımcısını (sunucu kiraladğımız firmayı)bildirmeye yarar-->
+    <meta name="publisher" content="GoDaddy"/>
+
+
+
+    <!-- rating     = Arama motorları ve dizin indexleyiciler için sayfamızın kategorisini
+        / sınıfını belirten tanımlama işlemidir-->
+        <!--   general           = Genel İçerik-->
+        <!--   mature            = yetişkin içerik-->
+        <!--   resticted         = Kısıtlı içerik-->
+        <!--   14 years          = 14 yaş üzeri içerik-->
+        <!--   safe for kids     = çocuksal  içerik-->
+        <meta name="rating" content="14 years"/>
+
+
+
+        <!-- refresh = sayfamızda ilgili döküman içerisinde bulunan bu komut
+         ilgili dökümanın belirtilen süre ve URL dahilinde yenilenmesini veya yönlendirilmesini sağlar
+        Örneğin: indirme sitelerinde "5 saniye sonra indirmeye başlayacaktır..vb " gibi yazar. o işlemi bu komutla yaparız.-->
+    1. Kullanım şekli (yenileme)
+    <meta http-equiv="refresh" content="5" /> (genel olarak çoğu tarayıcı bunu kabul eder)
+    1. Kullanım şekli (yenileme)
+    <meta name="refresh" content="5" />
+    <!-- Burada ilgili dökümanımızın bulunduğu sayfayı 5 saniyede bir yeniliyor-->
+
+    2. Kullanım şekli (yenileme)
+    <meta http-equiv="refresh" content="5; URL=Yönlenecek Adres" /> (genel olarak çoğu tarayıcı bunu kabul eder)
+    2. Kullanım şekli (yenileme)
+    <meta name="refresh" content="5; URL=Yönlenecek Adres" />
+    <!-- Burada ilgili dökümanımız URL'de belirtilen sayfaya 5 saniye sonra yöneliyor-->
+
+
+    <!-- reply-to = sitenin iletişim mailini içeren tanımlama bilgisidir-->
+    <meta name="reply-to" content="batuhansavasyilmaztr@gmail.com" />
+
+
+    <!-- resource-type = sayfamızın ilgili dökümanının kaynak kodu türünü/tipini belirtir.-->
+    <meta name="resource-type" content="document" />
+    <!-- burada sayfamızdaki ilgili dökümanımızın kaynak kodu türünün döküman olduğunu belirttik.-->
+    <meta name="resource-type" content="xml" />
+    <!-- burada sayfamızdaki ilgili dökümanımızın kaynak kodu türünün xml olduğunu belirttik.-->
+
+
+    <!-- revisit-after = Arama motoru botlarına sayfayı hangi sıklıkta kontrol edeceğini belirtir.-->
+    <meta name="revisit-after " content="7 days" />
+    <!-- burada arama motoru botuna ilgili sayfamı 7 günde bir ziyaret et diyoruz. 
+                Eğer site sürekli güncellenmiyorsa ve içerik sürekli değişmiyora 7 gün normal bir süredir.
+                Eğer site sürekli güncellenen ve yeni içerikler eklenen (yorum,forum konuları..vb) 
+                bir site ise o zaman 3 yada 1 gün en optimal süredir-->
+
+
+    <!-- revised = web sayfamızın en son hangi tarihde güncellendiğini belirtmeye yarar-->
+        <meta name="revised" content="GG.AA.YYYY" />
+
+
+
+<!-- subject = Sayfanın konusunu tanımlar.-->
+  <meta name="subject" content="Sesli ve Görsel Eğitim Sitesi"/>
+  <!-- Sayfamızın konusunun Sesli ve Görsel Eğitim olduğunu belirttik. -->
+
+  <!-- title = Arama motoru botlarına sayfanın başlığını belirtmeye yarar.-->
+  <meta name="title" content="HTML5"/>
+  <!-- Facebook, twitter ..vb sosyal ağlarda eğer sitemiz dahilinde konu, makale, resim, video .vb içerik bulunuyorsa
+     ve kullanıcılarımız bu içerikleri paylaşabiliyorsa title meta tag'ı tanımı başlık için kullanılmalıdır. -->
+
+  <!-- url = Sayfamızın URL adresini tanımlamakta kullanılır.-->
+  <meta name="url" content="https://www.ezekeulforma.com"/> 
+  
+  <!-- SAyfa içerisinde charset Yani karakter seti kullanımı şekilleri
+  Kullanılması Gereklidir.-->
+  <!-- 1.Kullanım şekli (html4) = <meta http-equiv="Content-Type" content = "text/html; charset = Karakter Setimiz örn utf-8"/>-->
+  <!-- 2. kullanım şekli (html5) = <meta charset="karakter setimiz örn utf-8"/>-->
+        <meta charset="utf-8"/>
+
+  <!-- Mobil görünümü destekler. -->
+  <meta name="viewport" content="width=device-witdh, initial-scale=1.0"/>
+</head>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* EleAlınanTag:visited{}  ==> açılmış link'e renk tanımlar */
+
+a:visited[href*="org"]{
+    color: black;
+    
+    
+}

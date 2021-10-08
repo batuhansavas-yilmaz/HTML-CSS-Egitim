@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* EleAlınanTag:only-child{}  ==> ele alınan tag baz alınarak, üst elementine göre bitişik ilk tek çocuk (child) durumundaki taga stil tanımlar. */
+
+div:only-child{
+    background-color: red;
+}
+a:only-child{
+    background-color: red;
+}
+h3:only-child{
+    background-color: red;
+}
+h4:only-child{
+    background-color: yellow;
+}

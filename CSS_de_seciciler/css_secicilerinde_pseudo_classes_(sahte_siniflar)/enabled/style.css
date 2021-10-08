@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* EleAlınanTag:enabled{}  ==> belirtilen tag etkin olduğunda stil tanımlar (defaulttan enabled olduğu için tagın içine yazmaya gerek yok). */
+
+.uyeNum:disabled{
+    background-color: pink;
+    border: none;
+}
+.uyeAdSoyad:disabled{
+    background-color: pink;
+    border: none;
+}
+#icerik:enabled{
+    background-color: aqua;
+    border-style: inset;
+    border-radius: 1ex;
+}#baslik:enabled{
+    background-color: aqua;
+    border-style: inset;
+    border-radius: 1ex;
+}
