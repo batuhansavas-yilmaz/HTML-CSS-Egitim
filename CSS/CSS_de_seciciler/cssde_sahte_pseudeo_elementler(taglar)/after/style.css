@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/* EleAlınanTag::after{} ==> ele alınan tagın sonrasına içerik atayarak stil tanımlar.*/
+
+
+div::after{ 
+    content: "\1F60D ";
+    text-shadow: 2px 2px 5px gray ;
+    color: red;
+    font-size: 20px;
+
+}

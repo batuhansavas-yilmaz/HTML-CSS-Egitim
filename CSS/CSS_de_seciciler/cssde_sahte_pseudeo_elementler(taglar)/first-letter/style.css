@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* EleAlınanTag::first-letter{} ==> Ele alınan tagın ilk karakterine stil tanımlar
+Örneğin : gazete,makale,dergilerde paragrafın ilk harfini bazen büyük yazarlar onun gibi.
+
+::first-letter{} bu şekilde kullanırsak yani bir tag belirtmezsek tüm taglara etki eder*/
+
+p::first-letter{
+    font-size: 50px;
+    text-shadow: 5px 5px 5px gray;
+    font-weight: bold;
+}
+::first-letter{
+    color:gray;
+}
+
+

@@ -1,0 +1,20 @@
+@charset "utf-8";
+/*EleAlınanTag::selection{} ==> ele alınan tagın kullanıcı tarafından seçilen kısmına stil tanımlar. 
+(SEÇİLEN KISIM= MAUSA BASILI TUTULARAK VEYA CTRL+A İLE)*/
+
+li::-webkit-selection {
+  text-shadow: 3px 3px 3px gray;
+}
+li::-moz-selection {
+  text-shadow: 3px 3px 3px gray;
+}
+li::-o-selection {
+  text-shadow: 3px 3px 3px gray;
+}
+
+li::-ms-selection {
+  text-shadow: 3px 3px 3px gray;
+}
+li::selection {
+  text-shadow: 3px 3px 3px gray;
+}
