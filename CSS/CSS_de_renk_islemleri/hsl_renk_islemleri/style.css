@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* h = hue = renk özünü belirtir. 0 derece ile 365 derece arasında değer alır
+ s = saturation = doygunluk belirtir 0-100 arası %'lik değer alır
+ l = lightness = açıklığı belirtir. rengin içerisindeki beyazlığı belirtir.0-100 arası %'lik değer alır
+*/
+div{
+    width: 680px;
+    font-size: 10cm;
+    height: 500px;
+    background-color: hsl(295, 50%, 50%);
+}
