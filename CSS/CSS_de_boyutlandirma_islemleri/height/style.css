@@ -1,1 +1,38 @@
 @charset "utf-8";
+/* height: html elementinin yüksekliğini belirtir
+   adlığı değerler: auto | length | % | initial | inherit
+   auto: otomatik değer alır
+   length: uzunluk değeri
+   %: yüzdelik değer
+   initial: varsayılan biçimlendirme değerine döner
+   inherit: üst elementinin biçimlendirme değerini alır. */
+
+/*auto*/
+.auto{
+	background-color: tomato;
+	height: auto;
+}
+
+/*length*/
+.length{
+	background-color: cadetblue;
+	height: 50px;
+}
+
+/*percent*/
+.percent{
+	background-color: slategray;
+	height: 20%;
+}
+
+/*initial*/
+.initial{
+	background-color: saddlebrown;
+	height: initial;
+}
+
+/*inherit*/
+.inherit{
+	background-color: seagreen;
+	height: inherit;
+}

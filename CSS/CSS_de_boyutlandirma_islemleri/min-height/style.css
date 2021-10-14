@@ -1,1 +1,39 @@
 @charset "utf-8";
+/* min-height: html elementinin maximum yüksekliğini belirtir
+   adlığı değerler: none | length | % | initial | inherit
+   none: otomatik değer alır
+   length: uzunluk değeri
+   %: yüzdelik değer
+   initial: varsayılan biçimlendirme değerine döner
+   inherit: üst elementinin biçimlendirme değerini alır. */
+
+/*none*/
+.none{
+	background-color: tomato;
+	min-height: none;
+}
+
+/*length*/
+.length{
+	background-color: cadetblue;
+	height: 50px;
+	min-height: 500px;
+}
+
+/*percent*/
+.percent{
+	background-color: slategray;
+	min-height: 20%;
+}
+
+/*initial*/
+.initial{
+	background-color: saddlebrown;
+	min-height: initial;
+}
+
+/*inherit*/
+.inherit{
+	background-color: seagreen;
+	min-height: inherit;
+}

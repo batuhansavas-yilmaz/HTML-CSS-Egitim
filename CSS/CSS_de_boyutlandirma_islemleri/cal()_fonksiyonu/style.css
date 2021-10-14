@@ -1,1 +1,53 @@
 @charset "utf-8";
+/* calc()       : Değer hesaplama işlemleri için kullanılır.
+    Değerler:   +  | - | * | / |
+        => + : Toplama
+        => - : Çıkarma
+        => * : Çarpma
+        => / : Bölme
+        */
+
+        div{
+            background-color: yellow;
+            font-size: 25px;
+            
+            width: -webkit-calc(50% + 100px);
+            width: -moz-calc(50% + 100px);
+            width: -o-calc(50% + 100px);
+            width: -ms-calc(50% + 100px);
+            width: calc(50% + 100px);
+            /* %50'sinden 100 px fazla*/
+        }
+
+        
+div.bir{
+	background-color: burlywood;
+	width: -webkit-calc(50% + 100px);
+	width: -moz-calc(50% + 100px);
+	width: -o-calc(50% + 100px);
+	width: -ms-calc(50% + 100px);
+	width: calc(50% + 100px);
+}
+
+p{
+	background-color: burlywood;
+	width: 50%;
+}
+
+.menu{
+	background-color: tomato;
+	width: 200px;
+	height: 400px;
+	float: left;
+}
+
+.sag{
+
+    width: -webkit-calc(100% - 200px);
+	width: -moz-calc(100% - 200px);
+	width: -o-calc(100% - 200px);
+	width: -ms-calc(100% - 200px);
+	width: calc(100% - 200px);
+	height: 400px;
+	float: left;
+}

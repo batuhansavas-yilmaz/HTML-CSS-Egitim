@@ -1,1 +1,76 @@
 @charset "utf-8";
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*absolute*/
+.px{
+	background-color: tomato;
+	width: 100px;
+}
+
+.pt{
+	background-color: blueviolet;
+	width: 100pt;
+}
+
+.pc{
+	background-color: teal;
+	width: 10pc;
+}
+
+.cm{
+	background-color: aqua;
+	width: 5cm;
+}
+
+.mm{
+	background-color: burlywood;
+	width: 60mm;
+}
+
+.in{
+	background-color: violet;
+	width: 3in;
+}
+
+
+/*relative*/
+.percent{
+	background-color: springgreen;
+	width: 13%;
+}
+
+.em{
+	background-color: chocolate;
+	width: 13em;
+}
+
+.rem{
+	background-color: brown;
+	width: 15rem;
+}
+.ex{
+	background-color: rosybrown;
+	width: 33ex;
+}
+.ch{
+	background-color:  powderblue;
+	width: 35ch;
+}
+.vw{
+	background-color: firebrick;
+	width: 30vw;
+}
+.vh{
+	background-color:hotpink ;
+	width: 51vh;
+}
+.vmin{
+	background-color: wheat;
+	width: 56vmin;
+}
+.vmax{
+	background-color: gold;
+	width: 40vmax;
+}
