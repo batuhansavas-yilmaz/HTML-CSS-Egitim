@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* ELE ALINAN TAGIN MAKSİMUM GENİŞLİĞİNİ BELİRLER
+DEĞERLER :
+        - none : değer yok.
+        - lenght: uzunluk birimi.
+        - %     :   % değer.
+        - inital : ele alınan tag varsayılan biçimlendirme değerine döner.
+        - inherit : ele alınan tag üst tagının değerini alır .*/
+        
+   .none {
+    background-color: red;
+  max-width: none;
+}
+
+/* length */
+.length {
+ background-color: green;
+ max-width: 500px;
+ width: 400px;
+}
+
+/* % */
+.percent {
+ background-color: blue;
+ max-width: 50%;
+ width: 40%;
+}
+
+/* none */
+.initial {
+ background-color: magenta;
+ max-width: initial;
+ width: 50%;
+}
+
+/* none */
+.inherit {
+ background-color: cyan;
+ max-width: inherit;
+ width: 400px;
+}
+
+.bir{
+   background-color: red;
+   max-width: 500px;
+}
+
+.iki{
+   background-color: green;
+   max-width: inherit;
+   width: 600px;
+}

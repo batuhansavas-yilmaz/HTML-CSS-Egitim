@@ -1,0 +1,57 @@
+@charset "utf-8";
+/*width = ele alınan tagın genişliğini belirler
+    aldığı değerler ;
+        -  auto       : otomatik değer alır. 
+        -  lenght    : uzunluk değeri alır. px,cm..vs gibi,
+        -   %       : % değerli
+        -   inital : ele alınan tag varsayılan biçimlendirme değerine döner
+        -   inherit : ele alınan tag üst tagının değerini alır . şöyleki
+        ele alınan tagın üst tagı %75 değer aldığını var sayalım. biz ele alınan taga inherit yazarsak üstteki tagda yazan %75'i kopyala yapıştır yapmış gibi oluruz,yani miras alırız.
+        örn : üst tag wdith : 75%;
+            ele alınan tag width : inherit; burda inherit demek %75 demek oluyor. */
+
+.bir{
+    border-style: double;
+    width: 75%;
+   
+    background: #000;
+
+}
+.iki{
+text-align: center;
+    font-weight: BOLD;
+    font-size: 35px;
+    width: 100%;
+    background-color: yellow;
+ 
+}
+
+.auto{
+	background-color: darkgoldenrod;
+	width: auto;
+}
+
+/* length */
+.length{
+	background-color: tomato;
+	width: 500px;
+}
+
+/* % */
+.percent{
+	background-color: seagreen;
+	width: 50%;
+}
+
+/* initial */
+.initial{
+	background-color: chartreuse;
+	width: initial;
+
+}
+
+/* inherit */
+.inherit{
+	background-color: cadetblue;
+	width: inherit;
+}
