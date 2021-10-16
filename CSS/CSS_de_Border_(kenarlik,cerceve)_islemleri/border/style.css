@@ -1,0 +1,205 @@
+@charset "utf-8";
+/*border : ele alınan tagın kenarlık / çerçeve özelliklerini belirler.
+    Parametreler :
+            - length : 
+                Değerleri : length,initial,inherit,thin,medium,thick
+            - style :
+                Değerler: none,hidden,solid,double,dashed,dotted,groove,ridge,inset,outset
+            - color :
+                Değerler: color
+                
+       açıklamalar :
+        length   :uzunluk değeri      
+        thin    :ince
+        medium  :orta
+        thick   :kalın
+
+
+        none    :değer yok
+        hidden  :gizli
+        solid   :düz çizgi
+        double  :çift çizgi
+        dashed  :kesikli çizgi
+        dotted  :noktalı çizgi
+        groove  :içe dönük gölgeli çizgi
+        ridge   :dışa dönük gölgeli çizgi
+        inset   :içe dönük derin çizgi
+        outset  :dışa dönük derin çizgi
+
+
+        color   :renk
+                */
+/*border-width:gelişmiş uzunluk değeri vermeye yarar
+border-style:gelişmiş style değeri vermeye yarar
+border-color:gelişmiş color değeri vermeye yarar
+*/
+* {
+  font-size: 20px;
+}
+
+/* standart kullanım */
+
+.standart {
+  border: 5px solid red;
+}
+
+/*Length Parametresi*/
+
+.sayisal {
+  border: 1mm solid red;
+}
+
+.thin {
+  border: thin solid red;
+}
+.medium {
+  border: medium solid red;
+}
+.thick {
+  border: thick solid red;
+}
+/*Style parametresi*/
+.none {
+  border: 1mm none red;
+}
+.hidden {
+  border: 1mm hidden red;
+}
+.solid {
+  border: 1mm solid red;
+}
+.double {
+  border: 3mm double red;
+}
+.dashed {
+  border: 1mm dashed red;
+}
+.dotted {
+  border: 1mm dotted red;
+}
+.groove {
+  border: 2mm groove red;
+}
+.ridge {
+  border: 2mm ridge red;
+}
+.inset {
+  border: 2mm inset red;
+}
+.outset {
+  border: 2mm outset red;
+}
+
+/* Color Parametresi */
+.ana {
+  border: 2mm outset red;
+}
+.rgb {
+  border: 2mm outset rgb(42, 128, 214);
+}
+.rgba {
+  border: 2mm outset rgba(172, 122, 14, 0.5);
+}
+.hsl {
+  border: 2mm outset hsl(250, 25%, 72%);
+}
+.hsla {
+  border: 2mm outset hsla(0, 100%, 51%, 0.452);
+}
+.hexadecimal {
+  border: 2mm outset #b39898;
+}
+.transparent {
+  border: 2mm outset transparent;
+}
+
+/*BORDER-WIDTH Parametresi*/
+.uzunlukTekliDeger {
+  border: outset red;
+  border-width: 5px;
+}
+.uzunlukIkiliDeger {
+  border: outset red;
+  border-width: 3px 7px;
+}
+.uzunlukUcluDeger {
+  border: outset red;
+  border-width: 3px 7px 5px;
+}
+.uzunlukDortluDeger {
+  border: outset red;
+  border-width: 5px 6px 7px 8px;
+}
+
+/*BORDER-STYLE Parametresi*/
+.styleTekliDeger {
+  border: 5px red;
+  border-style: solid;
+}
+.styleIkiliDeger {
+  border: 5px red;
+  border-style: solid double;
+}
+.styleUcluDeger {
+  border: 10px red;
+  border-style: solid double outset;
+}
+.styleDortluDeger {
+  border: 5px red;
+  border-style: solid double outset dashed;
+}
+
+/*BORDER-COLOR Parametresi*/
+.colorTekliDeger {
+  border: 5px outset;
+  border-color: red;
+}
+.colorIkiliDeger {
+  border: 5px outset;
+  border-color: red blue;
+}
+.colorUcluDeger {
+  border: 5px outset;
+  border-color: red blue yellow;
+}
+.colorDortluDeger {
+  border: 5px outset;
+  border-color: red blue yellow green;
+}
+
+/*BORDER-RADIUS Parametresi*/
+/*Aldığı Değerler : length | % | inherit | inital*/
+
+.kenarlikTekliDeger {
+  border: 5px outset red;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+.kenarlikIkiliDeger {
+  border: 5px outset red;
+  -webkit-border-radius: 10px 20px;
+  -moz-border-radius: 10px 20px;
+  -o-border-radius: 10px 20px;
+  -ms-border-radius: 10px 20px;
+  border-radius: 10px 20px;
+}
+.kenarlikUcluDeger {
+  border: 5px outset red;
+
+  -webkit-border-radius: 10px 8px 25px;
+  -moz-border-radius: 10px 8px 25px;
+  -o-border-radius: 10px 8px 25px;
+  -ms-border-radius: 10px 8px 25px;
+  border-radius: 10px 8px 25px;
+}
+.kenarlikDortluDeger {
+  border: 5px outset red;
+  -webkit-border-radius: 9px 25px 11px 17px;
+  -moz-border-radius: 9px 25px 11px 17px;
+  -o-border-radius: 9px 25px 11px 17px;
+  -ms-border-radius: 9px 25px 11px 17px;
+  border-radius: 9px 25px 11px 17px;
+}
