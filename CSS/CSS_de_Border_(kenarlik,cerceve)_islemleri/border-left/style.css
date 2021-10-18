@@ -1,1 +1,151 @@
 @charset "utf-8";
+/*	border-left: html elementlerinin sol kenarlık(çerçeve) özelliğine stil tanımı yapar. 
+	parametreler: length | style | color
+	length: sayısal değer | thin | medium | thick
+			sayısal değer: 	uzunluk değeri (px, cm, em vs)
+			thin: 			ince
+			medium: 		orta
+			thick: 			kalın
+
+	style:  none | hidden | solid | double | dashed | dotted | groove | ridge | inset | outset
+			none: 			yok
+			hidden:			gizli
+			solid:			düz çizgi
+			double:			çift çizgi
+			dashed:			kesikli çizgi
+			dotted:			noktalı çizgi
+			groove:			içe dönük gölgeli çizgi
+			ridge:			dışa dönük gölgeli çizgi
+			inset:			içe dönük derin çizgi
+			outset:			dışa dönük derin çizgi
+
+	color:  ana renkler | rgb | rgba | hsl | hsla | hexadecimal | transparent (transparan)*/
+
+	/*border-left-width: gelişmiş uzunluk değeri vermeye yarar */
+	/*border-left-style: gelişmiş stil değeri vermeye yarar */
+	/*border-left-color: gelişmiş renk değeri vermeye yarar */
+
+body{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 20px;
+	padding: 10px;
+}
+
+hr{
+	border: 1px solid black;
+}
+
+/*standart*/
+.standart{
+	border-left: 3px solid red;
+}
+
+/*length*/
+.sayisal{
+	border-left: 10px solid red;
+}
+
+.thin{
+	border-left: thin solid red;
+}
+
+.medium{
+	border-left: medium solid purple;
+}
+
+.thick{
+	border-left: thick solid purple;
+}
+
+/*style*/
+.none{
+	border-left: 2px none black;
+	border-left-style: none;
+}
+
+.hidden{
+	border-left: 2px black;
+	border-left-style: hidden;
+}
+
+.solid{
+	border-left: 2px black;
+	border-left-style: solid;
+}
+
+.double{
+	border-left: 5px red;
+	border-left-style: double;
+}
+
+.dashed{
+	border-left: 2px purple;
+	border-left-style: dashed;
+}
+
+.dotted{
+	border-left: 3px black;
+	border-left-style: dotted;
+}
+
+.groove{
+	border-left: 4px burlywood;
+	border-left-style: groove;
+}
+
+.ridge{
+	border-left: 4px burlywood;
+	border-left-style: ridge;
+}
+
+.inset{
+	border-left: 4px burlywood;
+	border-left-style: inset;
+}
+
+.outset{
+	border-left: 4px burlywood;
+	border-left-style: outset;
+}
+
+/*color*/
+.ana{
+	border-left: 4px solid;
+	border-left-color: red;
+}
+
+.rgb{
+	border-left: 4px solid;
+	border-left-color: rgb(221, 206, 0);
+}
+
+.rgba{
+	border-left: 4px solid;
+	border-left-color: rgba(0, 4, 255, 0.637);
+}
+
+.hsl{
+	border-left: 4px solid;
+	border-left-color: hsl(98, 100%, 28%);
+}
+
+.hsla{
+	border-left: 4px solid;
+	border-left-color: hsla(313, 100%, 50%, 0.411);
+}
+
+.hexadecimal{
+	border-left: 4px solid;
+	border-left-color: rgb(71, 81, 88);
+}
+
+.transparent{
+	border-left: 4px solid;
+	border-left-color: transparent;
+}
+
+/*border-left-width*/
+.uzunlukTekliDeger{
+	border-left: solid red;
+	border-left-width: 5px;
+}

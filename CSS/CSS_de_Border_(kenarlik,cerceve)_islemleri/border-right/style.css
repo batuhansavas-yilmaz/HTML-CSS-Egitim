@@ -1,1 +1,151 @@
 @charset "utf-8";
+/*	border-right: html elementlerinin sağ kenarlık(çerçeve) özelliğine stil tanımı yapar. 
+	parametreler: length | style | color
+	length: sayısal değer | thin | medium | thick
+			sayısal değer: 	uzunluk değeri (px, cm, em vs)
+			thin: 			ince
+			medium: 		orta
+			thick: 			kalın
+
+	style:  none | hidden | solid | double | dashed | dotted | groove | ridge | inset | outset
+			none: 			yok
+			hidden:			gizli
+			solid:			düz çizgi
+			double:			çift çizgi
+			dashed:			kesikli çizgi
+			dotted:			noktalı çizgi
+			groove:			içe dönük gölgeli çizgi
+			ridge:			dışa dönük gölgeli çizgi
+			inset:			içe dönük derin çizgi
+			outset:			dışa dönük derin çizgi
+
+	color:  ana renkler | rgb | rgba | hsl | hsla | hexadecimal | transparent (transparan)*/
+
+	/*border-right-width: gelişmiş uzunluk değeri vermeye yarar */
+	/*border-right-style: gelişmiş stil değeri vermeye yarar */
+	/*border-right-color: gelişmiş renk değeri vermeye yarar */
+
+body{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 20px;
+	padding: 10px;
+}
+
+hr{
+	border: 1px solid black;
+}
+
+/*standart*/
+.standart{
+	border-right: 3px solid red;
+}
+
+/*length*/
+.sayisal{
+	border-right: 10px solid red;
+}
+
+.thin{
+	border-right: thin solid red;
+}
+
+.medium{
+	border-right: medium solid purple;
+}
+
+.thick{
+	border-right: thick solid purple;
+}
+
+/*style*/
+.none{
+	border-right: 2px none black;
+	border-right-style: none;
+}
+
+.hidden{
+	border-right: 2px black;
+	border-right-style: hidden;
+}
+
+.solid{
+	border-right: 2px black;
+	border-right-style: solid;
+}
+
+.double{
+	border-right: 5px red;
+	border-right-style: double;
+}
+
+.dashed{
+	border-right: 2px purple;
+	border-right-style: dashed;
+}
+
+.dotted{
+	border-right: 3px black;
+	border-right-style: dotted;
+}
+
+.groove{
+	border-right: 4px burlywood;
+	border-right-style: groove;
+}
+
+.ridge{
+	border-right: 4px burlywood;
+	border-right-style: ridge;
+}
+
+.inset{
+	border-right: 4px burlywood;
+	border-right-style: inset;
+}
+
+.outset{
+	border-right: 4px burlywood;
+	border-right-style: outset;
+}
+
+/*color*/
+.ana{
+	border-right: 4px solid;
+	border-right-color: red;
+}
+
+.rgb{
+	border-right: 4px solid;
+	border-right-color: rgb(221, 206, 0);
+}
+
+.rgba{
+	border-right: 4px solid;
+	border-right-color: rgba(0, 4, 255, 0.637);
+}
+
+.hsl{
+	border-right: 4px solid;
+	border-right-color: hsl(98, 100%, 28%);
+}
+
+.hsla{
+	border-right: 4px solid;
+	border-right-color: hsla(313, 100%, 50%, 0.411);
+}
+
+.hexadecimal{
+	border-right: 4px solid;
+	border-right-color: rgb(71, 81, 88);
+}
+
+.transparent{
+	border-right: 4px solid;
+	border-right-color: transparent;
+}
+
+/*border-right-width*/
+.uzunlukTekliDeger{
+	border-right: solid red;
+	border-right-width: 5px;
+}

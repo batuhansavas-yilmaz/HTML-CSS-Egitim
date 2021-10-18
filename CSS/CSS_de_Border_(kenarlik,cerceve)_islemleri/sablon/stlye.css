@@ -1,0 +1,213 @@
+@charset "utf-8";
+/*	border-top: html elementlerinin üst kenarlık(çerçeve) özelliğine stil tanımı yapar. 
+	parametreler: length | style | color
+	length: sayısal değer | thin | medium | thick
+			sayısal değer: 	uzunluk değeri (px, cm, em vs)
+			thin: 			ince
+			medium: 		orta
+			thick: 			kalın
+
+	style:  none | hidden | solid | double | dashed | dotted | groove | ridge | inset | outset
+			none: 			yok
+			hidden:			gizli
+			solid:			düz çizgi
+			double:			çift çizgi
+			dashed:			kesikli çizgi
+			dotted:			noktalı çizgi
+			groove:			içe dönük gölgeli çizgi
+			ridge:			dışa dönük gölgeli çizgi
+			inset:			içe dönük derin çizgi
+			outset:			dışa dönük derin çizgi
+
+	color:  ana renkler | rgb | rgba | hsl | hsla | hexadecimal | transparent (transparan)*/
+
+	/*border-top-width: gelişmiş uzunluk değeri vermeye yarar */
+	/*border-top-style: gelişmiş stil değeri vermeye yarar */
+	/*border-top-color: gelişmiş renk değeri vermeye yarar */
+
+body{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 20px;
+	padding: 10px;
+}
+
+hr{
+	border: 1px solid black;
+}
+
+/*standart*/
+.standart{
+	border-top: 3px solid red;
+}
+
+/*length*/
+.sayisal{
+	border-top: 10px solid red;
+}
+
+.thin{
+	border-top: thin solid red;
+}
+
+.medium{
+	border-top: medium solid purple;
+}
+
+.thick{
+	border-top: thick solid purple;
+}
+
+/*style*/
+.none{
+
+}
+
+.hidden{
+	
+}
+
+.solid{
+
+}
+
+.double{
+
+}
+
+.dashed{
+
+}
+
+.dotted{
+
+}
+
+.groove{
+
+}
+
+.ridge{
+
+}
+
+.inset{
+
+}
+
+.outset{
+
+}
+
+/*color*/
+.ana{
+
+}
+
+.rgb{
+
+}
+
+.rgba{
+	
+}
+
+.hsl{
+
+}
+
+.hsla{
+
+}
+
+.hexadecimal{
+
+}
+
+.transparent{
+
+}
+
+/*border-top-width*/
+.uzunlukTekliDeger{
+
+}
+
+.uzunlukIkiliDeger{
+	
+}
+
+.uzunlukUcluDeger{
+	
+}
+
+.uzunlukDortluDeger{
+	
+}
+
+/*border-top-style*/
+.stilTekliDeger{
+
+}
+
+.stilIkiliDeger{
+	
+}
+
+.stilUcluDeger{
+	
+}
+
+.stilDortluDeger{
+	
+}
+
+/*border-top-color*/
+.renkTekliDeger{
+
+}
+
+.renkIkiliDeger{
+	
+}
+
+.renkUcluDeger{
+	
+}
+
+.renkDortluDeger{
+	
+}
+
+/*border-top-right-radius*/
+.kenarlikSagTekliDeger{
+
+}
+
+.kenarlikSagIkiliDeger{
+	
+}
+
+.kenarlikSagUcluDeger{
+	
+}
+
+.kenarlikSagDortluDeger{
+	
+}
+
+/*border-top-left-radius*/
+.kenarlikSolTekliDeger{
+
+}
+
+.kenarlikSolIkiliDeger{
+	
+}
+
+.kenarlikSolUcluDeger{
+	
+}
+
+.kenarlikSolDortluDeger{
+	
+}

@@ -1,1 +1,157 @@
 @charset "utf-8";
+/*border-top: ele alınan tagın kenarlık / çerçeve özelliklerini belirler.
+    Parametreler :
+            - length : 
+                Değerleri : length,initial,inherit,thin,medium,thick
+            - style :
+                Değerler: none,hidden,solid,double,dashed,dotted,groove,ridge,inset,outset
+            - color :
+                Değerler: color
+                
+       açıklamalar :
+        length   :uzunluk değeri      
+        thin    :ince
+        medium  :orta
+        thick   :kalın
+
+
+        none    :değer yok
+        hidden  :gizli
+        solid   :düz çizgi
+        double  :çift çizgi
+        dashed  :kesikli çizgi
+        dotted  :noktalı çizgi
+        groove  :içe dönük gölgeli çizgi
+        ridge   :dışa dönük gölgeli çizgi
+        inset   :içe dönük derin çizgi
+        outset  :dışa dönük derin çizgi
+
+
+        color   :renk
+                */
+
+/*border-top-width:gelişmiş uzunluk değeri vermeye yarar
+border-top-style:gelişmiş style değeri vermeye yarar
+border-top-color:gelişmiş color değeri vermeye yarar
+*/
+* {
+  font-size: 20px;
+}
+/*standart*/
+
+.standart{
+    border-top: 5px solid red;
+}
+
+.sayisal{
+    border-top: 5px inset red;
+}
+
+.thin{
+    border-top: thin outset red;
+}
+
+.medium{
+    border-top: medium outset red;
+}
+
+.thick{
+    border-top: thick solid red;
+}
+
+/*style*/
+
+.none{
+    border-top: 5px none red  ;
+}
+.hidden{
+    border-top: 5px hidden red;
+}
+.solid{
+    border-top: 2px solid red;
+}
+
+.double{
+ border-top: 7px double red;
+}
+
+.dashed{
+    border-top: 5px dashed red
+}
+
+.dotted{
+    border-top: 5px dotted red;
+}
+
+.groove{
+    border-top: 10px groove red;
+}
+
+.ridge{
+border-top: 10px ridge red;
+}
+
+.inset{
+border-top: 10px inset red;
+}
+
+.outset{
+    border-top: 10px outset red;
+}
+
+/*color*/
+.ana{
+    border-top: 10px solid gray;
+}
+
+.rgb{
+    border-top: 10px solid rgb(157, 255, 0);
+}
+
+.rgba{
+	border-top: 10px solid rgba(24, 0, 238, 0.253);
+}
+
+.hsl{
+    border-top: 10px solid hsl(246, 32%, 52%)
+}
+
+.hsla{
+    border-top: 10px solid hsla(66, 88%, 37%, 0.466)
+}
+
+.hexadecimal{
+    border-top: 10px solid #260321
+}
+
+.transparent{
+    border-top: 10px solid transparent
+}
+
+
+
+/*border-top-width*/
+.topWidth{
+    border-top: solid red;
+    border-top-width: 10px;
+}
+/*border-top-style*/
+.topStyle{
+    border-top: 5px red;
+    border-top-style: double;
+}
+/*border-top-color*/
+.topColor{
+    border-top: 5px outset;
+    border-top-color: green;
+}
+/*border-top-right-radius*/
+.topRight{
+    border-top: 13px solid red;
+    border-top-right-radius: 10px;
+}
+/*border-top-left-radius*/
+.topLeft{
+    border-top: 13px solid red;
+    border-top-left-radius: 10px;
+}
