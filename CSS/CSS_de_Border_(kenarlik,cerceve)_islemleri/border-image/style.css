@@ -1,1 +1,46 @@
 @charset "utf-8";
+/*border-image: ele alınan tagın kenarlık/çerçeve resim özelliklerini belirler.
+        Parametreler: image / slice/ repeat
+            Değerler : 
+                image : image,initial,inherit
+                slice: length , %
+                repeat: repeat, round,stretch
+                    Değerlerin açıklamaları
+                        image: resim değeri
+                        lenght : uzunluk değeri
+                        % değeri : yüzde değeri
+                        repeat : tekrarla
+                        round : yuvarla
+                        stretch : uzat,gezdir,esnet
+*/
+
+.standart {
+  border: 30px solid red;
+  height: 200px;
+  width: 400px;
+}
+.resim {
+  border: 50px solid transparent;
+  height: 200px;
+  width: 400px;
+  -webkit-border-image: url(resim.png) 30;
+  -moz-border-image: url(resim.png) 30;
+  -o-border-image: url(resim.png) 30;
+  -ms-border-image: url(resim.png) 30;
+  border-image: url(resim.png) 44  ;
+  border-radius: 50%;
+  text-align: center;
+
+}
+
+.uc{
+    width: 400px;
+    height: 200px;
+    border: 20px solid transparent;
+    border-radius: 20px;
+    -webkit-border-image:linear-gradient(blue,red,yellow,green) 44 ;
+    -moz-border-image:linear-gradient(blue,red,yellow,green) 44 ;
+    -o-border-image:linear-gradient(blue,red,yellow,green) 44 ;
+    -ms-border-image:linear-gradient(blue,red,yellow,green) 44 ;
+    border-image:linear-gradient(blue,red,yellow,green) 44 ;
+}

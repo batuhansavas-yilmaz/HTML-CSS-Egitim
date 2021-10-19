@@ -1,0 +1,53 @@
+@charset "utf-8";
+/*outline : ele alınan tagın anahat özelliklerini belirler
+
+    parametreler : 
+        - length, thin,medium,thick,inherit,initial
+
+        - none ,hidden , solid , double ,dashed , dotted ,groove , ridge , inset , outset
+
+        - color,invert
+
+
+     
+			length: 	uzunluk değeri (px, cm, em vs)
+			thin: 			ince
+			medium: 		orta
+			thick: 			kalın
+
+			none: 			yok
+			hidden:			gizli
+			solid:			düz çizgi
+			double:			çift çizgi
+			dashed:			kesikli çizgi
+			dotted:			noktalı çizgi
+			groove:			içe dönük gölgeli çizgi
+			ridge:			dışa dönük gölgeli çizgi
+			inset:			içe dönük derin çizgi
+			outset:			dışa dönük derin çizgi
+
+	        color: Renk
+            invert: Ters Çevir*/
+
+.orn1{
+    width: 500px;
+    height: 100px;
+    border: 10px solid red;
+    outline:  10px double red;
+    outline-offset: 2px;
+}
+.orn2{
+    margin-left: 100px;
+    height: 250px;
+    width: 250px;
+    border: 10px outset red;
+    outline-style: inset;
+    /*gelişmiş style*/
+    outline-color: blueviolet;
+    /*gelişmiş renk*/
+    outline-width: 10px;
+    /*gelişmiş genişlik*/
+    outline-offset: 23px;
+    /*anahat ile çerçeve arasına mesafe verir*/
+}
+        
