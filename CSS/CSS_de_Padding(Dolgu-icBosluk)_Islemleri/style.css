@@ -1,0 +1,31 @@
+@charset "utf-8";
+/*padding: ele alınan tagın iç boşluk özelliklerini belirliyor
+    değerler:
+        length: uzunluk değeri
+        % : yüzde değeri
+        initial,inherit*/
+       
+#bir{
+    
+
+    margin: 200px 0px 0px 200px;
+    width: 56px;
+    height: 18px;
+    border: 5px solid red;
+    padding-left: 20px;
+    padding-right: 20px ;
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+    outline: 5px solid ;
+    outline-offset: 20px ;
+}
+#iki{
+    margin: 00px 0px 0px 400px;
+    border: 5px dashed;
+    outline: 5px inset yellow;
+    outline-offset: 20px;
+    height: 18px;
+    width: 56px;
+    padding-block: 20px;
+    padding-inline: 20px;    
+}
