@@ -1,1 +1,18 @@
 @charset "utf-8";
+/*backgroun-origin : ele alınan taga atanmış olan resmin başlangıç konumunu beliler.
+    aldığı değerler :
+        padding-box : dolgu kutusu
+        border-box : kenarlık kutusu
+        content-box: içerik kutusu */
+
+div {
+  color: white;
+  width: 960px;
+  height: 540px;
+  border: 10px double red;
+  background-image: url(image.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 50px;
+  background-origin: border-box;
+}

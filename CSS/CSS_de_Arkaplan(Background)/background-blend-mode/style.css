@@ -1,1 +1,208 @@
 @charset "utf-8";
+/*backgroun-blend-mode  : ele alınan taga atanmış olan arka plan resimlerinin karıştırma modu özelliklerini belirler.
+    aldığı değerler :
+     -normal
+     -multiply: çoğaltma
+     -screen: ekran
+     -overlay : kaplama
+     -darken : karartma
+     -lighten : hafifletme
+     -color-dodge : renk kaçırma
+     -color-burn : renk yakma
+     - hard-light : sert ışık
+     - soft-light : yumuşak ışık
+     - difference : fark 
+     - exlusion : hariç tutma
+     - hue : renk
+     - saturation : doyma
+     -  color : renk
+     -  luminosity : parlaklık */
+
+.normal {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  width: 512px;
+  height: 216px;
+  border: 3px solid red;
+  background-image: url(image.jpg), url(blend.png);
+  background-size: cover;
+  background-blend-mode: normal;
+}
+.multiply {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  width: 512px;
+  height: 216px;
+  border: 3px solid red;
+  background-image: url(image.jpg), url(blend.png);
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+.screen {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  width: 512px;
+  height: 216px;
+  border: 3px solid red;
+  background-image: url(image.jpg), url(blend.png);
+  background-size: cover;
+  background-blend-mode: screen;
+}
+.overlay {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  width: 512px;
+  height: 216px;
+  border: 3px solid red;
+  background-image: url(image.jpg), url(blend.png);
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+.darken {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  width: 512px;
+  height: 216px;
+  border: 3px solid red;
+  background-image: url(image.jpg), url(blend.png);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.lighten {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  width: 512px;
+  height: 216px;
+  border: 3px solid red;
+  background-image: url(image.jpg), url(blend.png);
+  background-size: cover;
+  background-blend-mode: lighten;
+}
+.color-dodge {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  width: 512px;
+  height: 216px;
+  border: 3px solid red;
+  background-image: url(image.jpg), url(blend.png);
+  background-size: cover;
+  background-blend-mode: color-dodge;
+}
+.color-burn {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  width: 512px;
+  height: 216px;
+  border: 3px solid red;
+  background-image: url(image.jpg), url(blend.png);
+  background-size: cover;
+  background-blend-mode: color-burn;
+}
+.hard-light {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  width: 512px;
+  height: 216px;
+  border: 3px solid red;
+  background-image: url(image.jpg), url(blend.png);
+  background-size: cover;
+  background-blend-mode: hard-light;
+}
+.soft-light {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  width: 512px;
+  height: 216px;
+  border: 3px solid red;
+  background-image: url(image.jpg), url(blend.png);
+  background-size: cover;
+  background-blend-mode: soft-light;
+}
+.difference {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  width: 512px;
+  height: 216px;
+  border: 3px solid red;
+  background-image: url(image.jpg), url(blend.png);
+  background-size: cover;
+  background-blend-mode: difference;
+}
+.exclusion {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  width: 512px;
+  height: 216px;
+  border: 3px solid red;
+  background-image: url(image.jpg), url(blend.png);
+  background-size: cover;
+  background-blend-mode: exclusion;
+}
+.hue {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  width: 512px;
+  height: 216px;
+  border: 3px solid red;
+  background-image: url(image.jpg), url(blend.png);
+  background-size: cover;
+  background-blend-mode: hue;
+}
+.saturation {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  width: 512px;
+  height: 216px;
+  border: 3px solid red;
+  background-image: url(image.jpg), url(blend.png);
+  background-size: cover;
+  background-blend-mode: saturation;
+}
+.color {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  width: 512px;
+  height: 216px;
+  border: 3px solid red;
+  background-image: url(image.jpg), url(blend.png);
+  background-size: cover;
+  background-blend-mode: color;
+}
+.luminosity {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  width: 512px;
+  height: 216px;
+  border: 3px solid red;
+  background-image: url(image.jpg), url(blend.png);
+  background-size: cover;
+  background-blend-mode: luminosity;
+}
+.tekResim {
+  color: white;
+  background-color: red;
+  font-weight: bolder;
+  text-align: center;
+  width: 512px;
+  height: 216px;
+  border: 3px solid red;
+  background-image: url(image.jpg);
+  background-size: cover;
+  background-blend-mode: luminosity;
+}

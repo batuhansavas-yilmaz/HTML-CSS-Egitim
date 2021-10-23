@@ -13,9 +13,11 @@
                 -left
                 -center
         */
-
+/* pozisyon belirlerken x(yatay eksen), ve y(dikey eksen) eksenlerine göre pozisyon aldırıyoruz.*/
         body{
             background-image: url(logo.png);
             background-repeat: no-repeat;
-            background-position: center ;
+            /* background-position: left top ;*/
+            /*background-position: 50px 70px*/
+            /*background-position: 20% -20%*/
         }

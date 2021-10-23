@@ -1,1 +1,9 @@
 @charset "utf-8";
+body{
+    background-image: url(1.jpg),url(2.jpg),url(3.jpg),url(4.jpg),url(5.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top,right top,left bottom,right bottom, center center;
+    background-attachment: fixed;
+    background-size: 200px;
+    background-color: yellow;
+}

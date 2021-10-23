@@ -1,0 +1,50 @@
+@charset "utf-8";
+.bir{
+    height: 30px;
+    width: 30px;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+    border: 2px solid;
+}.iki{
+    height: 30px;
+    width: 30px;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+    border: 2px solid;
+  background-position: -30px;
+}.uc{
+    height: 30px;
+    width: 30px;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+    border: 2px solid;
+  background-position: -60px;
+}.dort{
+    height: 30px;
+    width: 30px;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+    border: 2px solid;
+  background-position: -90px;
+}.bes{
+    height: 30px;
+    width: 30px;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+    border: 2px solid;
+  background-position: -120px;
+}.alti{
+    height: 30px;
+    width: 30px;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+    border: 2px solid;
+  background-position: -150px;
+}.tum{
+    height: 30px;
+    width: 180px;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+    border: 2px solid;
+ 
+}

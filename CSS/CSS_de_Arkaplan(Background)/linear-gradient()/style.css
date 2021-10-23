@@ -1,1 +1,12 @@
 @charset "utf-8";
+/*linear-gradient():  ele alınan tagın doğrusal arka plan geçişlerini belirler.
+    parametreler: direction,colors
+        aldığı değerlerbaşlangıç noktası ve açı-derece / başlangıç rengi - bitiş rengi*/
+
+body {
+  background: -webkit-linear-gradient(left bottom , blue, red, green, yellow, purple);
+  background: -moz-linear-gradient(left bottom , blue, red, green, yellow, purple);
+  background: -o-linear-gradient(left bottom  ,blue, red, green, yellow, purple);
+  background: -ms-linear-gradient(left bottom ,blue, red, green, yellow, purple);
+  background: linear-gradient(left bottom, blue, red, green, yellow, purple);
+}

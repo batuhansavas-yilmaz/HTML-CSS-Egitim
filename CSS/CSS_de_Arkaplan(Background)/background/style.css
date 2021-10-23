@@ -1,1 +1,8 @@
 @charset "utf-8";
+/*background : ele alınan tagın color,image,repeat,position,size,attacment,origin ve clip özelliklerini birlikte kullanır.
+pozisyondan sonra boyut vermek için slash (/) işaretiyle ayırmamız gerekiyor*/
+div{
+    width: 500px;
+    height: 100px;
+    background: url(image.jpg) no-repeat 100%/ cover local padding-box ;
+}

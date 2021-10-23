@@ -1,1 +1,14 @@
 @charset "utf-8";
+/*background-clip :  ele alınan taga atanmış rengin başlangıç konumunu belirler
+  padding-box : dolgu kutusu
+        border-box : kenarlık kutusu
+        content-box: içerik kutusu */
+
+        div{
+            width: 500px;
+            height: 250px;
+            border: 10px double ;
+            padding: 50px;
+            background-clip: padding-box;
+            background-color: rgb(172, 172, 248);
+        }
