@@ -1,0 +1,18 @@
+@charset "utf-8";
+/*background-size : ele alınan tagın arkaplan resminin boyutunu belirler
+    aldığı değerler
+        - lenght: uzunluk değerleri
+        -auto   : otomatik değer
+        -  %    : yüzde değeri
+        - cover  : kapak
+        - contain : içerme
+        -initial
+        -inherit */
+
+    div{
+        width: 500px;
+        height:  500px;
+        background-image: url(image.jpg);
+        background-size: contain ;
+        background-repeat: no-repeat;
+    }

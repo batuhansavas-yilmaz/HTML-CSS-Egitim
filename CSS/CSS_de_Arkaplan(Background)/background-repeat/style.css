@@ -1,0 +1,18 @@
+@charset "utf-8";
+/*background-repeat: ele alınan taga atanmış olan arkaplan resminin tekrarlanma özelliklerini belirler. 
+    aldığı değerler: 
+        repeat : telrar et (default)
+        space  : boşluk
+        round : yuvarla 
+        no-repeat : tekrar yok
+        repeat-x : x ekseni boyunca tekrar et
+        repeat-y : y ekseni boyunca tekrar et
+        initial
+        inherit 
+*/
+
+body{
+ 
+    background-image: url(logo.png);
+    background-repeat: space;
+}

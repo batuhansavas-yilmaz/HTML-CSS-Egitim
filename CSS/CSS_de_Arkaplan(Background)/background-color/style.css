@@ -1,0 +1,14 @@
+@charset "utf-8";
+/*background-color : ele alınan tagın arkaplan rengini belirler
+    aldığı değerler
+        transparent : transparan değeri
+        color       : renk değeri
+        initail   
+        inherit*/
+
+        body{
+            background-color: rgb(41, 37, 248)
+        }
+        div{
+            background-color: aqua;
+        }

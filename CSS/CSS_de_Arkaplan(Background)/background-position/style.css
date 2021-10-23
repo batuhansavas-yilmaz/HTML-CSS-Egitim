@@ -1,0 +1,21 @@
+@charset "utf-8";
+/*background-position:  ele alınan taga atanmış olan resmin konum özelliklerini belirler
+    aldığı değerler: 
+        - length        : uzunluk değeri
+        -   %           :   yüzde değeri
+        -initial
+        -inherit
+        - position : pozisyon değeri
+            position'un alacağı değerler.
+                -top
+                -right
+                -bottom
+                -left
+                -center
+        */
+
+        body{
+            background-image: url(logo.png);
+            background-repeat: no-repeat;
+            background-position: center ;
+        }

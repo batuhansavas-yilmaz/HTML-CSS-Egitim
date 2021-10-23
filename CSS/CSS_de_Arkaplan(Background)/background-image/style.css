@@ -1,0 +1,12 @@
+@charset "utf-8";
+/*background-image : ele alınan tagın arka planına resim eklemeye yarar
+    aldığı değerler : 
+        none: değer yok
+        image: resim
+        initial
+        inherit*/
+body {
+    background-image: url(image.jpg);
+    background-size: cover;
+    
+}
