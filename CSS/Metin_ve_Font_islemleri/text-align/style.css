@@ -1,2 +1,10 @@
 @charset "utf-8";
-*{background: conic-gradient(from 315deg at 63% 75%, #FF0055 0%, #000066 100%);}
+/*text-align : metnin veya içeriğin yatay hizalama özellikleri belirler.
+    left
+    right
+    center
+    justify : sağa ve sola eşit*/
+
+body{
+    text-align: justify;
+}

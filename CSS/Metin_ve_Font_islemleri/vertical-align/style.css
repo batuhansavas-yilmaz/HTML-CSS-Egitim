@@ -1,2 +1,21 @@
 @charset "utf-8";
-*{background: conic-gradient(from 315deg at 63% 75%, #FF0055 0%, #000066 100%);}
+/*vertical-align : metnin veya içeriğinindikey hizalama özelliklerini belirler.
+    baseline : alt köşeden başlar.
+    length   : uzunluk değeri.
+    %       : yüzde değeri
+    sub     : alt simge
+    super   : üst simge
+    top     : en üstten
+    text-top : metnin üst hizasından
+    middle  :   ortadan
+    bottom  :  en alttan
+    text-bottom : metnin alt hizasından
+    */
+
+    span{
+        vertical-align:text-top;
+        font-size: 10px;
+    }
+    div{
+        font-size: 50px;
+    }

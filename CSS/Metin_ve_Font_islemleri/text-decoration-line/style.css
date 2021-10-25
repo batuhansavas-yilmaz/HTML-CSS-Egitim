@@ -1,2 +1,15 @@
 @charset "utf-8";
-*{background: conic-gradient(from 315deg at 63% 75%, #FF0055 0%, #000066 100%);}
+/*prefixi vardır*/
+
+/*text-decoration-line : metne eklenecek olan dekorasyon / süsleme özelliklerini belirler
+ 
+    none
+    underline : altı çizili metin
+    overline : üst tarafı çizili metin
+    line-through : ortası çizili metin 
+    
+    */
+
+    body{
+        text-decoration-line: line-through ;
+    }

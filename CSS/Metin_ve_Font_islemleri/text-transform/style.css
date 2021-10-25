@@ -1,2 +1,16 @@
 @charset "utf-8";
-*{background: conic-gradient(from 315deg at 63% 75%, #FF0055 0%, #000066 100%);}
+/*text-transform: metnin büyük harf, küçük harf dönüştürme özelliklerini belirler.
+    none
+    capitalize : her kelimenin ilk harfi büyük harf olur.
+    uppercase : kelimenin/kelimelerin tüm harfleri büyük olur
+    lowercase : kelimenin/kelimelerin tüm harfleri küçük olur
+    */
+    .cap{
+        text-transform: capitalize;
+    }
+    .upp{
+        text-transform: uppercase;
+    }
+    .low{
+        text-transform: lowercase;
+    }

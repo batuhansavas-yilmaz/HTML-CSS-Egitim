@@ -1,2 +1,10 @@
 @charset "utf-8";
-*{background: conic-gradient(from 315deg at 63% 75%, #FF0055 0%, #000066 100%);}
+/*user-select : metnin kullanıcı tarafından seçilebilme durumunu belirler:
+    auto
+    none : değer yok metin seçilemez
+    text : metin (metin seçilebilir.)
+    all : tümü ( tüm metin tek seferde seçilebilir)*/
+
+    body{
+        user-select: all;
+    }

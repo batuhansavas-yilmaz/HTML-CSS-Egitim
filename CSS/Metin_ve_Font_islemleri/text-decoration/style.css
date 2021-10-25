@@ -1,2 +1,20 @@
 @charset "utf-8";
-*{background: conic-gradient(from 315deg at 63% 75%, #FF0055 0%, #000066 100%);}
+/*text-decoration : metne eklenecek olan dekorasyon / süsleme özelliklerini belirler
+ parametreler : decoration , style, color
+    none
+    underline : altı çizili metin
+    overline : üst tarafı çizili metin
+    line-through : ortası çizili metin 
+    
+    solid
+    dashed
+    dotted
+    double
+    wavy : dalgalı çizgi
+    
+    color
+    */
+
+    div{
+        text-decoration:  overline underline solid red;
+    }

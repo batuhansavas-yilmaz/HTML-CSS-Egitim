@@ -1,2 +1,15 @@
 @charset "utf-8";
-*{background: conic-gradient(from 315deg at 63% 75%, #FF0055 0%, #000066 100%);}
+/*text-align-last : metnin son satırının yatay hizalama özelliklerini belirler.
+    auto
+    left
+    right
+    center
+    justify
+    start
+    end*/
+ div{
+     direction: rtl;
+     text-align: left;
+     text-align-last: center;
+     /*prefixi vardır*/
+ }

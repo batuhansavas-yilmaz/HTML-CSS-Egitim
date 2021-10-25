@@ -1,2 +1,17 @@
 @charset "utf-8";
-*{background: conic-gradient(from 315deg at 63% 75%, #FF0055 0%, #000066 100%);}
+/*prefixi vardır*/
+/*text-decoration-style : metne eklenecek olan dekorasyon / süslemenin stilini belirler.
+
+   
+    solid
+    dashed
+    dotted
+    double
+    wavy : dalgalı çizgi
+   
+    */
+
+    body{
+        text-decoration-line:underline ;
+        text-decoration-style:wavy ;
+    }
