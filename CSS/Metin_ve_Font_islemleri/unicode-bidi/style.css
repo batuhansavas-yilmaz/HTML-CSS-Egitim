@@ -1,0 +1,11 @@
+@charset "utf-8";
+/*unicode-bidi : metnin direction özelliği ile belirtilmiş akış yönü özelliğinin döndürme durumunu belirler. 
+     adlığı değerler: 
+     normal
+     embed :gömülü
+     bidi-override: geçersiz kılma n */
+     div{
+        direction: rtl;
+        unicode-bidi: normal;
+                       
+     }

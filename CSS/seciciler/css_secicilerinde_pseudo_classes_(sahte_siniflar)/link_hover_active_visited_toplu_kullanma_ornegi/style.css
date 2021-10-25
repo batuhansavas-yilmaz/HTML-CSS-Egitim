@@ -1,0 +1,18 @@
+@charset "utf-8";
+a:link{
+    font-size: 53px;
+    border-style: outset;
+    color: red;
+}
+a:hover{
+    background-color: yellow;
+    text-decoration: none;
+    color: aqua;
+}
+a:active{
+    color: black;
+    border-style: inset;
+}
+a:visited{
+    color: aqua;
+}

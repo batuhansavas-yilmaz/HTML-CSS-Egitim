@@ -1,0 +1,7 @@
+@charset "utf-8";
+/*color : metnin rengini belirler.
+    aldığı değerler : color,inherit,initial*/
+    div{
+    background-color: red;
+        color: hsl(64, 100%, 50%);
+    }

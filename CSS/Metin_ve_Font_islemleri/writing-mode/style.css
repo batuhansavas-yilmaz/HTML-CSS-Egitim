@@ -1,0 +1,13 @@
+@charset "utf-8";
+/*writing-mode : metnin veya içeriğim hizalama önü özelliklerini belirler.
+    aldığı değerler :
+        horizontal-tb : yatay sekme
+        vertical-lr : dikey(sol)
+        vertical-rl : dikey(sağ)
+        */ 
+    div{
+        width: 250px;
+        height: 250px;
+        border: 2px solid red;
+        writing-mode: vertical-lr;
+    }

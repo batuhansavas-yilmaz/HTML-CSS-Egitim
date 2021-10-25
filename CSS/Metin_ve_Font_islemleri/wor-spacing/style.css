@@ -1,0 +1,7 @@
+@charset "utf-8";
+/*word-spacing : metnin içindeki kelimelerin aralarındaki bnoşluk değerlerini belirler.
+    normal
+    lenght*/
+    body{
+        word-spacing: 17px;
+    }

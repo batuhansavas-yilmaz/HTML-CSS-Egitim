@@ -1,9 +1,0 @@
-@charset "utf-8";
-/* EleAlınanTag:required{}  ==> ela alınan taga bilgi(input) zorunlu olduğunda stil tanımlar */
-
-#tc:required{
-    background-color: aqua;
-}
-#cepNo:required{
-    background-color: aqua;
-}

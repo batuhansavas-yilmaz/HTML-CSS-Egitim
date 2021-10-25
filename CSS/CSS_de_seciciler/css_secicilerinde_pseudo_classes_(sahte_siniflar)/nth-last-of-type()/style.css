@@ -1,5 +1,0 @@
-@charset "utf-8";
-/* EleAlınanTag:nth-last -of-type(){}  ==> ele alınan tag baz alınarak, üst taga göre kardeş tag  türleride eşleşen son çocuk (child) durumundaki elementden başlayarak sıra numaralarına göre stil tanımlar .*/
-div:nth-last-of-type(1){
-    background-color: red;
-}

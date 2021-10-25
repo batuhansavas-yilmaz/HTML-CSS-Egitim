@@ -1,6 +1,0 @@
-@charset "utf-8";
-/* EleAlınanTag:read-only{}  ==> ele alınan tag sadece okunabilir olduğunda stil tanımlar.*/
-
-input[name="53"]:read-only{
-    background-color: bisque;
-}

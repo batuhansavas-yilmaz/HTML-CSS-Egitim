@@ -1,7 +1,0 @@
-@charset "utf-8";
-/* EleAlınanTag:checked{}  ==> Belirtilen tag seçildiğinde stil tanımlıyor, seçim kaldırıldığında da stil normale döner. Genelde radio button,checkbox gibi butonlarda kullanılabilir. */
-
-.orn1:checked{
-    width: 200px;
-    height:  200px;
-}

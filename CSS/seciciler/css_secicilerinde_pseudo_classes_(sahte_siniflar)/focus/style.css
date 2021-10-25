@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* EleAlınanTag:focus{}  ==> ele alınan taga odaklanıldığında stil tanımlaması yapıyor. Odağından çıkıldığında tag normale dönüyor */
+
+input:focus{
+    background-color: rgb(255, 0, 0);
+}
+div:focus{
+    background-color: aqua;
+}

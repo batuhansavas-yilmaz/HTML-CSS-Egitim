@@ -1,0 +1,10 @@
+@charset "utf-8";
+/*direction : metnin veya içeriğin akış yönü özelliklerini belirler
+        0000000000aldığı değerler:
+            ltr : soldan sağa akış yönü
+            rtl : sağdan sola akış yönü
+            initial,inherit*/
+
+div {
+  direction: rtl;
+               nn  n n}

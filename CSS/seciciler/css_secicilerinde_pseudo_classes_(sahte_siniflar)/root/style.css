@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* :root{}  ==> html belgesinin kök (html tagı) elementine stil tanımlar */
+:root{
+    color: blue;
+    font-family:  sans-serif;
+    background-color: #000;
+}
+h1{
+    background-color: yellow;
+}

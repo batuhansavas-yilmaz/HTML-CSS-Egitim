@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* EleAlınanTag:last-child{}  ==> ele alınan tag baz alınarak üst tagına göre ilk son child(çocuk) durumundaki taga stil tanımlar
+EPİC İ ALMAMASININ SEBEBİ İÇERİ DOĞRU SON ÇOCUĞU ARIYOR. YANİ IOS İLK SON ÇOCUK, SONRA DROGBAYI ALIYOR OL TAGINDAKİ SON ÇOCUK, ERİCSON İÇERİ GİRİNCE İLK SON ÇOCUK, CSS İ ALMADI ÇÜNKÜ İÇERDEN DIŞARI ÇIKTIĞI İÇİN ALMAYI BIRAKIYOR */
+div:last-child {
+    background-color: red;
+  }
+  

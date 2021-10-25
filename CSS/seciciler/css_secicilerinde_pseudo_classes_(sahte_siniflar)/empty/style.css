@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* EleAlınanTag:empty{}  ==> ele alınan tagın içeriği tamamen boş ise stil tanımlaması yapar */
+div:empty{
+    
+    width: 200px;
+    height: 10px;
+    background-color: red;
+    border-radius: 100ch;
+}

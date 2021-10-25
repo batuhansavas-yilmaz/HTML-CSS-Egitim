@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* EleAlınanTag:hover{}  ==> belirtilen html tagının mouse ile üstüne geldiğinde stil tanımlar, üzerinden çekildiğinde normale döner */
+.hoverSinifi:hover{
+    color: red;
+    background-color: yellow;
+}

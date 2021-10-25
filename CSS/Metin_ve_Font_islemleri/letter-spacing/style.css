@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* letter-spacing : metin içerisinbdeki karakterlerin arlarındaki boşiluk değerlerini belirler.
+        değerler
+        normal
+        length*/
+
+        body{
+                 
+            letter-spacing: 3px;
+        }

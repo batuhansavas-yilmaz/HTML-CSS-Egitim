@@ -1,7 +1,0 @@
-@charset "utf-8";
-/* EleAlınanTag:active{}  ==> belirtilen html aktif olduğunda (yani üstüne tıklandığında) stil tanımlar */
-li:active{
-    color: red;
-    background-color: yellow;
-    border-style: double;
-}

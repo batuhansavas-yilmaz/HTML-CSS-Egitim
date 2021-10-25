@@ -1,0 +1,22 @@
+@charset "utf-8";
+/*white-spacing : ele alınan tagın içerisinde bulunan metin boşluk değerleri için davranış özellikleri belirler.
+    normal 
+    nowrap : normal bir şekilde boşluk değerlerini görmeden devam eder fakat yazılan metni aşağı kaydırmadan akış yönüne doğru uzatır.
+    pre : boşluk değerlerini ele alır,alt satıra geçildiyse metni alt satırada geçirir. yani tagın içine nasıl yazıldıysa o şekilde gösterir. ekrana sıhmadığı zamanlarda otomatik oalrak alt satıra geçme işlemi yapmaz.
+    pre-line : boşluk değerlerini kabul etmez,satır içi kod yazımında alt satıra geçilmişse onu kabul eder.ekrana sıhmadığı durumda alt satıra inmez
+    pre-wrap : hem boşluk değerini hem alt satıra geçimi kabul eder ve otomatik olarak da ekrana sıhmadığı durumlarda alt satıra aktarma yapar*/
+.normal{
+    
+}
+    .nowrap {
+  white-space: nowrap;
+}
+.pre{
+    white-space: pre;
+}
+.pre-line{
+    white-space: pre-line;
+}
+.pre-wrap{
+    white-space: pre-wrap;
+}

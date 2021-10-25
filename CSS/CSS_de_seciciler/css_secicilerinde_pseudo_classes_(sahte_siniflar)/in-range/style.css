@@ -1,6 +1,0 @@
-@charset "utf-8";
-/* EleAlınanTag:in-range{}  ==> ele alınan taga bilgi girişi belirtilen aralıklar dahilinde gerçekleşirse stil tanımlar. Belirtilen aralıklar dışındabir bilgi girişi gerçekleşirse stil normale döner */
-
-.orn1:in-range{
-    color: burlywood;
-}

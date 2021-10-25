@@ -1,0 +1,8 @@
+@charset "utf-8";
+/*text-indent : metin bloğunda bulunan ilk satırın girintisini belirler.
+     değerler
+         lenght : uzunluk
+         %       : yüzde değeri*/
+.dnm{ 
+    text-indent: 25px;
+}          

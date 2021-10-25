@@ -1,9 +1,0 @@
-@charset "utf-8";
-
-
-/* EleAlınanTag:link{}  ==> Daha önce hiç açılmamış
-link'in rengini tanımlar*/
-a:link{
-    color: red;
-    
-}
