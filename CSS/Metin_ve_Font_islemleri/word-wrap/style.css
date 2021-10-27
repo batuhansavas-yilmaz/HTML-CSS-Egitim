@@ -1,2 +1,12 @@
 @charset "utf-8";
-*{background: conic-gradient(from 315deg at 63% 75%, #FF0055 0%, #000066 100%);}
+/*word-wrap : ele alınan tagın boyutlandırılmış alanına sığmayacak
+ kadar büyük kelimenin satır kırılma özelliklerini belirler.
+    normal
+    break-word*/
+
+div {
+  width: 200px;
+  border: 2px solid red;
+    word-wrap: break-word;
+ 
+}

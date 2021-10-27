@@ -1,2 +1,11 @@
 @charset "utf-8";
-*{background: conic-gradient(from 315deg at 63% 75%, #FF0055 0%, #000066 100%);}
+/*word-break : ele alınan tagın boyutlandırılmış alanının sonuna sığmayacak kadar büyük kelimelerin satır kırılma özelliklerini belirler.
+    normal
+    break-all : kelimeyi harflerden kırar
+    keep-all : kelimeyi boşluklardan kırar*/
+
+div{
+    border: 2px solid red;
+    width: 200px;
+    word-break: break-all;
+}

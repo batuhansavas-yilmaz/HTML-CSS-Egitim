@@ -1,2 +1,13 @@
 @charset "utf-8";
-*{background: conic-gradient(from 315deg at 63% 75%, #FF0055 0%, #000066 100%);}
+/*text-stroke : metne eklenecek olan dış çizgisi özelliklerini belirler.
+    parametreler : 
+        length , color
+    değerler :
+        length, color*/
+
+div{
+    font-size: 50px;
+    -webkit-text-stroke: 3px red;
+    /* -webkit-text-stroke-color: yellow;
+    -webkit-text-stroke-width: 1px; */
+}

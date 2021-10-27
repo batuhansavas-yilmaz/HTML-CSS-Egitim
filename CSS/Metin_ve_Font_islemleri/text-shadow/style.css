@@ -1,2 +1,27 @@
 @charset "utf-8";
-*{background: conic-gradient(from 315deg at 63% 75%, #FF0055 0%, #000066 100%);}
+/*text-shadow : metnin gölgelendirme özelliklerini sağlar
+    parametreler : 
+        horizontal shadow (yatay)
+        vertical shadow ( dikey)
+        blur-radius (bulanılık yarı çapı)
+        color
+    değerler
+        none
+        length
+        blur-radius
+        color*/
+div {
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-shadow: 5px 5px 4px grey;
+}
+.iki {
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+  background-color: black;
+  width: 500px;
+  height: 100px;
+  text-shadow: 0px 0px 4px #cccccc, 0px -5px 4px #ffff33, 2px -10px 6px #ffdd33,
+    2px -20px 20px #ff2200;
+}
