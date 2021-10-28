@@ -1,2 +1,32 @@
 @charset "utf-8";
-*{background: conic-gradient(from 315deg at 63% 75%, #FF0055 0%, #000066 100%);}
+/*font-variant-caps : metnin küçük harf içerikleri için büyük harf alternatif gösterilme özelliklerini belirler.
+    normal
+
+     small-caps : küçük harfli metinler,küçük harf boyutu korunarak büyük harf olarak dönüştürülür
+
+    all-small-caps: tüm metinler,küçük harf boyutu korunarak büyük harf olarak dönüştürülür
+    
+    petite-caps : küçük harfli metinler,küçük harf boyutu korunarak büyük harf olarak dönüştürülür (yazı tipi ailesi küçük harf büyüklüğünü desteklemiyorsa,small-caps gibi davranır.)
+
+    all-petite-caps : tüm metinler,küçük harf boyutu korunarak büyük harf olarak dönüştürülür(yazı tipi ailesi küçük harf büyüklüğünü desteklemiyorsa,all-small-caps gibi davranır.)
+    
+    unicase : büyük harfli metinler küçük harf boyutu korunarak büyük harf olarak dönüştürülür.
+
+    */
+
+.smc{
+    font-variant-caps: small-caps;
+}
+.asmc{
+    font-variant-caps: all-small-caps;
+}
+.pc{
+    font-variant-caps: petite-caps;
+}
+.apc{
+    font-variant-caps: all-petite-caps;
+}
+
+.uc{
+    font-variant-caps: unicase;
+}

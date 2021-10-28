@@ -1,2 +1,27 @@
 @charset "utf-8";
-*{background: conic-gradient(from 315deg at 63% 75%, #FF0055 0%, #000066 100%);}
+/* @font-face : metinler için sistemde yüklü olmayan fontların kullanılabilme durumlarını belirler.
+    font-family
+    local
+    src
+    font-style
+    font-weight
+
+    font dosya türleri :
+    eot : internet explorer - microsoft edge
+    woff2 : chrome - firefox - opera
+    woff : tüm tarayıfıcalar
+    ttf & otf : tüm tarayıcılar
+    svg  : chrome -safari -opera
+
+    */
+
+    @font-face {
+    font-family :"PermanentMarker-Regular";
+    src: url("ornekfont.ttf");
+
+
+    }
+
+    div{
+        font-family: "PermanentMarker-Regular";
+    }

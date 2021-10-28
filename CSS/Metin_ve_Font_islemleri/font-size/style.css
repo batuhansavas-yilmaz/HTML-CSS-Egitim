@@ -1,2 +1,45 @@
 @charset "utf-8";
-*{background: conic-gradient(from 315deg at 63% 75%, #FF0055 0%, #000066 100%);}
+/*  font-size: metnin yazı tipi boyutunu belirler
+    length: uzunluk.
+    %: yüzdelik.
+    xx-small: en küçük.
+    x-small: çok küçük.
+    small: küçük.
+    medium: orta.
+    large: büyük.
+    x-large: çok büyük.
+    xx-large: en büyük.
+    smaller: daha küçük.
+    larger: daha büyük.
+*/
+
+.length {
+  font-size: 20px;
+}
+.percent {
+  font-size: 260%;
+}
+.xx-small {
+  font-size: xx-small;
+}
+.x-small {
+  font-size: x-small;
+}
+.small {
+  font-size: small;
+}
+.medium {
+  font-size: medium;
+}
+.x-large {
+  font-size: x-large;
+}
+.xx-large {
+  font-size: xx-large;
+}
+.smaller {
+  font-size: smaller;
+}
+.larger {
+  font-size: larger;
+}

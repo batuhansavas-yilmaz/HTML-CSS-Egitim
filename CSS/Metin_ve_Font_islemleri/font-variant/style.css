@@ -1,2 +1,11 @@
 @charset "utf-8";
-*{background: conic-gradient(from 315deg at 63% 75%, #FF0055 0%, #000066 100%);}
+/*font-variant : metnin küçük harf içerikleri için büyük harf gösterilme özelliklerini belirler
+    normal
+    small-caps : küçük harfli metinler,küçük harf boyutu korunarak büyük harf olarak dönüştürülür
+
+*/
+
+div{
+    font-variant: small-caps;
+
+}

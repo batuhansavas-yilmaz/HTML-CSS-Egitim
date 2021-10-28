@@ -1,2 +1,8 @@
 @charset "utf-8";
-*{background: conic-gradient(from 315deg at 63% 75%, #FF0055 0%, #000066 100%);}
+/*quotes : html'nin q tagı için tırnak işareti türü değerini belirler.
+    none
+    string : harf-rakam-simge.vs*/
+
+q {
+  quotes: "q" "S";
+}

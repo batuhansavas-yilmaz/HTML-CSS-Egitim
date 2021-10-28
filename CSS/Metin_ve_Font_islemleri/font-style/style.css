@@ -1,2 +1,13 @@
 @charset "utf-8";
-*{background: conic-gradient(from 315deg at 63% 75%, #FF0055 0%, #000066 100%);}
+/* font-style : metnin yazı tipi stilini belirler.
+        normal
+        italic
+        oblique : eğik. italic desteği olmayan fontlar için yazıyı eğer.*/
+
+        p{
+            font-style: oblique;
+        }
+
+        div{
+            font-style: italic;
+        }

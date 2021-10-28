@@ -29,5 +29,14 @@
   content: no-close-quote;
 }
 .url::after{
-    content: url(https://galatasaray.com);
+    content: url(logo.png);
+}
+.attr::after{
+    content:attr(href)
+}
+div{
+    counter-increment:DenemeSayac;
+}
+div::after{
+    content: counter(DenemeSayac);
 }
