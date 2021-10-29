@@ -1,0 +1,19 @@
+@charset "utf-8";
+/*  counter-reset       : bir yada daha fazla sayaç oluşturmak yada sıfırlamak için kullanılır.
+    counter-increment   : sayaç değerini arttırır.
+    counter()           : oluşturulmuş sayacı html elementine ekler.
+        parametreler : counter name |style-type 
+    değerler: 
+    decimal-leanding-zero
+    lower-alpha
+    upper-alpha
+    lower-roman
+    upper-roman
+*/
+body{
+    counter-reset: Deneme;
+}
+p::after{
+    counter-increment: Deneme;
+    content: "    :     " counter(Deneme, upper-alpha);
+}

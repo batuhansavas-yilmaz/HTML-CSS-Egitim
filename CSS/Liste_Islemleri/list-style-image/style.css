@@ -1,1 +1,10 @@
 @charset "utf-8";
+/*list-style-image : listedeki madde işaretçisinin resim özelliklerini belirler.
+    none
+    url
+*/
+
+ol{
+   
+    list-style-image: url(icon.png);
+}

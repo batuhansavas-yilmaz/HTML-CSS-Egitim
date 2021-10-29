@@ -1,1 +1,11 @@
 @charset "utf-8";
+/*list-style : listedeki madde işaretçisinin tüm özelliklerini belirler.
+    parametreler
+        list-stlye-type
+        list-stlye-position
+        list-stlye-image
+    */
+
+    ol{
+        list-style: none inside url(icon.png);
+    }

@@ -1,1 +1,8 @@
 @charset "utf-8";
+/*list-style-position : listedeki madde işaretçisinin içerik akışındaki konum özelliklerini belirler.
+    outside : dışında
+    inside : içinde*/
+
+    .orn{
+        list-style-position: inside;
+    }
