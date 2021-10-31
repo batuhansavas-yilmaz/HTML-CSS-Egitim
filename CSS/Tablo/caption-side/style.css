@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* caption-side : html'nin table etiketinde bulunan başlık elementini konum özelliklerini belirler
+    top
+    bottom
+*/
+
+
+table{
+    border: 2px solid red;
+    caption-side: bottom;
+}
+th,td{
+    border: 2px solid red;
+}

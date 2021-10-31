@@ -1,0 +1,11 @@
+@charset "utf-8";
+/*empty-cells : html'nin table etiketinde bulunan ve içeriği boş hücrelerin görüntülenme özelliklerini belirler.
+    show
+    göster*/
+
+table {
+  empty-cells: hide;
+}
+td,th {
+  border: 2px solid red;
+}

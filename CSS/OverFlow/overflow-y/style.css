@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+@charset "utf-8";
+/* overflow-x : ele alınan tagın x (yatay)ekseni baz alınarak boyutlandırılmış alanına sığmayacak kadar büyük olan içeriğin taşma özelliklerini belirler
+    visible : görünürk
+    hidden : gizli
+    scrol
+    auto
+    */
+
+div {
+  width: 400px;
+  height: 260px;
+  border: 2px solid;
+  overflow-y: hidden;
+}
+p{
+    border: 5px double red;
+    width: 450px;
+    height: 270px;
+}

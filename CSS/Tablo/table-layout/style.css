@@ -1,0 +1,20 @@
+@charset "utf-8";
+/*table-layout : Html'nin table etiketinde bulunan sütünların genişlikleri için düzen algoritması özelliklerini belirler.
+    auto
+    fixed : sabit+*/
+
+table {
+  border: 2px solid red;
+  width: 100%;
+  table-layout: fixed;
+}
+td {
+  border: 2px solid blue;
+}
+#bir {
+  width: 10px;
+
+}
+#iki {
+  width: 90%;
+}

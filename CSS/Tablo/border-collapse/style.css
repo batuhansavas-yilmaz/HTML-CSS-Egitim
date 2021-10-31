@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* border-collapse : html'nin table tagının kenarlık birleştirme durmunu belirler
+    seperater:ayrı kenarlık ( default değer)
+    collapse : bitişik kenarlık
+*/
+table {
+  border-collapse: collapse;
+}
+th,
+td {
+  border-collapse: collapse;
+  border: red solid;
+}

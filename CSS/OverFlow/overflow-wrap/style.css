@@ -1,0 +1,13 @@
+@charset "utf-8";
+/*overflow-wrap ela alınan tagın boyutlandırılmış alanına sığmayacak kadar büyük kelimenin satır kırılma özelliklerini belirler.
+    normal
+    break-word
+    */
+
+    div{
+        border: 4px solid red;
+        width: 400px;
+        height: 100px;
+        overflow-wrap: break-word;
+        overflow: auto;
+    }
