@@ -1,1 +1,29 @@
 @charset "utf-8";
+/*clear : ele alınan taga atanmış olan kayma (float) özelliğinin temizlenme durumunu belirler
+    none
+    left
+    right
+    both : hem sağ hem sol*/
+
+   #bir,#iki,#uc,#dort,#bes{
+    width: 100px;
+    border : 1px solid blue
+    ;
+    margin: 2px;
+  
+    }
+#bir, #iki{
+    float: right;
+    
+}
+#uc,#dort,#bes{
+    float: left;
+}
+#t1{
+    clear: both;
+}
+  /*  #uc, #dort{
+        üç ve dörte clear verip, hiç float yokmuş gibi davranmalarını sağladık.
+        
+        clear: both;
+    }*/

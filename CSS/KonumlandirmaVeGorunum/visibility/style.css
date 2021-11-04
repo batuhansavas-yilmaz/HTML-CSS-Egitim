@@ -1,1 +1,21 @@
 @charset "utf-8";
+/*visibility : ele alınan tagın görüntülenme ve gizlenme özelliklerini belirler
+
+    visible : görünür
+
+    hidden: gizli (element gösterilmez ve kapladığı alan değerleri korunarak boş bir alan oluşur. )
+
+    collapse: bitişik (element gösterilmez ve kapladığı alan değerleri korunarak boş bir alan oluşur. fakat element bir table elementi ise kapladığı alan değerleri korunmaz.)
+
+*/
+
+div{
+    margin:  10px;
+    width: 500px;
+    height: 50px;
+    border: 2px solid red;
+}
+
+.ornek1{
+    visibility: collapse;
+}

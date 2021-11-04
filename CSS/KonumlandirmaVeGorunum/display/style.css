@@ -1,1 +1,98 @@
 @charset "utf-8";
+/*display : ele alınan tagın görüntülenme özelliklerini belirler.
+
+    none : ele alınan tagı hiç göstermez.
+
+    inline : ele alınan tag satır düzeyli olarak kabul edilir ve görüntülenir. (taga içerin alanından fazla genişlik veya yükseklik atanmasına izin verilmez).
+
+    block : ele alınan tag blok düzeyli olarak kabul edilir ve görüntülenir. 
+
+    inline-block : ele alınan tag hem satır hem blok düzeyli olarak kabul edilir ve görüntülenir.(taga içerin alanından fazla genişlik veya yükseklik atanmasına izin verilir).
+
+    run-in : tag ya satır yada blok düzeyli olarak kabul edilir ve görüntülenir.
+
+    list-item : tag liste elementi olarak (li) kabul edilir ve görüntülenir.
+
+    table : tag tablo elementi (table) olarak kabul edilir ve görüntülenir.
+
+    table-row : tag tablo satır elementi (tr) olarak kabul edilir ve görüntülenir.    
+    
+    table-cell : tag tablo sütun elementi (td) olarak kabul edilir ve görüntülenir.    
+
+    table-caption : tag tablo kısa başlık elementi (caption) olarak kabul edilir ve görüntülenir.
+    
+    table-row-group : tag tablo gövde elementi (tbody) olarak kabul edilir ve görüntülenir.
+
+    table-header-group : tag tablo içi başlık elementi (thead) olarak kabul edilir ve görüntülenir.
+
+    table-footer-group : tag tablo içi altlık elementi (tfoot) olarak kabul edilir ve görüntülenir.
+
+    table-column : tag tablo içi sütun ortak özellikleri belirleme elementi (col) olarak kabul edilir ve görüntülenir.
+
+    table-column-group : tag tablo içi sütun ortak özellikleri belirleme grubu elementi (colgroup) olarak kabul edilir ve görüntülenir.
+
+
+    inline-table : tag satır düzeyli tablo elementi (table) olarak kabul edilir ve görüntülenir.
+
+    flex    :   tag blok düzeyli esnek elementolarak kabul edilir ve görüntülenir.
+    
+    inline-flex    :   tag satır düzeyli esnek elementolarak kabul edilir ve görüntülenir. 
+    
+    grid    :   tag blok düzeyli ızgara element olarak kabul edilir ve görüntülenir. 
+    
+    inline-grid   :   tag satır düzeyli ızgara element olarak kabul edilir ve görüntülenir.
+
+    */
+* .inline {
+  border: 2px solid;
+  display: inline;
+}
+
+.block {
+  border: 2px solid;
+  display: block;
+}
+
+.inline-block1 {
+  border: 2px solid;
+  width: 500px;
+  height: 50px;
+  display: inline-block; /*
+    inline block kullanarak width değeriyle oynayabiliriz. fakat sadece inline verdiğimiz zaman hight veya width değeriyle oynayamıyoruz
+    */
+}
+.inline-block2 {
+  border: 2px solid;
+  width: 500px;
+  height: 50px;
+  display: inline-block;
+  /*
+    inline block kullanarak width değeriyle oynayabiliriz. fakat sadece inline verdiğimiz zaman hight veya width değeriyle oynayamıyoruz
+    */
+}
+
+.list-item1 {
+  display: list-item;
+}
+.list-item2 {
+  display: list-item;
+}
+.list-item3 {
+  display: list-item;
+}
+.flex {
+  border: 2px solid;
+  display: flex;
+}
+.inline-flex {
+    border: 2px solid;
+    display: inline-flex;
+  }
+
+  .grid{
+    border: 2px solid;
+    display: grid;
+  }  .inline-grid{
+    border: 2px solid;
+    display: inline-grid;
+  }
