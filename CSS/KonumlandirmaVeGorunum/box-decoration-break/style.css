@@ -1,1 +1,20 @@
 @charset "utf-8";
+/*box-decoration-break : ele alınan tagın kenarlık/çerçeve özelliklerinin, kutu parçalandığındaki satır veya sayfa sonları için davranış özelliklerini belirler.
+    slice :dilimle (default)
+    clone : klonla
+    */
+   #bir{
+        border: 2px solid red;
+        line-height: 25px;
+        /**prefixli*/
+        -webkit-box-decoration-break: clone;
+        -moz-box-decoration-break: clone;
+        -o-box-decoration-break: clone;
+        -ms-box-decoration-break: clone;
+        box-decoration-break: clone;
+    }  #iki{
+        border: 2px solid red;
+        line-height: 25px;
+        /**prefixli*/
+        
+    }

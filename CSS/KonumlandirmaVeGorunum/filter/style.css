@@ -1,1 +1,106 @@
 @charset "utf-8";
+/*filter :  ele alınan taga uygulanacak olan efekt özelliklerini belirler
+
+    blur() : bulanıkık (pixel değeri)
+    brightness() : parlaklık (0% ile 100% arası)
+    contrast() : kontrast (0% ile 100% arası)
+    drop-shadow() : gölge düşürme ( horizontal shadow , vertical shadow , blur spread , color)
+    grayscale() : gri tonlama (0% ile 100% arası)
+    hue- rotate () :  renk döndürme (0 derece ile 360 derece)
+    invert() : ters çevirme (0% ile 100% arası)
+    opacity() : opaklık (0% ile 100% arası)
+    saturate () : doyma (0% ile 100% arası)
+    sepia : sepya (kahverengi ağırlıklı antik  tonlama) (0% ile 100% arası)
+
+    */
+
+
+    .blur{
+        -webkit-filter: blur(3px);
+        -moz-filter: blur(3px);
+        -o-filter: blur(3px);
+        -ms-filter: blur(3px);
+        filter: blur(3px);
+    }
+    
+    .brightness{
+        -webkit-filter: brightness(25%);
+        -moz-filter: brightness(25%);
+        -o-filter: brightness(25%);
+        -ms-filter: brightness(25%);
+        filter: brightness(25%);
+    }
+    
+    .contrast{
+        -webkit-filter: contrast(50%);
+        -moz-filter: contrast(50%);
+        -o-filter: contrast(50%);
+        -ms-filter: contrast(50%);
+        filter: contrast(50%);
+    }
+    
+    .drop-shadow{
+        -webkit-filter: drop-shadow(5px 5px 5px red);
+        -moz-filter: drop-shadow(5px 5px 5px red);
+        -o-filter: drop-shadow(5px 5px 5px red);
+        -ms-filter: drop-shadow(5px 5px 5px red);
+        filter: drop-shadow(5px 5px 5px red);
+    }
+    
+    .grayscale{
+        -webkit-filter: grayscale(70%);
+        -moz-filter: grayscale(70%);
+        -o-filter: grayscale(70%);
+        -ms-filter: grayscale(70%);
+        filter: grayscale(70%);
+    }
+    
+    .hue-rotate{
+        -webkit-filter: hue-rotate(180deg);
+        -moz-filter: hue-rotate(180deg);
+        -o-filter: hue-rotate(180deg);
+        -ms-filter: hue-rotate(180deg);
+        filter: hue-rotate(180deg);
+    }
+    
+    .invert{
+        -webkit-filter: invert(100%);
+        -moz-filter: invert(100%);
+        -o-filter: invert(100%);
+        -ms-filter: invert(100%);
+        filter: invert(100%);
+    }
+    
+    .opacity{
+        -webkit-filter: opacity(40%);
+        -moz-filter: opacity(40%);
+        -o-filter: opacity(40%);
+        -ms-filter: opacity(40%);
+        filter: opacity(40%);
+    }
+    
+    .saturate{
+        -webkit-filter: saturate(300%);
+        -moz-filter: saturate(300%);
+        -o-filter: saturate(300%);
+        -ms-filter: saturate(300%);
+        filter: saturate(300%);
+    }
+    
+    .sepia{
+        -webkit-filter: sepia(100%);
+        -moz-filter: sepia(100%);
+        -o-filter: sepia(100%);
+        -ms-filter: sepia(100%);
+        filter: sepia(100%);
+    }
+    .ikili{
+        -webkit-filter: sepia(100%) drop-shadow(2px 2px 2px black);
+        -moz-filter: sepia(100%) drop-shadow(2px 2px 2px black);
+        -o-filter: sepia(100%) drop-shadow(2px 2px 2px black);
+        -ms-filter: sepia(100%) drop-shadow(2px 2px 2px black);
+        filter: sepia(100%) drop-shadow(2px 2px 2px black);
+    }
+    
+    
+    

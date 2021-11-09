@@ -1,1 +1,19 @@
 @charset "utf-8";
+/* opacity : ele alınan tagın opaklık / şeffaflık özelliklerini belirler.
+    number rakam değeri  0.00 ile 1.00 arası*/
+
+div {
+  width: 200px;
+  height: 50px;
+  border: 2px solid red;
+  background-color: darkblue;
+
+  color: yellow;
+}
+#iki {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: Alpha(Opacity=100);
+  /*internet explorer prefixleri*/
+
+  opacity: 0.53;
+}

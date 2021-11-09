@@ -1,1 +1,17 @@
 @charset "utf-8";
+/*clip : position:absolute değeri ile konumlandırılmış bir tagın kırpma / maskeleme özelliklerini belirler
+
+    auto
+    shape : şekil . rect(top,right,bottom,left) fonksiyonunu kullanır ( rectangle : dikdörtgen)
+    
+
+*/
+
+div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    background-color: red;
+    position: absolute;
+    clip: rect(2px 80px 80px 2px);
+}

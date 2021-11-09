@@ -1,1 +1,24 @@
 @charset "utf-8";
+/*resize :  ele alınan tagın kullanıcı tarafından yeniden boyutlandırılabilir olup olmadığı durumunu belirler
+
+    none 
+    horizontal : yatay
+    vertical : dikey
+    both : her ikiside
+*/
+div{
+    width: 200px;
+    border: 2px solid red;
+}
+.bir{
+    overflow: auto;
+    resize: horizontal;
+}
+.iki{
+    overflow: auto;
+    resize: vertical;
+}
+.uc{
+    overflow: auto;
+    resize: both;
+}

@@ -1,1 +1,42 @@
 @charset "utf-8";
+/*z-index : konumlandırılmış bir tagın katman / yığın sırasını belirler
+    auto
+    number : rakam değeri ( rakam değeri en büyük olan daima en üste çıkar)
+    
+    */
+
+div {
+  width: 200px;
+  height: 200px;
+  border: 2px solid;
+  position: absolute;
+}
+
+.bir {
+  background-color: blue;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.iki {
+  background-color: red;
+  top: 40px;
+  left: 40px;
+  z-index: 2;
+}
+.uc {
+  background-color: yellow;
+  top: 80px;
+  left: 80px;
+}
+.dort {
+  background-color: green;
+  top: 120px;
+  left: 120px;
+}
+.bes {
+  background-color: orange;
+  top: 160px;
+  left: 160px;
+  z-index: 3;
+}

@@ -1,1 +1,38 @@
 @charset "utf-8";
+/*box-shadow : ele alınan tagın gölgelendirme özelliklerini belirler.
+parametreler : 
+    horizontal shadow ( yatay gölge) 
+    vertical shadow(dikey gölge)
+    blur spread ( bulanıklık yayma)
+    spread radius(yayım yarıçapı) 
+    color ( renk)
+
+    none
+    length
+    inset : ilave(içerisinde)
+   
+    prefixlidir.
+
+   */
+
+#bir {
+  width: 200px;
+  height: auto;
+  padding: 25px;
+  border: 2px solid red;
+  box-shadow: 2px 2px 2px red;
+}
+#iki {
+  width: 200px;
+  height: auto;
+  padding: 25px;
+  border: 2px solid red;
+  box-shadow: 2px 2px 2px red inset;
+}
+#uc {
+  width: 200px;
+  height: auto;
+  padding: 25px;
+  border: 2px solid red;
+  box-shadow: 2px 2px 2px red inset, -2px -2px 2px red inset;
+}

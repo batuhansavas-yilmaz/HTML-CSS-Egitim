@@ -1,1 +1,36 @@
 @charset "utf-8";
+/*box-sizing : ele alınan tagın genişlik ve yükseklik değerlerinin ne şekilde hesaplanması gerektiğini belirler
+
+    content-box : içerik kutusu / default değerdir
+    border-box: :kenarlık kutusu 
+    
+-----------content-box hesaplaması-------------
+
+    ---sol kenarlık genişliği (border) + sol dolgu genişliği (padding) + içerik genişliği ( width) + sağ dolgu genişliği (padding) + sağ kenarlık genişliği (border) = toplam genişlik---
+
+    ---üst kenarlık yüksekliği (border) + üst dolgu yüksekliği (padding) + içerik yüksekliği ( height) + alt dolgu yüksekliği (padding) + alt kenarlık yüksekliği (border) = toplam yükseklik---
+    
+
+--------border-box hesaplaması----------
+
+    içerik yüksekliği (height) = toplam yükseklik
+    içerik ghenişliği (width) = toplam genişlik
+
+    
+    */
+
+div {
+  width: 500px;
+  height: 150px;
+  border: 5px solid;
+
+}
+#bir{
+    padding: 50px;
+    /*prefixli*/
+    box-sizing: border-box;
+}#iki{
+    padding: 50px;
+    /*prefixli*/
+    box-sizing: content-box;
+}
