@@ -1,1 +1,23 @@
 @charset "utf-8";
+/*object-position : ele alınan tagın boyutlandırılmış alanına sığmayacak kadar büyük resim veya video içeriklerinin, object-fit özelliği kullanılarak yeniden boyutlandırılma sonrasındaki resmin veya videonun konum özelliklerini belirler
+
+    parametreler : horizontal value ( yatay değer) / vertical value (yatay değer)
+
+        değerler :
+        lenght
+        %
+        center
+        top
+        right
+        bottom
+        left
+
+*/
+
+img{
+    width: 500px;
+    height: 500px;
+    object-fit: none;
+
+    object-position: 50px 80px;
+}
