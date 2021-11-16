@@ -1,1 +1,13 @@
 @charset "utf-8";
+/*break-after : ele alınan tagın çok süğtunlu düzeni için bölünen sütunların arasındaki belirtilecek olan elementin sonrasında bölünme davranış özelliklerini belirler.
+
+    column
+    auto
+*/
+div{
+    column-count: 2 ;
+
+}
+.orn1{
+    break-after: column;
+}

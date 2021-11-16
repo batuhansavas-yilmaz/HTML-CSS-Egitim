@@ -1,0 +1,33 @@
+@charset "utf-8";
+/*flex-direction : esnek kutuların dizilim yönünü belirler
+    row => default
+    row-reverse
+    column
+    column-reverse*/
+
+.ana {
+  display: flex;
+  border: 2px solid red;
+  padding: 20px;
+  width: 300px;
+  /*prefixli*/
+  flex-direction: row-reverse;
+}
+.icElemanlar {
+  border: 2px solid red;
+  padding: 20px;
+  margin: 2px;
+}
+.ana2 {
+  display: flex;
+  border: 2px solid red;
+  padding: 20px;
+  width: 300px;
+  /*prefixli*/
+  flex-direction: column-reverse;
+}
+.icElemanlar2 {
+  border: 2px solid red;
+  padding: 20px;
+  margin: 2px;
+}

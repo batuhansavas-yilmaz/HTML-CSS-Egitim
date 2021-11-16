@@ -1,0 +1,40 @@
+@charset "utf-8";
+/*flex-grow : esnek kutu içerisinde element veya elementlerin, diğer elementlere göre büyüklük oranının ne şekilde olması gerektiğini belirler.*
+
+    number 
+
+*/
+
+.ana {
+  display: flex;
+  border: 2px solid red;
+  width: 800px;
+  height: 200px;
+}
+.ic {
+    flex-grow: 1;
+  border: 2px solid black;
+}
+
+.iki,
+.bes {
+  border: 4px solid blue;
+  flex-grow: 10;
+}
+.ana2 {
+  display: flex;
+  border: 2px solid red;
+  width: 400px;
+  height: 600px;
+  flex-direction: column;
+}
+.ic2 {
+    flex-grow: 1;
+  border: 2px solid black;
+}
+
+.iki2,
+.bes2 {
+  border: 4px solid blue;
+  flex-grow: 10;
+}

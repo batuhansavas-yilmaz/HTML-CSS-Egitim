@@ -1,0 +1,15 @@
+@charset "utf-8";
+/*column-rule-color : ele alınan tagın çok sütunlu düzeni için bölünen sütunların aralarındaki dikey ayraçların rengini belirler. 
+
+    color
+*/
+
+
+
+p{
+    column-count: 3;
+    column-rule-style: dashed;
+   column-rule-color: yellow;
+    column-rule-width:10px;
+
+}

@@ -1,0 +1,24 @@
+@charset "utf-8";
+/*flex-flow : esnek kutuların dizilim yönü ve satır kırılma özelliklerini belirler.
+    parametreler: flex-direction / flex-wrap
+    
+    row
+    row-reverse
+    column
+    column-reverse
+    nowrap
+    wrap
+    wrap-reverse*/
+
+.ana {
+  display: flex;
+  border: 1px solid;
+  width: 300px;
+  height: 350px;
+    flex-flow: column wrap;
+}
+.ic {
+  border: 1px solid blue;
+  width: 50px;
+  height: 50px;
+}

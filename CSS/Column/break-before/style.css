@@ -1,1 +1,13 @@
 @charset "utf-8";
+/*break-before : ele alınan tagın çok süğtunlu düzeni için bölünen sütunların arasındaki belirtilecek olan elementin öncesinde bölünme davranış özelliklerini belirler.
+
+    column
+    auto
+*/
+
+div {
+  column-count: 2;
+}
+h1{
+    break-before: column;
+}

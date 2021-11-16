@@ -1,0 +1,56 @@
+@charset "utf-8";
+/*flex-wrap  : esnek kutuların satır kırılma özelliklerini bewlirler
+    nowrap
+    wrap
+    wrap-reverse*/
+
+
+.ana {
+  display: flex;
+  border: 2px solid red;
+height: 250px;
+  width: 250px;
+  /*prefixli*/
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.icElemanlar {
+  border: 2px solid red;
+ width: 50px;
+ height: 50px;
+
+ margin: 2px;
+}
+.ana2 {
+  display: flex;
+  border: 2px solid red;
+  padding: 20px;
+  width: 600px;
+  height: 200px;
+  /*prefixli*/
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  
+}
+.icElemanlar2 {
+  border: 2px solid red;
+  padding: 20px;
+  margin: 2px;
+  
+}
+.ana3 {
+  display: flex;
+  border: 2px solid red;
+  padding: 20px;
+  width: 600px;
+  height: 200px;
+  /*prefixli*/
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.icElemanlar3 {
+  border: 2px solid red;
+  padding: 20px;
+  margin: 2px;
+  
+}

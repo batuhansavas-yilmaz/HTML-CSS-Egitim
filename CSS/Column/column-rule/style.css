@@ -1,1 +1,14 @@
 @charset "utf-8";
+
+/*column-rule : ele alınan tagın çok sütunlu düzeni için bölünen sütunların aralarındaki dikey ayraç özelliklerini belirler.
+    parametreler : column-rule-width / column-rule-style/column-rule-color
+    
+    değerler
+        rule vale : kural değeri
+
+*/
+
+p{
+    column-count: 5;
+    column-rule:  4px dashed red;
+}

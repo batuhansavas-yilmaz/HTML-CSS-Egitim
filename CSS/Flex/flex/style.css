@@ -1,0 +1,22 @@
+@charset "utf-8";
+/*flex : esnek kutu içerisindeki element veya elementlerin, diğer elementlere göre büyüklük oranını yada küçüklük/büzülme oranını yada başlangıç uzunluğu değerini belirler.
+
+    flex-grow
+    flex-shrink
+    flex-basis
+    auto
+
+    bu özellik tüm hepsini aynı anda kullanıyor, toplu olarak kullanmıyor
+    yani flex : 1 dediğimzde hem grow hem shrink hem basis e 1 vermiş oluyoruz.
+    */
+
+    .ana{
+        width: 500px;
+        height: 200px;
+        border: thin solid red;
+        display: flex;
+    }
+    .ic{
+        flex:1;
+        border: 2px solid blue;
+    }

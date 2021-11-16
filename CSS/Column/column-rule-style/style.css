@@ -1,1 +1,20 @@
 @charset "utf-8";
+
+/*column-rule-style : ele alınan tagın çok sütunlu düzeni için bölünen sütunların aralarındaki dikey ayraç stilini belirler.
+    hidden : gizli
+    solid
+    dashed
+    dotted
+    double
+    groove
+    ridge
+    inset
+    outset*/
+
+
+    p{
+        column-count: 3;
+        column-rule-style: groove;
+     
+
+    }

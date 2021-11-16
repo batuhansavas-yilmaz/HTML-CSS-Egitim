@@ -1,0 +1,23 @@
+@charset "utf-8";
+/*flex-shrink : esnek kutu içerisindeki element veya elemenetlerin diğer elementlere göre küçüklük / büzülme oranını ne şekilde olması gerektiğini belirler.
+
+    number
+*/
+
+.ana{
+    width: 500px;
+    display: flex;
+    height: 100px;
+    border: 2px solid red;
+
+}
+
+.ic{
+    border: 2px solid blue;
+
+    flex-basis: 200px;
+}
+
+.bir{
+    flex-shrink: 1.5;
+}

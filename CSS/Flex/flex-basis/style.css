@@ -1,0 +1,22 @@
+@charset "utf-8";
+/*flex-basis : esnek kutu içerisindeki element veya elementlerin başlangıç uzunluk ve genişlik değerini belirler
+    
+    auto
+    number
+*/
+.ana{
+    border: 2px solid red;
+    display: flex;
+    width: 500px;
+    height: 250px;
+   flex-direction: column;
+}
+.ic{
+    border: 1px solid blue;
+    flex-basis: 150px;
+    
+}
+div[name="ic2"]{
+    flex-basis: 150px;
+    width: 50px;
+}

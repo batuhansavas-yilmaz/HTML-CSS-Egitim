@@ -1,0 +1,17 @@
+@charset "utf-8";
+.anaDiv {
+  background-color: red;
+  padding: 10px;
+  border: 2px solid;
+
+  /*    display: -webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: -ms-flex;*/
+  display: inline-flex;
+}
+.icElemanlar {
+  padding: 10px;
+  margin: 2px;
+  border: 2px solid yellow;
+}
