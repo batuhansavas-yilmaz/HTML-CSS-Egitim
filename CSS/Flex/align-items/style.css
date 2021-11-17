@@ -1,1 +1,22 @@
 @charset "utf-8";
+/*align-items : esnek kutu içerisinde bulunan elementlerin hizalama özelliklerini belirler.
+
+    stretch : uzat/ esne
+    center : orta
+    flex-start : esnek başlangıç
+    flex-end : esnek bitiş
+    baseline : başlangıç
+*/
+.ana {
+  border: 6px solid red;
+  width: 500px;
+  height: 250px;
+  display: flex;
+  /*prefixli*/
+  align-items: center;
+}
+.ic {
+  border: 2px solid blue;
+  flex: 1;
+
+}

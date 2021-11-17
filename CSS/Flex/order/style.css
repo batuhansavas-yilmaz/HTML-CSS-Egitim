@@ -1,1 +1,28 @@
 @charset "utf-8";
+
+/*order : esnek kutu içerisinde bulunan element veya elementlerin, diğer elementlere göre sıralama özelliklerini belirler.
+    
+    number
+
+*/
+.ana {
+  border: 6px solid red;
+  width: 800px;
+
+  display: flex;
+}
+.ic {
+  border: 2px solid blue;
+
+  width: 100px;
+  height: 100px;
+}
+
+.selfBes {
+  /*prefiixli*/
+  order: 1;
+}
+.selfBir {
+  /*prefiixli*/
+  order: 2;
+}

@@ -1,1 +1,27 @@
 @charset "utf-8";
+/*align-content : esnek kutu içerisinde bulunan elementler tüm alanı kullanmadığında ve satır kırılma olduğunda, elementlerin hizalama özelliklerini belirler.
+
+    stretch : uzat/ esne
+    center : orta
+    flex-start : esnek başlangıç
+    flex-end : esnek bitiş
+    space-between: boşluk arasında
+    space-around: boşluk etrafında
+
+*/
+.ana {
+    border: 6px solid red;
+    width: 400px;
+    height: 400px;
+    display: flex;
+align-content: center;
+    flex-wrap: wrap;
+  }
+  .ic {
+    border: 2px solid blue;
+
+    width: 100px;
+    height: 100px;
+  }
+ 
+  
