@@ -1,0 +1,27 @@
+@charset "utf-8";
+@charset "utf-8";
+
+/*grid-auto-rows : ızgara düzeni içersindeki element veya elementler için , oluşturulması gereken satırların varsayılan genişliğini belirler
+    
+    auto
+    max-content
+    min-content
+    lenght
+    */
+
+.ana{
+    display: grid;
+
+   grid-auto-flow: column;
+    grid-auto-rows: 80px ;
+    border: 1px solid red;
+    padding: 20px;
+    width: 500px;
+
+ 
+}
+.ic{
+    border: 2px solid blue;
+    padding: 12px;
+  
+}

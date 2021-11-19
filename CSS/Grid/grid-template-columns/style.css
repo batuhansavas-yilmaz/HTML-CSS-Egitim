@@ -1,0 +1,29 @@
+@charset "utf-8";
+/*grid-template-columns : ızgara düzeni içerisindeki element veya elementler için, oluşturulması gereken sütun adedini ve sütun boyutu genişliğini belirler.
+
+
+
+    none
+    auto
+    max-content : maksimum içerik
+    min-content : minimum içerik
+    length
+    %
+    */
+
+    .ana{
+        
+        padding: 10px;
+        display: grid;
+        border: 4px solid red;
+        width: 500px;
+        height: 180px;
+       
+        grid-template-columns: min-content max-content auto;
+        /*yazdığımız her bir değer bir sütün oluşturmak için
+        1.sütünu min-content ile 2.sütunu max-content ile oluşturduk
+        */
+    }
+    .ic{
+        border: thin solid blue;
+    }

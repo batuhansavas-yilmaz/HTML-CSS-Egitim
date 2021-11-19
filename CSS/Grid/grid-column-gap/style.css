@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/*grid-column-gap : ızgara düzeni içerisindeki element veya elementler için , oluşturulmuş olan sütunların aralarındaki boşluk değerlerini belirler.
+        lenght
+    */
+
+    .ana{
+        display: grid;
+        grid-template-columns: max-content max-content max-content;
+        border: 1px solid red;
+        padding: 20px;
+        width: 500px;
+      grid-column-gap: 20px;
+     
+    }
+    .ic{
+        border: 2px solid blue;
+        padding: 12px;
+       
+    }

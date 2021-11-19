@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+
+/*grid-auto-flow : ızgara düzeni içerisindeki element veya elementler için, otomatik yerleşim algoritması özelliklerini belirler.
+
+    row
+    column
+    column dense
+    row dense
+ */
+ 
+
+.ana{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows:50px 50px 50px 50px;
+    grid-gap: 10px;
+grid-auto-flow: column;
+    border: 1px solid red;
+    padding: 20px;
+    width: 500px;
+
+ 
+}
+.ic{
+    border: 2px solid blue;
+    padding: 12px;
+   
+}
+.ana2{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows:50px 50px 50px 50px;
+    grid-gap: 10px;
+grid-auto-flow: row;
+    border: 1px solid red;
+    padding: 20px;
+    width: 500px;
+
+ 
+}
+.ic2{
+    border: 2px solid blue;
+    padding: 12px;
+   
+}

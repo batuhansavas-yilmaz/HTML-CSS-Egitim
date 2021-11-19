@@ -1,0 +1,16 @@
+/*grid-row-gap : ızgara düzeni içerisindeki element veya elementler için , oluşturulmuş olan satırların aralarındaki boşluk değerlerini belirler.
+        lenght
+    */
+    .ana{
+        display: grid;
+        border: 1px solid red;
+        padding: 20px;
+        width: 500px;
+       grid-row-gap: 20px;
+
+    }
+    .ic{
+        border: 2px solid blue;
+        padding: 12px;
+       
+    }
