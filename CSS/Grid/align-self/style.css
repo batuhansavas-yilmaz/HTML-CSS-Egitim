@@ -1,1 +1,29 @@
+/*align-self : ızgara düzeni içerisinde bulunan element veya elementlerin, dikey hizalama özelliklerini belirler.
+
+    auto
+    stretch : uzat /esne1
+    center : 
+    start
+    end
+*/
+
 @charset "utf-8";
+.ana{
+    display: grid;
+    border: thin solid blue;
+    padding: 20px;
+    grid-gap: 2px;
+  grid-template-columns: repeat(4, auto);
+ align-items: center;
+  height: 750px;
+
+
+}
+.ic{
+    border: thin solid red;
+    padding: 8px;  
+}
+
+.islem{
+    align-self: start;
+}

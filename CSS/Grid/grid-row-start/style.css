@@ -1,1 +1,31 @@
 @charset "utf-8";
+/*grid-row-start :   Izgara düzeni içerisindeki elementin kaçıncı satırda başlaması gerektiğini belirler.
+    auto
+    row-line: satır çizgisi
+    */
+
+.ana {
+  display: grid;
+  grid-template-columns: repeat(5, max-content);
+  border: 1px solid red;
+  padding: 20px;
+  width: 600px;
+  
+}
+.ic {
+  border: 2px solid blue;
+  padding: 12px;
+}
+.Bir ,.iki{
+    grid-row-start:span 3;
+/*span diyerek : kendinden başla ve yanına yazdığım değer kadar yer kapla dedik. Yani
+kendinden başlayarak 3.satıra kadar yer kapla dedik*/    
+
+}
+
+  .uc{
+    grid-row-start: 4;
+  }
+  .dort{
+      grid-row-start: span 2;
+  }

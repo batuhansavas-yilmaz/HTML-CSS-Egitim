@@ -1,1 +1,27 @@
 @charset "utf-8";
+/*grid-column-start :   Izgara düzeni içerisindeki elementin kaçıncı sütundan başlaması gerektiğini belirler.
+    auto
+    column-line: sütun çizgisi*/
+
+.ana {
+  display: grid;
+  grid-template-columns: repeat(5, max-content);
+  border: 1px solid red;
+  padding: 20px;
+  width: 600px;
+  
+}
+.ic {
+  border: 2px solid blue;
+  padding: 12px;
+}
+.Bir ,.iki{
+    grid-column-start:span 3;
+}
+
+  .uc{
+    grid-column-start: 3;
+  }
+  .dort{
+      grid-column-start: span 2;
+  }

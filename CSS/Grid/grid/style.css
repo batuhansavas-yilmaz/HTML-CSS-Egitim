@@ -1,1 +1,21 @@
+/*grid : ızgara düzeni içerisindeki element veya elementler için, gelişmiş satır ve sütun işlemlerinin yanı sıra alan yerleştirme özelliklerini belirler.
+
+    parametreler: grid-template-rows/columns/areas
+    parametreler: grid-template-rows/ [grid-auto-flow] grid-template-columns
+
+        none
+
+*/
+
 @charset "utf-8";
+.ana{
+    display: grid;
+    border: thin solid blue;
+    padding: 20px;
+    grid-gap: 2px;
+    grid: 70px 70px 70px / repeat(3,auto);
+}
+.ic{
+    border: thin solid red;
+    padding: 8px;  
+}

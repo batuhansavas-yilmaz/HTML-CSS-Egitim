@@ -1,1 +1,23 @@
 @charset "utf-8";
+/*grid-column :   Izgara düzeni içerisindeki elementin kaçıncı sütundan başlaması gerektiğini ve kaçıncı sütunda bitmesi gerektiğini belirler.
+
+    Parametreler: grid-column-start ve end
+
+    auto
+    column-line: sütun çizgisi*/
+
+.ana {
+  display: grid;
+  grid-template-columns: repeat(5, max-content);
+  border: 1px solid red;
+  padding: 20px;
+  width: 600px;
+  
+}
+.ic {
+  border: 2px solid blue;
+  padding: 12px;
+}
+.iki{
+grid-column: 2/4;
+}

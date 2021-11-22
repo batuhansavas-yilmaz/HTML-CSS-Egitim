@@ -1,1 +1,36 @@
 @charset "utf-8";
+/*grid-row :   Izgara düzeni içerisindeki elementin kaçıncı satırda başlaması ve kaçıncı satırda bitmesi gerektiğini belirler.
+
+    Parm. : grid-row-start ve end
+
+    auto
+    row-line: satır çizgisi
+    */
+
+.ana {
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  grid-template-columns: repeat(3, auto);
+  border: 1px solid red;
+  padding: 20px;
+
+  
+}
+.ic {
+  border: 2px solid blue;
+  padding: 12px;
+}
+.Bir{
+    grid-row: span 3/5;
+    /*span / x diyerek : 3 satırlık alan kapla ve bu alan x. satırda son bulsun.
+    
+    Yani : 1.Batuhan Savaş için dedik ki :
+        3 satırlık alan kapla ve ve bu alan 5. satırda bitsin. Bu yüzden element 5. satırda bitebilmek için 2.satıra kaydı.
+    ,*/
+}
+.uc{
+    grid-row:  3/7;
+    /*burda 3.selinay batu ifadesine dedik ki: 
+        3.satırda başla 7.satıra kadar git.
+        */
+}

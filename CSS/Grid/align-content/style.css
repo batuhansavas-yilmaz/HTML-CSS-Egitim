@@ -1,1 +1,27 @@
 @charset "utf-8";
+/*align-content : ızgara düzeni içerisinde bulunan elementler tüm alanı kullanmadığında  elementlerin hizalama özelliklerini belirler.
+
+    stretch : uzat/ esne
+    center : orta
+    start : esnek başlangıç
+    end : esnek bitiş
+    space-between: boşluk arasında
+    space-around: boşluk etrafında
+    space-evenly : eşit boşluk
+
+*/
+.ana {
+    border: 6px solid red;
+    width: 400px;
+    height: 400px;
+    display: grid;
+    align-content: space-evenly;
+  grid-template-columns: repeat(3, auto);
+  }
+  .ic {
+    border: 2px solid blue;
+
+  width: 100px;
+  }
+ 
+  

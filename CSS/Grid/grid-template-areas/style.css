@@ -1,1 +1,40 @@
 @charset "utf-8";
+
+/*grid-template-areas : ızgara düzeni içerisindeki alan adı tanımlanmış olan elementin tüm satır ve sütun işlemleri için alan yerleştirme özelliklerini belirler.
+
+    none
+    area name: alan adı
+    
+    */
+
+.ana {
+  display: grid;
+  border: thin solid red;
+  padding: 10px;
+  grid-gap: 2px;
+  grid-template-areas:
+    "header header header header" "header header header header" 
+    "menu right right right"
+    "menu footer footer footer";
+  grid-template-columns: 20% auto;
+
+}
+.ic {
+  border: thin solid blue;
+  padding: 10px;
+}
+
+.header {
+  grid-area: header;
+
+}
+
+.right {
+  grid-area: right;
+}
+.menu {
+  grid-area: menu;
+}
+.footer {
+  grid-area: footer;
+}

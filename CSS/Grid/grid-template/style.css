@@ -1,1 +1,31 @@
 @charset "utf-8";
+/*grid-template : ızgara düzeni içerisindeki element veya elementler için, tüm satır ve sütun işlemlerinin yanı sıra alan yerleştirme özelliklerini belirler.
+    paramt. : grid-template-rows/columns/areas
+    
+        none
+
+    */
+
+    .ana{
+        display: grid;
+        border: thin solid blue;
+        padding: 20px;
+        grid-gap: 2px;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: 50px ;
+    }
+    .ic{
+        border: thin solid red;
+        padding: 8px;  
+    } .ana2{
+        display: grid;
+        border: thin solid blue;
+        padding: 20px;
+        grid-gap: 2px;
+        grid-template: 100px 200px 80px/ repeat(3,auto);
+    }
+    .ic2{
+        border: thin solid red;
+        padding: 8px;  
+    }
+   

@@ -1,1 +1,33 @@
 @charset "utf-8";
+/*grid-area : ızgara düzeni içerisindeki elementin tüm satır ve sütun işlemleri için alan yerleştirme özelliklerini belirler.
+
+    parametreler : grid-row-start/end grid-column-start/end
+
+    areaname : alan adı
+
+*/
+
+.ana {
+  display: grid;
+  border: thin solid red;
+  padding: 10px;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 5px;
+}
+.ic{
+    border: thin solid blue;
+    padding: 10px;   
+}
+
+.bir{
+    grid-column-start: span 3;
+    grid-row-start: span 2  ;
+    background-color: gray;
+}
+
+.uc{
+    grid-column-end: 3 ;
+    grid-row-end: 5 ;
+    background-color: gray;
+}
+
