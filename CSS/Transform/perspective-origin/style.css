@@ -1,1 +1,29 @@
 @charset "utf-8";
+/* perspective-origin : ele alınan tagın 3D dönüştürme sonrasındaki perspektif derinliği konum özelliklerini belirler.
+
+    parametreler : x / y
+    varsayılan değer : 50% 50%
+    
+    length 
+    %
+*/
+
+.ana {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border: 1px solid gray;
+  padding: 50px;
+  margin: 50px;
+
+  perspective: 250px; 
+  /* prefixli */
+  perspective-origin: 180px 190px;
+}
+.ic {
+  position: absolute;
+  border: 1px solid blue;
+  padding: 50px;
+  background-color: yellow;
+  transform: rotateX(45deg);
+}

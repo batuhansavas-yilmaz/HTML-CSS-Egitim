@@ -1,1 +1,19 @@
 @charset "utf-8";
+/* transform-origin: ele alınan tagın dönüştürme sonrasındaki konum özelliklerini belirler.
+
+    parametreler : x/y/z
+    varsayılan değeri : 50% 50% 0;
+    length 
+    % */
+
+    div{
+        width: 87px;
+        border: 2px solid;
+        margin: 150px;
+        padding: 50px;
+        background-color: blue;
+        color: white;
+        transform: rotate(90deg);
+        /* prefixli */
+        transform-origin: 100px 0 0;
+    }

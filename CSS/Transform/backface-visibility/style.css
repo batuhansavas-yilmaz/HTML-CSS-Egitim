@@ -1,1 +1,40 @@
 @charset "utf-8";
+/* backface-visibility : ele alınan tagın dönüştürme,geçiş veya animasyon işlemlerinde arka yüzeyinin görüntülenme veya gizlenme özelliklerini belirler
+    
+
+yani transform ile arkasını döndürdüğümü tagların görünüp görünmemesini sağlarız
+
+    visible: göster
+    hidden : gizli
+    */
+* {
+  color: white;
+}
+.birA {
+  border: 2px solid red;
+  width: 90px;
+  padding: 25px;
+  background-color: blue;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+.bir {
+  border: 2px solid red;
+  width: 90px;
+  padding: 25px;
+  background-color: blue;
+}
+.iki {
+  border: 2px solid blue;
+  width: 100px;
+  padding: 25px;
+  background-color: red;
+}
+.ikiA {
+  border: 2px solid blue;
+  width: 100px;
+  padding: 25px;
+  background-color: red;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}

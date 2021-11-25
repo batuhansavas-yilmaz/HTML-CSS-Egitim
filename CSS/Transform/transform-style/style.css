@@ -1,1 +1,32 @@
 @charset "utf-8";
+/* transform-style : iç içe geçmiş tagların 3D dönüştürme sonrasındaki, 3D boşluğunda konumlandırılmış veya element düzleminde düzleştirilmiş olup olmadığı durumunu belirler.
+
+    flat        : düz
+    preserve-3d : 3D perspektif
+    */
+/* en iç elementin bir üstüne yazılır */
+
+.ana {
+  position: relative;
+  width: 300px;
+  height: 400px;
+
+  margin: 200px;
+  transform-style: preserve-3d;
+}
+.bir {
+  position: absolute;
+  padding: 100px;
+  border: 1px solid;
+  background-color: yellow;
+  transform: rotate(60deg);
+  /* prefixli */
+  transform-style: preserve-3d;
+}
+.iki {
+  position: absolute;
+  border: 1px solid;
+  padding: 100px;
+  background-color: red;
+  transform: rotateY(45deg);
+}
