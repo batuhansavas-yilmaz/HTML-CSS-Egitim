@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* transition : ele alınan tagın tüm geçiş özelliklerini belirler.
+    parametreler : transition-property/duration/timing-function/delay
+    
+    transition-property : css özellik adı
+
+    transition-duration :geçiş süresi (s, ms)
+    transition-timing-function : hız eğrisi
+    transition-delay: duraksama süresi
+
+    */
+.bir {
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+  background-color: yellow;
+  /* prefixli */
+  transition: width 3s ease-in-out 0.5s;
+}
+.bir:hover {
+  width: 1000px;
+}
+.iki {
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+  background-color: yellow;
+  /* prefixli */
+  transition: width 3s ease-in 0.5s, height 3s ease-in 0.5s,
+    font-size 3s ease-in 0.5s, background-color 3s ease-in 0.5s,
+    color 3s ease-in 0.5s;
+}
+.iki:hover {
+  width: 1000px;
+  height: 200px;
+  font-size: 100px;
+  background-color: red;
+  color: white;
+}
+.uc {
+  height: 150px;
+  width: 150px;
+
+  border: 2px solid;
+  background-color: yellow;
+  /* prefixli */
+  transition: 1s ease-in 0.5s;
+}
+.uc:hover {
+  padding: 100px;
+  font-size: 10px;
+  background-color: red;
+  color: white;
+  transform: rotate(1800deg) scale(0.5);
+  border-radius: 50%;
+}
+.input{
+    width: 100px;
+    transition: width 0.5s;
+}
+.input:focus{
+width: 250px;
+}
