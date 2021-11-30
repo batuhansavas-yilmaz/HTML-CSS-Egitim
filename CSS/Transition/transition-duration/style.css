@@ -1,1 +1,21 @@
 @charset "utf-8";
+/* transform-durartion : ele alınan taga tanımlanmış olan geçiş özelliğinin kaç saniye veya milisaniye sonunda tamamlanacağını belirler.
+
+    time : zaman (saniye : s , milisaniye :ms)
+*/
+div{
+    width: 150px;
+    height: 150px;
+    border: thin solid ;
+    background-color: red;
+    line-height: 150px;
+    font-size: 14px;
+    text-align: center;
+    transition-property: width, transform;
+    transition-duration: 1s;
+    margin:  0 0 0 50px;
+}
+div:hover{
+    width: 250px;
+transform: skewX(15deg);
+}

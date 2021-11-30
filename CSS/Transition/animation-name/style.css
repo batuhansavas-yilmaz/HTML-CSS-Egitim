@@ -1,1 +1,38 @@
 @charset "utf-8";
+/* animation-name : ele laınan taga atanmış olan animasyonun @keyframe özelliği için isim tanımlamasını belirler.
+
+    none:
+    keyframes name : animasyon aşamaları adı
+
+*/
+
+    div{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        /* prefixli */
+        animation:1s linear 0s infinite alternate none running;
+        line-height: 200px;
+        text-align: center;
+        /* prefixli */
+        animation-name: Bsy;
+    }
+    @keyframes Bsy{
+        from{
+           
+            font-size: 0px;
+           border-radius: 0%;
+                left: 0px;
+                top: 0px;
+                background-color: red;
+        }
+        to{
+            font-size: 50px;
+            border-radius: 50%;
+            transform: rotate(150deg);
+            left: 1000px;
+            top : 80px;
+            background-color: yellow;
+        }
+    }

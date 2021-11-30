@@ -1,1 +1,39 @@
 @charset "utf-8";
+/* animation : ele alınan tagın tüm animasyon özelliklerini belirler.
+    parametreler : animation-name/duration/timing-function/delay/iteration-count/direction/fill-mode/play-state
+    
+        varsayılan değerler : none 0 ease 0 1 normal none running
+
+            değerler
+
+            animation value : animasyon özelliğinin değeri/değerleri
+    */
+
+    div{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        /* prefixli */
+        animation:Bsy 1s linear 0s infinite alternate none running;
+        line-height: 200px;
+        text-align: center;
+    }
+    @keyframes Bsy{
+        from{
+           
+            font-size: 0px;
+           border-radius: 0%;
+                left: 0px;
+                top: 0px;
+                background-color: red;
+        }
+        to{
+            font-size: 50px;
+            border-radius: 50%;
+            transform: rotate(150deg);
+            left: 1000px;
+            top : 80px;
+            background-color: yellow;
+        }
+    }

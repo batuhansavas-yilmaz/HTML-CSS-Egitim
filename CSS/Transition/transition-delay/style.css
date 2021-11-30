@@ -1,1 +1,23 @@
 @charset "utf-8";
+/* transform-delay : ele alınan taga tanımlanmış olan geçiş özelliğinin kaç saniye veya milisaniye sonra başlayacağını belirler.
+
+    time : zaman (saniye : s , milisaniye :ms)
+*/
+div{
+    width: 150px;
+    height: 150px;
+    border: thin solid ;
+    background-color: red;
+    line-height: 150px;
+    font-size: 0px;
+    text-align: center;
+    transition-property: width, transform,font-size;
+    transition-duration: 1s;
+    margin:  50px 0 0 150px;
+    transition-delay: 1s;
+}
+div:hover{
+    font-size: 15px;
+    width: 250px;
+transform: skewX(15deg);
+}
