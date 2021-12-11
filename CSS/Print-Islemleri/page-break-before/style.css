@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* page-break-before : sayfa yazdırma işlemlerinde belirtilecek olan tagdan önce sayfa sonlandırma durumunu belirler.
+
+    auto
+    always : daima
+
+*/
+
+p{
+    page-break-before: always;
+    border: 2px solid;
+}

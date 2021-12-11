@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* cursor : fare işaretçisi stilini belirler
+
+    auto
+    default : tüm elementlerde fare imleci OK şeklinde görünür.
+    none : değer yok  (imlec görüntülenmez.)
+        */
+
+div {
+
+  margin: 10px;
+  border: 2px solid red;
+}
+
+.auto {
+  cursor: auto;
+}
+
+.default {
+  cursor: default;
+}
+.pointer {
+  cursor: pointer;
+}
+.none {
+  cursor: none;
+}
+
+.text {
+  cursor: text;
+}
+
+.vertical-text {
+  cursor: vertical-text;
+}
+
+.crosshair {
+  cursor: crosshair;
+}
+
+.cell {
+  cursor: cell;
+}
+
+.help {
+  cursor: help;
+}
+
+.alias {
+  cursor: alias;
+}
+
+.copy {
+  cursor: copy;
+}
+
+.progress {
+  cursor: progress;
+}
+
+.wait {
+  cursor: wait;
+}
+
+.zoom-in {
+  cursor: zoom-in;
+}
+
+.zoom-out {
+  cursor: zoom-out;
+}
+
+.grab {
+  cursor: grab;
+}
+
+.grabbing {
+  cursor: grabbing;
+}
+
+.move {
+  cursor: move;
+}
+.no-drop {
+  cursor: no-drop;
+}
+.not-allowed {
+  cursor: not-allowed;
+}
+.all-scroll {
+  cursor: all-scroll;
+}
+.row-resize {
+  cursor: row-resize;
+}
+.col-resize {
+  cursor: col-resize;
+}
+.nwse-resize{
+    cursor: nwse-resize;
+}
+
+.se-resize{
+    cursor: se-resize;
+}
+
+.nw-resize{
+    cursor: nw-resize;
+}
+
+.nesw-resize{
+    cursor: nesw-resize;
+}
+
+.sw-resize{
+    cursor: sw-resize;
+}
+
+.ne-resize{
+    cursor: ne-resize;
+}
+
+.s-resize{
+    cursor: s-resize;
+}
+
+.n-resize{
+    cursor: n-resize;
+}
+
+.ew-resize{
+    cursor: ew-resize;
+}
+
+.e-resize{
+    cursor: e-resize;
+}
+
+.w-resize{
+    cursor: w-resize;
+}
+
+body{
+    cursor:url(normal.cur),auto;
+                             
+}

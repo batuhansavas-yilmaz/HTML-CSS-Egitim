@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+@charset "utf-8";
+/* page-break-inside : sayfa yazdırma işlemlerinde belirtilecek olan tagda sayfa sonlandırma yapılıp yapılamayacağı durumunu belirler.
+
+ele alınan tag, yazdırma ekranında kağıdın sonunda kalıp bir kısmı taşıyor ise o tagı yeni bir kağıttan başlatır.
+
+    auto
+    avoid : önleme
+
+*/
+
+p{
+    page-break-inside: avoid;
+    border: 2px solid;
+}

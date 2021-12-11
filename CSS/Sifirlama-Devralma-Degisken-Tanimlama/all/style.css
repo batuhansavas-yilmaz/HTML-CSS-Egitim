@@ -1,0 +1,20 @@
+@charset "utf-8";
+.ozellik{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+.initial{
+    all: initial;
+}
+
+.inherit{
+    all: inherit;
+}
+
+.unset{
+    all: unset;
+}

@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/* var() : önceden tanımlanmış olan ve tüm CSS kodları içerisinde kullanılmak üzre belirli değerler içeren verilerin tutulduğu değişkenlerin çağrılma durumunu belirler. 
+
+iki tire kullanarak değişken oluşturuyoruz
+
+--degiskenAdi : herhangi bir özellik;
+
+*/
+
+:root{
+
+    --kirmiziBorder:2px solid red;
+    --kalinYazi:bold;
+    --dikeyBoyut: 100px;
+    --yatayBoyut: 100px;
+}
+
+div{
+    border: var(--kirmiziBorder);
+    font-weight: var(--kalinYazi);
+    height: var(--dikeyBoyut);
+    width: var(--yatayBoyut);
+}

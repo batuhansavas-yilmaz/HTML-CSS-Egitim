@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* page-break-after : sayfa yazdırma işlemlerinde belirtilecek olan tagdan sonra sayfa sonlandırma durumunu belirler.
+
+    auto
+    always : daima
+
+*/
+
+div{
+    page-break-after: always;
+    border: 2px solid;
+}

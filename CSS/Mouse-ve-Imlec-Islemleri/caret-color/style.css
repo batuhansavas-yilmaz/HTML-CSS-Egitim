@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* caret-color : HTML'in bilgi girişi elementlerinin veya düzenlenebilir değerine sahip herhangi bir elementinin imleç rengini belirler.
+
+    auto
+    color
+    tranparent*/
+    input{
+        caret-color: blue;
+    }
