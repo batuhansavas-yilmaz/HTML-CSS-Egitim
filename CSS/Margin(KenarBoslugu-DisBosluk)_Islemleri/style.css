@@ -12,6 +12,7 @@
     width: 200px;
     border: 5px solid red;
     margin: 25px 50px 40px 35px;
+    /* eğer bu üçlü olsaydı , 1.si top , 2.si sağ ve sol 3.sü bottom içindi */
 
 
 }

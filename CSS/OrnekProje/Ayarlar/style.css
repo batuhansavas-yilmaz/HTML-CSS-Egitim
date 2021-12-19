@@ -1,799 +1,1064 @@
 @charset "utf-8";
 html {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  direction: ltr;
-  overflow-x: hidden;
-  /* overflow-y: scroll; */
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+    overflow-x: hidden;
+    /* overflow-y: scroll; */
 }
 
 body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  border: none;
-  outline: none;
-  background-color: white;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: #646464;
-  line-height: 1.5;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  text-align: center;
-  text-decoration: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #646464;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
 }
 
 @media only screen and (min-width: 1200px) /*XL Ekran Boyutu*/ {
-  body {
-    font-size: 14px;
-  }
+    body {
+        font-size: 14px;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) /*L Ekran Boyutu*/ {
-  body {
-    font-size: 13px;
-  }
+    body {
+        font-size: 13px;
+    }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) /*M Ekran Boyutu*/ {
-  body {
-    font-size: 12px;
-  }
+    body {
+        font-size: 12px;
+    }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) /*S Ekran Boyutu*/ {
-  body {
-    font-size: 12px;
-  }
+    body {
+        font-size: 12px;
+    }
 }
 @media only screen and (max-width: 575px) /*XS Ekran Boyutu*/ {
-  body {
-    font-size: 12px;
-  }
+    body {
+        font-size: 12px;
+    }
 }
 
 #TumSayfaAlani {
-  position: relative;
-  width: 100%;
-  min-width: 100%;
-  max-width: 100%;
-  height: 100%;
-  max-height: 100%;
-  min-height: 100%;
-  margin: 0 auto;
-  padding: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  border: none;
-  outline: none;
-  background-color: white;
-}
-#HeaderAlani {
-  position: fixed;
-  display: block;
-  z-index: 99;
-  width: 100%;
-  min-width: 100%;
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto;
-  padding: 0;
-  top: 0;
-  left: 0;
-  text-align: center;
-  border: none;
-  outline: none;
-  background-color: white;
-}
-
-#HeaderMesajAlani {
-  display: block;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-  min-width: 100%;
-  max-width: 100%;
-  border: none;
-  outline: none;
-  text-align: center;
-  vertical-align: top;
-  background-color: #353745;
-}
-
-@media only screen and (min-width: 1200px) /*XL Ekran Boyutu*/ {
-  #HeaderMesajAlani {
-    height: 40px;
-    min-height: 40px;
-    max-height: 40px;
-  }
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) /*L Ekran Boyutu*/ {
-  #HeaderMesajAlani {
-    height: 40px;
-    min-height: 40px;
-    max-height: 40px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) /*M Ekran Boyutu*/ {
-  #HeaderMesajAlani {
-    height: 30px;
-    min-height: 30px;
-    max-height: 30px;
-  }
-}
-@media only screen and (min-width: 576px) and (max-width: 767px) /*S Ekran Boyutu*/ {
-  #HeaderMesajAlani {
-    height: 30px;
-    min-height: 30px;
-    max-height: 30px;
-  }
-}
-@media only screen and (max-width: 575px) /*XS Ekran Boyutu*/ {
-  #HeaderMesajAlani {
-    height: 25px;
-    min-height: 25px;
-    max-height: 25px;
-  }
-}
-
-#HeaderMesajAlani img {
-  margin: 0 auto;
-  padding: 0;
-  outline: none;
-  border: none;
-}
-
-@media only screen and (min-width: 1200px) /*XL Ekran Boyutu*/ {
-  #HeaderMesajAlani #HeaderMesajResmi1175x40 {
-    display: block;
-    width: 1175px;
-    min-width: 1175px;
-    max-width: 1175px;
-    height: 40px;
-    min-height: 40px;
-    max-height: 40px;
-  }
-
-  #HeaderMesajAlani #HeaderMesajResmi965x40 {
-    display: none;
-  }
-
-  #HeaderMesajAlani #HeaderMesajResmi740x30 {
-    display: none;
-  }
-
-  #HeaderMesajAlani #HeaderMesajResmi500x30 {
-    display: none;
-  }
-
-  #HeaderMesajAlani #HeaderMesajResmi295x25 {
-    display: none;
-  }
-}
-@media only screen and (max-width: 1199px) and (min-width: 992px) {
-  /*L*/
-
-  #HeaderMesajAlani #HeaderMesajResmi1175x40 {
-    display: none;
-  }
-
-  #HeaderMesajAlani #HeaderMesajResmi965x40 {
-    display: block;
-    width: 965px;
-    min-width: 965px;
-    max-width: 965px;
-    height: 40px;
-    min-height: 40px;
-    max-height: 40px;
-  }
-
-  #HeaderMesajAlani #HeaderMesajResmi740x30 {
-    display: none;
-  }
-
-  #HeaderMesajAlani #HeaderMesajResmi500x30 {
-    display: none;
-  }
-
-  #HeaderMesajAlani #HeaderMesajResmi295x25 {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 991px) and (min-width: 768px) {
-  /*M*/
-
-  #HeaderMesajAlani #HeaderMesajResmi1175x40 {
-    display: none;
-  }
-  #HeaderMesajAlani #HeaderMesajResmi965x40 {
-    display: none;
-  }
-
-  #HeaderMesajAlani #HeaderMesajResmi740x30 {
-    width: 740px;
-    min-width: 740px;
-    max-width: 740px;
-    height: 30px;
-    min-height: 30px;
-    max-height: 30px;
-  }
-  #HeaderMesajAlani #HeaderMesajResmi500x30 {
-    display: none;
-  }
-
-  #HeaderMesajAlani #HeaderMesajResmi295x25 {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 767px) and (min-width: 576px) {
-  /*S*/
-
-  #HeaderMesajAlani #HeaderMesajResmi1175x40 {
-    display: none;
-  }
-  #HeaderMesajAlani #HeaderMesajResmi965x40 {
-    display: none;
-  }
-
-  #HeaderMesajAlani #HeaderMesajResmi740x30 {
-    display: none;
-  }
-
-  #HeaderMesajAlani #HeaderMesajResmi500x30 {
-    width: 500px;
-    min-width: 500px;
-    max-width: 500px;
-    height: 30px;
-    min-height: 30px;
-    max-height: 30px;
-  }
-  #HeaderMesajAlani #HeaderMesajResmi295x25 {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 575px) {
-  /*XS*/
-
-  #HeaderMesajAlani #HeaderMesajResmi1175x40 {
-    display: none;
-  }
-  #HeaderMesajAlani #HeaderMesajResmi965x40 {
-    display: none;
-  }
-
-  #HeaderMesajAlani #HeaderMesajResmi740x30 {
-    display: none;
-  }
-  #HeaderMesajAlani #HeaderMesajResmi500x30 {
-    display: none;
-  }
-
-  #HeaderMesajAlani #HeaderMesajResmi295x25 {
-    width: 295px;
-    min-width: 295px;
-    max-width: 295px;
-    height: 25px;
-    min-height: 25px;
-    max-height: 25px;
-  }
-}
-
-#HeaderMenuAlani {
-  display: block;
-  width: 100%;
-  min-width: 100%;
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto;
-  padding: 0;
-  border: none;
-  border-bottom: 1px solid #ccc;
-  outline: none;
-  vertical-align: top;
-  text-align: center;
-}
-#HeaderMenuUstuAlani {
-  display: block;
-  width: 100%;
-  min-width: 100%;
-  max-width: 100%;
-  height: 30px;
-  min-height: 30px;
-  max-height: 30px;
-  margin: 0 auto;
-  padding: 0;
-  overflow: hidden;
-  border: none;
-  border-top: 2px solid #0077bb;
-  outline: none;
-  background-color: #08c;
-  vertical-align: top;
-  text-align: center;
-}
-#HeaderMenuUstuSinirlamaAlani {
-  display: block;
-  height: 30px;
-  min-height: 30px;
-  max-height: 30px;
-  margin: 0 auto;
-  padding: 0;
-  overflow: hidden;
-  border: none;
-  outline: none;
-  background-color: #08c;
-  vertical-align: middle;
-  text-align: center;
-}
-
-@media only screen and (min-width: 1200px) /*XL Ekran Boyutu*/ {
-  #HeaderMenuUstuSinirlamaAlani {
-    width: 1175px;
-    min-width: 1175px;
-    max-width: 1175px;
-  }
-}
-
-@media only screen and (max-width: 1199px) /*L, M, S, XS Ekran Boyutu*/ {
-  #HeaderMenuUstuSinirlamaAlani {
+    position: relative;
     width: 100%;
     min-width: 100%;
     max-width: 100%;
-  }
+    height: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+#HeaderAlani {
+    position: fixed;
+    display: block;
+    z-index: 99;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    top: 0;
+    left: 0;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+#HeaderMesajAlani {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    min-width: 100%;
+    max-width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    background-color: #353745;
+}
+
+@media only screen and (min-width: 1200px) /*XL Ekran Boyutu*/ {
+    #HeaderMesajAlani {
+        height: 40px;
+        min-height: 40px;
+        max-height: 40px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) /*L Ekran Boyutu*/ {
+    #HeaderMesajAlani {
+        height: 40px;
+        min-height: 40px;
+        max-height: 40px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) /*M Ekran Boyutu*/ {
+    #HeaderMesajAlani {
+        height: 30px;
+        min-height: 30px;
+        max-height: 30px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) /*S Ekran Boyutu*/ {
+    #HeaderMesajAlani {
+        height: 30px;
+        min-height: 30px;
+        max-height: 30px;
+    }
+}
+@media only screen and (max-width: 575px) /*XS Ekran Boyutu*/ {
+    #HeaderMesajAlani {
+        height: 25px;
+        min-height: 25px;
+        max-height: 25px;
+    }
+}
+
+#HeaderMesajAlani img {
+    margin: 0 auto;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+@media only screen and (min-width: 1200px) /*XL Ekran Boyutu*/ {
+    #HeaderMesajAlani #HeaderMesajResmi1175x40 {
+        display: block;
+        width: 1175px;
+        min-width: 1175px;
+        max-width: 1175px;
+        height: 40px;
+        min-height: 40px;
+        max-height: 40px;
+    }
+
+    #HeaderMesajAlani #HeaderMesajResmi965x40 {
+        display: none;
+    }
+
+    #HeaderMesajAlani #HeaderMesajResmi740x30 {
+        display: none;
+    }
+
+    #HeaderMesajAlani #HeaderMesajResmi500x30 {
+        display: none;
+    }
+
+    #HeaderMesajAlani #HeaderMesajResmi295x25 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    /*L*/
+
+    #HeaderMesajAlani #HeaderMesajResmi1175x40 {
+        display: none;
+    }
+
+    #HeaderMesajAlani #HeaderMesajResmi965x40 {
+        display: block;
+        width: 965px;
+        min-width: 965px;
+        max-width: 965px;
+        height: 40px;
+        min-height: 40px;
+        max-height: 40px;
+    }
+
+    #HeaderMesajAlani #HeaderMesajResmi740x30 {
+        display: none;
+    }
+
+    #HeaderMesajAlani #HeaderMesajResmi500x30 {
+        display: none;
+    }
+
+    #HeaderMesajAlani #HeaderMesajResmi295x25 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    /*M*/
+
+    #HeaderMesajAlani #HeaderMesajResmi1175x40 {
+        display: none;
+    }
+    #HeaderMesajAlani #HeaderMesajResmi965x40 {
+        display: none;
+    }
+
+    #HeaderMesajAlani #HeaderMesajResmi740x30 {
+        width: 740px;
+        min-width: 740px;
+        max-width: 740px;
+        height: 30px;
+        min-height: 30px;
+        max-height: 30px;
+    }
+    #HeaderMesajAlani #HeaderMesajResmi500x30 {
+        display: none;
+    }
+
+    #HeaderMesajAlani #HeaderMesajResmi295x25 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+    /*S*/
+
+    #HeaderMesajAlani #HeaderMesajResmi1175x40 {
+        display: none;
+    }
+    #HeaderMesajAlani #HeaderMesajResmi965x40 {
+        display: none;
+    }
+
+    #HeaderMesajAlani #HeaderMesajResmi740x30 {
+        display: none;
+    }
+
+    #HeaderMesajAlani #HeaderMesajResmi500x30 {
+        width: 500px;
+        min-width: 500px;
+        max-width: 500px;
+        height: 30px;
+        min-height: 30px;
+        max-height: 30px;
+    }
+    #HeaderMesajAlani #HeaderMesajResmi295x25 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    /*XS*/
+
+    #HeaderMesajAlani #HeaderMesajResmi1175x40 {
+        display: none;
+    }
+    #HeaderMesajAlani #HeaderMesajResmi965x40 {
+        display: none;
+    }
+
+    #HeaderMesajAlani #HeaderMesajResmi740x30 {
+        display: none;
+    }
+    #HeaderMesajAlani #HeaderMesajResmi500x30 {
+        display: none;
+    }
+
+    #HeaderMesajAlani #HeaderMesajResmi295x25 {
+        width: 295px;
+        min-width: 295px;
+        max-width: 295px;
+        height: 25px;
+        min-height: 25px;
+        max-height: 25px;
+    }
+}
+
+#HeaderMenuAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    vertical-align: top;
+    text-align: center;
+}
+#HeaderMenuUstuAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    border-top: 2px solid #0077bb;
+    outline: none;
+    background-color: #08c;
+    vertical-align: top;
+    text-align: center;
+}
+#HeaderMenuUstuSinirlamaAlani {
+    display: block;
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #08c;
+    vertical-align: middle;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1200px) /*XL Ekran Boyutu*/ {
+    #HeaderMenuUstuSinirlamaAlani {
+        width: 1175px;
+        min-width: 1175px;
+        max-width: 1175px;
+    }
+}
+
+@media only screen and (max-width: 1199px) /*L, M, S, XS Ekran Boyutu*/ {
+    #HeaderMenuUstuSinirlamaAlani {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
 }
 #HeaderMenuUstuSeceneklerAlani {
-  display: inline-block;
-  list-style-type: none;
-  float: right;
-  height: 30px;
-  min-height: 30px;
-  max-height: 30px;
-  padding: 0;
-  margin: 0 auto;
-  border: none;
-  outline: none;
+    display: inline-block;
+    list-style-type: none;
+    float: right;
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+    padding: 0;
+    margin: 0 auto;
+    border: none;
+    outline: none;
 }
 .HeaderMenuUstuSecenekler {
-  display: inline-block;
-  float: left;
-  padding: 5px 5px 0 0;
-  margin: 0 auto;
-  border: none;
-  outline: none;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: #fff;
-  font-size: 12px;
-  line-height: 1.5;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  text-align: left;
-  text-decoration: none;
+    display: inline-block;
+    float: left;
+    padding: 5px 5px 0 0;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: none;
 }
 .HeaderMenuUstuSecenekler a {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: #fff;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #fff;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
 }
 .HeaderMenuUstuSecenekler a:link,
 .HeaderMenuUstuSecenekler a:visited,
 .HeaderMenuUstuSecenekler a:active {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: #fff;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #fff;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
 }
 
 .HeaderMenuUstuSecenekler a:hover {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: #ff0;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #ff0;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
 }
 .HeaderMenuUstuSecenekler img {
-  display: block;
-  width: 16px;
-  max-width: 16px;
-  min-width: 16px;
-  height: 16px;
-  max-height: 16px;
-  min-height: 16px;
-  margin: 0 auto;
-  padding: 1px 0 0;
-  border: none;
-  outline: none;
+    display: block;
+    width: 16px;
+    max-width: 16px;
+    min-width: 16px;
+    height: 16px;
+    max-height: 16px;
+    min-height: 16px;
+    margin: 0 auto;
+    padding: 1px 0 0;
+    border: none;
+    outline: none;
 }
 
 #HeaderMenuSinirlamaAlani {
-  height: 35px;
-  min-height: 35px;
-  max-height: 35px;
-  border: none;
-  outline: none;
-  overflow: hidden;
-  margin: 0 auto;
-  padding: 0;
-  background-color: #fff;
-  text-align: center;
-  vertical-align: middle;
+    height: 35px;
+    min-height: 35px;
+    max-height: 35px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: middle;
 }
 
 @media only screen and (min-width: 1200px) /*XL Ekran Boyutu*/ {
-  #HeaderMenuSinirlamaAlani {
-    width: 1175px;
-    min-width: 1175px;
-    max-width: 1175px;
-    padding: 20px 0;
-  }
+    #HeaderMenuSinirlamaAlani {
+        width: 1175px;
+        min-width: 1175px;
+        max-width: 1175px;
+        padding: 20px 0;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) /*L Ekran Boyutu*/ {
-  #HeaderMenuSinirlamaAlani {
-    width: 100%;
-    max-width: 100%;
-    min-width: 100%;
-    padding: 15px 0;
-  }
+    #HeaderMenuSinirlamaAlani {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        padding: 15px 0;
+    }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) /*M Ekran Boyutu*/ {
-  #HeaderMenuSinirlamaAlani {
-    width: 100%;
-    max-width: 100%;
-    min-width: 100%;
-    padding: 10px 0;
-  }
+    #HeaderMenuSinirlamaAlani {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        padding: 10px 0;
+    }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) /*S Ekran Boyutu*/ {
-  #HeaderMenuSinirlamaAlani {
-    width: 100%;
-    max-width: 100%;
-    min-width: 100%;
-    padding: 5px 0;
-  }
+    #HeaderMenuSinirlamaAlani {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        padding: 5px 0;
+    }
 }
 @media only screen and (max-width: 575px) /*XS Ekran Boyutu*/ {
-  #HeaderMenuSinirlamaAlani {
-    width: 100%;
-    max-width: 100%;
-    min-width: 100%;
-    padding: 5px 0;
-  }
+    #HeaderMenuSinirlamaAlani {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        padding: 5px 0;
+    }
 }
 #HeaderMenuLogoAlani {
-  display: inline-block;
-  float: left;
-  width: 195px;
-  max-width: 195px;
-  min-width: 195px;
-  height: 35px;
-  max-height: 35px;
-  min-height: 35px;
-  padding: 0 0 0 5px;
-  margin: 0 auto;
-  outline: none;
-  border: none;
-  vertical-align: middle;
-  text-align: left;
+    display: inline-block;
+    float: left;
+    width: 195px;
+    max-width: 195px;
+    min-width: 195px;
+    height: 35px;
+    max-height: 35px;
+    min-height: 35px;
+    padding: 0 0 0 5px;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+    vertical-align: middle;
+    text-align: left;
 }
 #HeaderMenuLogoAlani img {
-  display: block;
-  width: 192px;
-  max-width: 192px;
-  min-width: 192px;
-  height: 35px;
-  max-height: 35px;
-  min-height: 35px;
-  padding: 0;
-  margin: 0 auto;
-  border: none;
-  outline: none;
+    display: block;
+    width: 192px;
+    max-width: 192px;
+    min-width: 192px;
+    height: 35px;
+    max-height: 35px;
+    min-height: 35px;
+    padding: 0;
+    margin: 0 auto;
+    border: none;
+    outline: none;
 }
 
 #HeaderMenuNavAlani {
-  display: inline-block;
-  float: right;
-  width: -webkit-calc(100%-235px);
-  width: -moz-calc(100%-235px);
-  width: -o-calc(100%-235px);
-  width: -ms-calc(100%-235px);
-  width: calc(100%-235px);
+    display: inline-block;
+    float: right;
+    width: -webkit-calc(100%-235px);
+    width: -moz-calc(100%-235px);
+    width: -o-calc(100%-235px);
+    width: -ms-calc(100%-235px);
+    width: calc(100%-235px);
 
-  min-width: -webkit-calc(100%-235px);
-  min-width: -moz-calc(100%-235px);
-  min-width: -o-calc(100%-235px);
-  min-width: -ms-calc(100%-235px);
-  min-width: calc(100%-235px);
+    min-width: -webkit-calc(100%-235px);
+    min-width: -moz-calc(100%-235px);
+    min-width: -o-calc(100%-235px);
+    min-width: -ms-calc(100%-235px);
+    min-width: calc(100%-235px);
 
-  max-width: -webkit-calc(100%-235px);
-  max-width: -moz-calc(100%-235px);
-  max-width: -o-calc(100%-235px);
-  max-width: -ms-calc(100%-235px);
-  max-width: calc(100%-235px);
+    max-width: -webkit-calc(100%-235px);
+    max-width: -moz-calc(100%-235px);
+    max-width: -o-calc(100%-235px);
+    max-width: -ms-calc(100%-235px);
+    max-width: calc(100%-235px);
 
-  height: 35px;
-  min-height: 35px;
-  max-height: 35px;
-  margin: 0 auto;
-  padding: 0;
-  overflow: hidden;
-  border: none;
-  outline: none;
-  background-color: #fff;
-  vertical-align: middle;
-  text-align: right;
+    height: 35px;
+    min-height: 35px;
+    max-height: 35px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    vertical-align: middle;
+    text-align: right;
 }
 
 #HeaderMenuNav {
-  float: right;
-  width: 100%;
-  min-width: 100%;
-  max-width: 100%;
+    float: right;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
 
-  height: 35px;
-  min-height: 35px;
-  max-height: 35px;
-  margin: 0 auto;
-  padding: 0;
+    height: 35px;
+    min-height: 35px;
+    max-height: 35px;
+    margin: 0 auto;
+    padding: 0;
 
-  border: none;
-  outline: none;
-  background-color: #fff;
-  vertical-align: middle;
-  text-align: left;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    vertical-align: middle;
+    text-align: left;
 }
 @media only screen and (min-width: 768px) /*XL, L ve M Ekran Boyutu*/ {
-  #HeaderMenuNav {
-    display: block;
-  }
+    #HeaderMenuNav {
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 767px) /*S ve XS Ekran Boyutu*/ {
-  #HeaderMenuNav {
-    display: none;
-  }
+    #HeaderMenuNav {
+        display: none;
+    }
 }
 #HeaderMenuSeceneklerAlani {
-  display: inline-block;
-  float: right;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: left;
-  border: none;
-  outline: none;
+    display: inline-block;
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    border: none;
+    outline: none;
 }
 
 @media only screen and (min-width: 1200px) /*XL Ekran Boyutu*/ {
-  #HeaderMenuSeceneklerAlani {
-    padding-top: 8px;
-  }
+    #HeaderMenuSeceneklerAlani {
+        padding-top: 8px;
+    }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) /*L Ekran Boyutu*/ {
-  #HeaderMenuSeceneklerAlani {
-    padding-top: 9px;
-  }
+    #HeaderMenuSeceneklerAlani {
+        padding-top: 9px;
+    }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) /*M Ekran Boyutu*/ {
-  #HeaderMenuSeceneklerAlani {
-    padding-top: 10px;
-  }
+    #HeaderMenuSeceneklerAlani {
+        padding-top: 10px;
+    }
 }
 .HeaderMenuSecenekleri {
-  display: inline-block;
-  float: left;
-  margin: 0 auto;
-  padding: 0 5px 0 10px;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: #646464;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 600;
-  line-height: 1.5;
-  text-align: left;
-  text-decoration: none;
+    display: inline-block;
+    float: left;
+    margin: 0 auto;
+    padding: 0 5px 0 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: left;
+    text-decoration: none;
 }
 
 @media only screen and (min-width: 1200px) /*XL Ekran Boyutu*/ {
-  .HeaderMenuSecenekleri {
-    font-size: 14px;
-  }
+    .HeaderMenuSecenekleri {
+        font-size: 14px;
+    }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) /*L Ekran Boyutu*/ {
-  .HeaderMenuSecenekleri {
-    font-size: 13px;
-  }
+    .HeaderMenuSecenekleri {
+        font-size: 13px;
+    }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) /*M Ekran Boyutu*/ {
-  .HeaderMenuSecenekleri {
-    font-size: 12px;
-  }
+    .HeaderMenuSecenekleri {
+        font-size: 12px;
+    }
 }
 .HeaderMenuSecenekleri a {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: #646464;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 600;
-  text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    text-decoration: none;
 }
 .HeaderMenuSecenekleri a:link,
 .HeaderMenuSecenekleri a:visited,
 .HeaderMenuSecenekleri a:active {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: #646464;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 600;
-  text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    text-decoration: none;
 }
 .HeaderMenuSecenekleri a:hover {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: #000;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 600;
-  text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #000;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    text-decoration: none;
 }
 #HeaderMenuAcmaButonuAlani {
-  float: right;
-  width: 26px;
-  min-width: 26px;
-  max-width: 26px;
-  height: 20px;
-  min-height: 20px;
-  max-height: 20px;
-  margin: 0;
-  padding: 5px 10px 0 0;
-  border: none;
-  outline: none;
-  vertical-align: middle;
-  text-align: right;
-  cursor: pointer;
+    float: right;
+    width: 26px;
+    min-width: 26px;
+    max-width: 26px;
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+    margin: 0;
+    padding: 5px 10px 0 0;
+    border: none;
+    outline: none;
+    vertical-align: middle;
+    text-align: right;
+    cursor: pointer;
 }
 @media only screen and (min-width: 768px) /*XL, L, M Ekran Boyutu*/ {
-  #HeaderMenuAcmaButonuAlani {
-    display: none;
-  }
+    #HeaderMenuAcmaButonuAlani {
+        display: none;
+    }
 }
 #HeaderMenuAcmaButonuAlani img {
-  display: block;
-  width: 26px;
-  min-width: 26px;
-  max-width: 26px;
-  height: 20px;
-  min-height: 20px;
-  max-height: 20px;
-  margin: 0 auto;
-  padding: 0;
-  outline: none;
-  border: none;
+    display: block;
+    width: 26px;
+    min-width: 26px;
+    max-width: 26px;
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+    margin: 0 auto;
+    padding: 0;
+    outline: none;
+    border: none;
 }
 
 #HeaderMenuAcmaButonuMenuSinirlamaAlani {
-  width: 100%;
-  min-width: 100%;
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto;
-  padding: 0;
-  overflow: hidden;
-  border: none;
-  outline: none;
-  background-color: #3d3d3d;
-  text-align: center;
-  vertical-align: middle;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #3d3d3d;
+    text-align: center;
+    vertical-align: middle;
 }
 @media only screen and (min-width: 768px) /*XL, L, M Ekran Boyutu*/ {
-  #HeaderMenuAcmaButonuMenuSinirlamaAlani {
-    display: none;
-  }
+    #HeaderMenuAcmaButonuMenuSinirlamaAlani {
+        display: none;
+    }
 }
 @media only screen and (max-width: 767px) /*S, XS Ekran Boyutu*/ {
-  #HeaderMenuAcmaButonuMenuSinirlamaAlani {
-    display: block;
-  }
+    #HeaderMenuAcmaButonuMenuSinirlamaAlani {
+        display: block;
+    }
 }
 
 #HeaderMenuAcmaButonuMenu {
-  display: block;
-  width: 100%;
-  min-width: 100%;
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto;
-  padding: 0;
-  overflow: hidden;
-  border: none;
-  outline: none;
-  background-color: #3d3d3d;
-  text-align: center;
-  vertical-align: top;
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #3d3d3d;
+    text-align: center;
+    vertical-align: top;
 }
 #HeaderMenuAcmaButonuMenuSeceneklerAlani {
-  display: block;
-  float: left;
-  width: 100%;
-  min-width: 100%;
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
+    display: block;
+    float: left;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
 
-  border: none;
-  outline: none;
-  background-color: #3d3d3d;
-  list-style: none;
+    border: none;
+    outline: none;
+    background-color: #3d3d3d;
+    list-style: none;
 }
 
 .HeaderMenuAcmaButonuMenuSecenekleri {
-  display: block;
-  float: left;
-  width: 100%;
-  min-width: 100%;
-  max-width: 100%;
-  height: 20px;
-  max-height: 20px;
-  min-height: 20px;
-  margin: 0 auto;
-  padding: 5px 5px 4px 5px;
-  border-bottom: 1px solid #ccc;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: #fff;
-  font-size: 12px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 600;
-  text-decoration: none;
-  line-height: 1.5;
+    display: block;
+    float: left;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 20px;
+    max-height: 20px;
+    min-height: 20px;
+    margin: 0 auto;
+    padding: 5px 5px 4px 5px;
+    border-bottom: 1px solid #ccc;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #fff;
+    font-size: 12px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 1.5;
 }
 .HeaderMenuAcmaButonuMenuSecenekleri a:link,
 .HeaderMenuAcmaButonuMenuSecenekleri a:visited,
 .HeaderMenuAcmaButonuMenuSecenekleri a:active {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: #fff;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 600;
-  text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #fff;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    text-decoration: none;
 }
 .HeaderMenuAcmaButonuMenuSecenekleri a:hover {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: yellowgreen;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 600;
-  text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: yellowgreen;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 main {
-  position: relative;
+    position: relative;
+    display: block;
+    z-index: 98;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    left: 0;
+    border: none;
+    outline: none;
+    background-color: white;
+    vertical-align: top;
+    text-align: center;
+}
+footer {
+    position: relative;
+    display: block;
+    z-index: 98;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    left: 0;
+    border: none;
+    outline: none;
+    background-color: white;
+    vertical-align: top;
+    text-align: center;
+}
+
+#FooterMenulerAlani {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 5px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+    outline: none;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+#FooterMenulerSinirlamaAlani {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #f9f9f9;
+    text-align: center;
+    vertical-align: middle;
+}
+@media only screen and (min-width: 1200px) /*XL Ekran Boyutu*/ {
+    #FooterMenulerSinirlamaAlani {
+        width: 1175px;
+        min-width: 1175px;
+        max-width: 1175px;
+    }
+}
+
+@media only screen and (max-width: 1199px) /*L, M, S, XS Ekran Boyutu*/ {
+    #FooterMenulerSinirlamaAlani {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+.FooterMenuleriSutunlarAlani {
+    display: inline-block;
+    float: left;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+}
+@media only screen and (min-width: 768px) /*XL, L, M Ekran Boyutu*/ {
+    .FooterMenuleriSutunlarAlani {
+        width: 25%;
+        min-width: 25%;
+        max-width: 25%;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) /*S Ekran Boyutu*/ {
+    .FooterMenuleriSutunlarAlani {
+        width: 50%;
+        min-width: 50%;
+        max-width: 50%;
+
+    }
+    .temizlik{
+      clear: both;
+    }
+}
+@media only screen and (max-width: 575px) /*XS Ekran Boyutu*/ {
+    .FooterMenuleriSutunlarAlani {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    
+    }
+}
+
+.FooterMenuleriSutunlariBaslikAlani {
+    display: block;
+    width: -webkit-calc(100%-10px);
+    width: -moz-calc(100%-10px);
+    width: -o-calc(100%-10px);
+    width: -ms-calc(100%-10px);
+    width: calc(100%-10px);
+
+    min-width: -webkit-calc(100%-10px);
+    min-width: -moz-calc(100%-10px);
+    min-width: -o-calc(100%-10px);
+    min-width: -ms-calc(100%-10px);
+    min-width: calc(100%-10px);
+
+    max-width: -webkit-calc(100%-10px);
+    max-width: -moz-calc(100%-10px);
+    max-width: -o-calc(100%-10px);
+    max-width: -ms-calc(100%-10px);
+    max-width: calc(100%-10px);
+    height: auto;
+    margin: 0 10px 5px auto;
+    padding: 0 0 5px;
+    border: none;
+    border-bottom: 1px dashed #000;
+    outline: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #000;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+}
+@media only screen and (min-width: 1200px) /*XL Ekran Boyutu*/ {
+   .FooterMenuleriSutunlariBaslikAlani{
+      font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) /*L Ekran Boyutu*/ {
+  .FooterMenuleriSutunlariBaslikAlani {
+      font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 991px)  /*M,S,XS Ekran Boyutu*/ {
+  .FooterMenuleriSutunlariBaslikAlani {
+      font-size: 12px;
+  }
+}
+
+.FooterMenuleriSutunlariMenulerAlani {
   display: block;
-  z-index: 98;
-  width: 100%;
-  min-width: 100%;
-  max-width: 100%;
+  width: -webkit-calc(100%-10px);
+  width: -moz-calc(100%-10px);
+  width: -o-calc(100%-10px);
+  width: -ms-calc(100%-10px);
+  width: calc(100%-10px);
+
+  min-width: -webkit-calc(100%-10px);
+  min-width: -moz-calc(100%-10px);
+  min-width: -o-calc(100%-10px);
+  min-width: -ms-calc(100%-10px);
+  min-width: calc(100%-10px);
+
+  max-width: -webkit-calc(100%-10px);
+  max-width: -moz-calc(100%-10px);
+  max-width: -o-calc(100%-10px);
+  max-width: -ms-calc(100%-10px);
+  max-width: calc(100%-10px);
+
   height: auto;
   margin: 0 auto;
-  padding: 0;
-  left: 0;
+  padding:3px 0;
   border: none;
   outline: none;
-  background-color: white;
+
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #646464;
+
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+
+  line-height: 1.5;
+  text-align: left;
+  text-decoration: none;
   vertical-align: top;
-  text-align: center;
 }
+
+@media only screen and (min-width: 1200px) /*XL Ekran Boyutu*/ {
+  .FooterMenuleriSutunlariMenulerAlani{
+     font-size: 14px;
+ }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) /*L Ekran Boyutu*/ {
+ .FooterMenuleriSutunlariMenulerAlani {
+     font-size: 13px;
+ }
+}
+
+@media only screen and (max-width: 991px)  /*M,S,XS Ekran Boyutu*/ {
+ .FooterMenuleriSutunlariMenulerAlani {
+     font-size: 12px;
+ }
+}
+
+.FooterMenuleriSutunlariMenulerAlani a{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #646464;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+}
+.FooterMenuleriSutunlariMenulerAlani a:link,
+.FooterMenuleriSutunlariMenulerAlani a:active,
+.FooterMenuleriSutunlariMenulerAlani a:visited
+{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #646464;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+}
+.FooterMenuleriSutunlariMenulerAlani a:hover{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: black;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: underline;
+}
+.FooterMenuleriSutunlariMenulerAlani img{
+  display: inline-block;
+  float: left;
+  width: 16px;
+  max-width: 16px;
+  min-width: 16px;
+
+  height: 16px;
+  max-height: 16px;
+  min-height: 16px;
+  margin: 0 auto;
+  padding: 0 5px 0 0;
+  border: none;
+  outline: none;
+}
+
+@media only screen and (min-width: 1200px) /*XL Ekran Boyutu*/ {
+  .FooterMenuleriSutunlariMenulerAlani img{
+    padding-top: 2px;
+ }
+}
+
+@media only screen and (max-width: 1199px) /*L,M,S,XS  Ekran Boyutu*/ {
+ .FooterMenuleriSutunlariMenulerAlani img{
+  padding-top: 1px;
+
+ }
+}
+
