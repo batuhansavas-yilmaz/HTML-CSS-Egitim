@@ -882,7 +882,7 @@ footer {
         min-width: 49%;
         max-width: 49%;
     }
-    .temizlik {
+    .FooterMenuleriSutunlarTemizlemeAlani {
         clear: both;
     }
 }
@@ -1300,7 +1300,8 @@ footer {
     overflow: hidden;
     border: none;
     outline: none;
-}#FooterAltMaximum {
+}
+#FooterAltMaximum {
     display: inline-block;
     width: 46px;
     min-width: 46px;
@@ -1449,7 +1450,8 @@ footer {
     overflow: hidden;
     border: none;
     outline: none;
-}#FooterAltVisaCard {
+}
+#FooterAltVisaCard {
     display: inline-block;
     width: 37px;
     min-width: 37px;
@@ -1478,7 +1480,8 @@ footer {
     overflow: hidden;
     border: none;
     outline: none;
-}#FooterAltMasterCard {
+}
+#FooterAltMasterCard {
     display: inline-block;
     width: 21px;
     min-width: 21px;
@@ -1507,7 +1510,8 @@ footer {
     overflow: hidden;
     border: none;
     outline: none;
-}#FooterAltAmericanExpiress {
+}
+#FooterAltAmericanExpiress {
     display: inline-block;
     width: 20px;
     min-width: 20px;
@@ -1536,7 +1540,8 @@ footer {
     overflow: hidden;
     border: none;
     outline: none;
-}#FooterAltTurkTelekom {
+}
+#FooterAltTurkTelekom {
     display: inline-block;
     width: 59px;
     min-width: 59px;
@@ -1565,7 +1570,8 @@ footer {
     overflow: hidden;
     border: none;
     outline: none;
-}#FooterAltTurkcell {
+}
+#FooterAltTurkcell {
     display: inline-block;
     width: 53px;
     min-width: 53px;
@@ -1594,7 +1600,8 @@ footer {
     overflow: hidden;
     border: none;
     outline: none;
-}#FooterAltVodafone {
+}
+#FooterAltVodafone {
     display: inline-block;
     width: 63px;
     min-width: 63px;
@@ -1623,7 +1630,8 @@ footer {
     overflow: hidden;
     border: none;
     outline: none;
-}#FooterAltWireCard {
+}
+#FooterAltWireCard {
     display: inline-block;
     width: 60px;
     min-width: 60px;
@@ -1652,4 +1660,274 @@ footer {
     overflow: hidden;
     border: none;
     outline: none;
+}
+
+#SonucSayfalariAlani {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    border: none;
+    outline: none;
+    background-color: #eee;
+    vertical-align: top;
+    text-align: center;
+}
+@media only screen and (min-width: 1200px) /*XL Ekran Boyutu*/ {
+    #SonucSayfalariAlani {
+        padding: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 1199px) /*L, M, S, XS Ekran Boyutu*/ {
+    #SonucSayfalariAlani {
+        padding: 5px 0;
+    }
+}
+
+#SonucSayfalariSinirlamaAlani {
+    position: relative;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid #ddd;
+    outline: none;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media only screen and (min-width: 1200px) /*XL Ekran Boyutu*/ {
+    #SonucSayfalariSinirlamaAlani {
+        width: -webkit-calc(1175px - 12px);
+        width: -moz-calc(1175px - 12px);
+        width: -o-calc(1175px - 12px);
+        width: -ms-calc(1175px - 12px);
+        width: calc(1175px - 12px);
+
+        min-width: -webkit-calc(1175px - 12px);
+        min-width: -moz-calc(1175px - 12px);
+        min-width: -o-calc(1175px - 12px);
+        min-width: -ms-calc(1175px - 12px);
+        min-width: calc(1175px - 12px);
+
+        max-width: -webkit-calc(1175px - 12px);
+        max-width: -moz-calc(1175px - 12px);
+        max-width: -o-calc(1175px - 12px);
+        max-width: -ms-calc(1175px - 12px);
+        max-width: calc(1175px - 12px);
+    }
+}
+@media only screen and (max-width: 1199px) /*L, M, S, XS Ekran Boyutu*/ {
+    #SonucSayfalariSinirlamaAlani {
+        width: -webkit-calc(100% - 12px);
+        width: -moz-calc(100% - 12px);
+        width: -o-calc(100% - 12px);
+        width: -ms-calc(100% - 12px);
+        width: calc(100% - 12px);
+
+        min-width: -webkit-calc(100% - 12px);
+        min-width: -moz-calc(100% - 12px);
+        min-width: -o-calc(100% - 12px);
+        min-width: -ms-calc(100% - 12px);
+        min-width: calc(100% - 12px);
+
+        max-width: -webkit-calc(100% - 12px);
+        max-width: -moz-calc(100% - 12px);
+        max-width: -o-calc(100% - 12px);
+        max-width: -ms-calc(100% - 12px);
+        max-width: calc(100% - 12px);
+    }
+}
+#SonucSayfalariBilgiAlani {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: top;
+}
+
+@media only screen and (min-width: 1200px) /*XL Ekran Boyutu*/ {
+    #SonucSayfalariBilgiAlani {
+        width: -webkit-calc(100% - 40px);
+        width: -moz-calc(100% - 40px);
+        width: -o-calc(100% - 40px);
+        width: -ms-calc(1100% - 40px);
+        width: calc(100% - 40px);
+
+        min-width: -webkit-calc(100% - 40px);
+        min-width: -moz-calc(100% - 40px);
+        min-width: -o-calc(100% - 40px);
+        min-width: -ms-calc(100% - 40px);
+        min-width: calc(100% - 40px);
+
+        max-width: -webkit-calc(100% - 40px);
+        max-width: -moz-calc(100% - 40px);
+        max-width: -o-calc(100% - 40px);
+        max-width: -ms-calc(100% - 40px);
+        max-width: calc(100% - 40px);
+    }
+}
+
+@media only screen and (max-width: 1199px) /*L, M, S, XS Ekran Boyutu*/ {
+    #SonucSayfalariBilgiAlani {
+        width: -webkit-calc(100% - 30px);
+        width: -moz-calc(100% - 30px);
+        width: -o-calc(100% - 30px);
+        width: -ms-calc(1100% - 30px);
+        width: calc(100% - 30px);
+
+        min-width: -webkit-calc(100% - 30px);
+        min-width: -moz-calc(100% - 30px);
+        min-width: -o-calc(100% - 30px);
+        min-width: -ms-calc(1100% - 30px);
+        min-width: calc(100% - 30px);
+
+        max-width: -webkit-calc(100% - 30px);
+        max-width: -moz-calc(100% - 30px);
+        max-width: -o-calc(100% - 30px);
+        max-width: -ms-calc(1100% - 30px);
+        max-width: calc(100% - 30px);
+    }
+}
+#SonucSayfalariAlaniIslemIkonuAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 1000px;
+    min-height: 100px;
+    max-height: 100px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    vertical-align: top;
+    text-decoration: none;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1200px) /*XL Ekran Boyutu*/ {
+    #SonucSayfalariAlaniIslemIkonuAlani {
+        margin: 40px auto 20px;
+    }
+}
+
+@media only screen and (max-width: 1199px) /*L, M, S, XS Ekran Boyutu*/ {
+    #SonucSayfalariAlaniIslemIkonuAlani {
+        margin: 20px auto 10px;
+    }
+}
+#SonucSayfalariAlaniIslemIkonuAlani img {
+    display: block;
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+#SonucSayfalariBaslikAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 10px;
+    padding: 0;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    background-color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-align: center;
+    text-decoration: none;
+}
+@media only screen and (min-width: 1200px) /*XL Ekran Boyutu*/ {
+    #SonucSayfalariBaslikAlani {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) /*L Ekran Boyutu*/ {
+    #SonucSayfalariBaslikAlani {
+        font-size: 13px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) /*M Ekran Boyutu*/ {
+    #SonucSayfalariBaslikAlani {
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) /*S Ekran Boyutu*/ {
+    #SonucSayfalariBaslikAlani {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 575px) /*XS Ekran Boyutu*/ {
+    #SonucSayfalariBaslikAlani {
+        font-size: 12px;
+    }
+}
+
+#SonucSayfalariIcerikAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px;
+    padding: 0;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    background-color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 120%;
+    text-align: center;
+    text-decoration: none;
+}
+#SonucSayfalariIcerikAlani a {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none;
+}
+#SonucSayfalariIcerikAlani a:link,
+#SonucSayfalariIcerikAlani a:visited,
+#SonucSayfalariIcerikAlani a:active {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    text-decoration: none;
+}
+#SonucSayfalariIcerikAlani a:hover {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: underline;
 }
