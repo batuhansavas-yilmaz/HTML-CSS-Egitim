@@ -7,20 +7,17 @@
     outline: none;
     box-sizing: border-box;
     overflow-x: hidden;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
     list-style-type: none;
-    font-size: 14px;
 }
 
 body {
     background-color: #1e1e1e;
-    font-size: 14px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header {
     background-color: #fff;
-
     height: 80px;
 }
 
@@ -140,6 +137,14 @@ body {
     margin-right: 10px;
 }
 
+main {
+    width: 100%;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 #fixed-share {
     background-color: #fff;
     display: block;
@@ -182,4 +187,247 @@ body {
 
 .fa-youtube-square:hover {
     color: #ff0000;
+}
+
+/* RESPONSIVE TASARIM */
+
+@media only screen and (min-width: 1200px) /*XL Ekran Boyutu*/ {
+    #fixed-popular {
+        background-color: #fff;
+        display: block;
+        position: fixed;
+        width: 20%;
+        height: auto;
+        margin: 30px 0;
+        top: 80px;
+        right: 80px;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+
+    #fixed-share {
+        background-color: #fff;
+        display: block;
+        position: fixed;
+        width: 20%;
+        height: auto;
+        margin: 30px 0;
+        top: 340px;
+        right: 80px;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+
+    #fixed-share a,
+    #fixed-share a i {
+        font-size: 40px;
+    }
+
+    #post {
+        display: inline-block;
+        margin: 30px 0px 30px 150px;
+        width: 60%;
+        height: auto;
+        background-color: #fff;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    #post-subtitle {
+        margin: 10px 10px;
+        padding: 10px;
+    }
+    .Langs {
+        font-size: 17px;
+        font-weight: 600;
+        color: white;
+        margin: 10px;
+        padding: 7px 20px;
+        background-color: black;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) /*L Ekran Boyutu*/ {
+    #fixed-popular {
+        background-color: #fff;
+        display: block;
+        position: fixed;
+        width: 25%;
+        height: auto;
+        margin: 30px 0;
+        top: 80px;
+        right: 50px;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 13px;
+    }
+
+    #fixed-share {
+        background-color: #fff;
+        display: block;
+        position: fixed;
+        width: 25%;
+        height: auto;
+        margin: 30px 0;
+        top: 340px;
+        right: 50px;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 13px;
+    }
+
+    #fixed-share a,
+    #fixed-share i {
+        font-size: 35px;
+    }
+
+    #post {
+        display: inline-block;
+        margin: 30px 0px 30px 90px;
+        width: 60%;
+        height: auto;
+        background-color: #fff;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        font-size: 13px;
+    }
+    .post-title {
+        font-size: 20px;
+    }
+
+    .post-title::before {
+        font-size: 20px;
+    }
+
+    .post-content {
+        font-size: 15px;
+    }
+
+    .Langs {
+        font-size: 14px;
+
+        margin: 8px;
+        padding: 7px 20px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) /*M Ekran Boyutu*/ {
+    #fixed-popular {
+        background-color: #fff;
+        display: block;
+        position: fixed;
+        width: 30%;
+        height: auto;
+        margin: 30px 0;
+        top: 80px;
+        right: 35px;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+
+    #fixed-share {
+        background-color: #fff;
+        display: block;
+        position: fixed;
+        width: 30%;
+        height: auto;
+        margin: 30px 0;
+        top: 340px;
+        right: 35px;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+
+    #fixed-share a,
+    #fixed-share i {
+        font-size: 30px;
+    }
+
+    #post {
+        display: inline-block;
+        margin: 30px 0px 30px 35px;
+        width: 60%;
+        height: auto;
+        background-color: #fff;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .post-title {
+        font-size: 20px;
+    }
+
+    .post-title::before {
+        font-size: 20px;
+    }
+
+    .post-content {
+        font-size: 15px;
+    }
+
+    .Langs {
+        font-size: 14px;
+
+        margin: 8px;
+        padding: 7px 20px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) /*S Ekran Boyutu*/ {
+    #fixed-popular {
+        background-color: #fff;
+        display: block;
+        position: relative;
+        top: 20px;
+        height: auto;
+        margin: 30px;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+
+    #fixed-share {
+        background-color: #fff;
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 20px;
+        margin: 30px 0;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+
+    #fixed-share a,
+    #fixed-share i {
+        font-size: 30px;
+    }
+
+    #post {
+        display: block;
+        width: 90%;
+        height: auto;
+        background-color: #fff;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .post-title {
+        font-size: 20px;
+    }
+
+    .post-title::before {
+        font-size: 20px;
+    }
+
+    .post-content {
+        font-size: 13px;
+    }
+
+    .Langs {
+        font-size: 12px;
+        margin: 4px;
+        padding: 5px 10px;
+    }
+}
+@media only screen and (max-width: 575px) /*XS Ekran Boyutu*/ {
 }
