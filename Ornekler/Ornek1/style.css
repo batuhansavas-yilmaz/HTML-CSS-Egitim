@@ -34,6 +34,10 @@ body {
     height: auto;
     font-size: 50px;
 }
+.menu{
+    width: 50%;
+    text-align: right;
+}
 
 .menu li {
     margin: 0 10px;
@@ -382,32 +386,53 @@ main {
     #fixeds2 {
         display: none;
     }
+    .menu{
+        width: auto;
+        text-align: left;
+    }
+    
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) /*S Ekran Boyutu*/ {
-    #fixeds2 {
+    .menu{
+        width: auto;
+        text-align: left;
+    }
+    
+    footer{
+        position: sticky;
         display: flex;
-        justify-content: space-around;
-        margin: 0 10px;
+   
+ margin: 0 auto;
+ padding: 0;
+ bottom: 0px;
+ left: 10px;
+
+ justify-content: space-evenly;
+        
+    }
+    #fixeds2 {
+        position: sticky;
+        display: flex;
+        background-color: white;
+     width: 100%;
+ justify-content: space-evenly;
+     
+      
+  
     }
     #fixed-popular2 {
-        border: 2px solid;
-        position: fixed;
-        bottom: 20px;
 
-        left: 60px;
         font-size: 10px;
     }
 
     #fixed-share2 {
-        border: 2px solid;
-        justify-content: center;
-        position: fixed;
+    
+        
         display: block;
         padding: 10px;
         width: 20%;
 
-        right: 60px;
-        bottom: 20px;
+      
         font-size: 10px;
     }
 
@@ -456,31 +481,44 @@ main {
         padding: 5px 20px;
     }
 }
-@media only screen and (max-width: 575px) /*XS Ekran Boyutu*/ {
-    #fixeds2 {
+@media only screen and (min-width: 367px) and (max-width: 575px) /*XS Ekran Boyutu*/ {
+    footer{
+        position: sticky;
         display: flex;
-        justify-content: space-around;
-        margin: 0 10px;
+   
+ margin: 0 auto;
+ padding: 0;
+ bottom: 0px;
+ left: 10px;
+
+ justify-content: space-evenly;
+        
+    }
+    #fixeds2 {
+
+        position: sticky;
+        display: flex;
+        background-color: white;
+     width: 100%;
+ justify-content: space-evenly;
+     
+      
+  
     }
     #fixed-popular2 {
-        border: 2px solid;
-        position: fixed;
-        bottom: 20px;
-
-        left: 60px;
+        padding-top: 5px;
         font-size: 10px;
     }
 
     #fixed-share2 {
-        border: 2px solid;
-        justify-content: center;
-        position: fixed;
-        display: block;
+    
+        padding-top: 5px;
+        
+        display: grid;
         padding: 10px;
-        width: 20%;
+       column-count: 2;
 
-        right: 60px;
-        bottom: 20px;
+      
         font-size: 10px;
     }
 
@@ -519,48 +557,39 @@ main {
         font-size: 13px;
     }
     #post-subtitle {
+        width: auto;
         display: flex;
         justify-content: space-around;
     }
     .Langs {
         text-align: center;
-        font-size: 12px;
+        font-size: 10px;
         margin: 0px;
-        padding: 5px 20px;
+        padding: 5px 12px;
     }
-
-    .header {
-        background-color: #fff;
-        height: 80px;
-    }
-
-    .sinirlama {
-        height: 100%;
-        padding: 0 10px;
-        width: 100%;
-        display: flex;
-    }
-
+    
     .logo {
         height: auto;
-        font-size: 30px;
-        width: 50%;
+        font-size: 40px;
+      width: 50%;
     }
-
-    .menu li {
+    .menu{
         width: 50%;
+        text-align: left;
+    }
+    .menu li {
+        font-size: 13px;
+        margin: 0 0 0 15px;
+        text-align: left;
 
-        font-size: 15px;
-        align-items: center;
-        margin: 0 10px;
-        display: inline-flex;
-        justify-content: space-evenly;
+     
+
     }
     .menu a {
         color: cornflowerblue;
         text-decoration: none;
     }
-
+    
     .menu a:link,
     .menu a:visited,
     .menu a:active {
@@ -571,7 +600,7 @@ main {
         font-weight: normal;
         text-decoration: none;
     }
-
+    
     .menu a:hover {
         font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
         color: black;
@@ -580,4 +609,344 @@ main {
         font-weight: normal;
         text-decoration: none;
     }
+
+    .share-container2 a {
+        font-size: 40px;
+        color: gray;
+        transition: 0.2s;
+    }
+    
+    .share-container2 a i {
+        font-size: 40px;
+    }
+    
+    .fa-facebook-square:hover {
+        color: #0a80ed;
+    }
+    
+    .fa-twitter-square:hover {
+        color: #1a8cd8;
+    }
+    
+    .fa-instagram-square:hover {
+        color: #db2e7d;
+    }
+    
+    .fa-youtube-square:hover {
+        color: #ff0000;
+    }
 }
+
+@media only screen and (min-width: 339px) and (max-width: 366px) /*XSS Ekran Boyutu*/ {
+    footer{
+        position: sticky;
+        display: flex;
+   
+ margin: 0 auto;
+ padding: 0;
+ bottom: 0px;
+ left: 10px;
+
+ justify-content: space-evenly;
+        
+    }
+    #fixeds2 {
+
+        position: sticky;
+        display: flex;
+        background-color: white;
+     width: 100%;
+ justify-content: space-evenly;
+     
+      
+  
+    }
+    #fixed-popular2 {
+        padding-top: 5px;
+        font-size: 10px;
+    }
+
+    #fixed-share2 {
+    
+        padding-top: 5px;
+        
+        display: grid;
+        padding: 10px;
+       column-count: 2;
+
+      
+        font-size: 10px;
+    }
+
+    #fixed-share2 a,
+    #fixed-share2 i {
+        font-size: 20px;
+    }
+    #fixeds {
+        display: none;
+    }
+    #post {
+        display: block;
+        width: 100%;
+        margin: 10px 100px;
+        background-color: #fff;
+        position: relative;
+        left: -100px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .post-title {
+        margin: 0 5px;
+
+        font-size: 20px;
+    }
+
+    .post-title::before {
+        margin: 0 5px;
+
+        font-size: 20px;
+    }
+
+    .post-content {
+        margin: 0 auto;
+        text-indent: 25px;
+        font-size: 13px;
+    }
+    #post-subtitle {
+        width: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .Langs {
+        text-align: center;
+        font-size: 10px;
+        margin: 0px;
+        padding: 5px 12px;
+    }
+    
+    .logo {
+        height: auto;
+        font-size: 40px;
+      width: 50%;
+    }
+    .menu{
+        width: 60%;
+        text-align: left;
+    }
+    .menu li {
+        font-size: 13px;
+        margin: 0 0 0 15px;
+        text-align: left;
+
+     
+
+    }
+    .menu a {
+        color: cornflowerblue;
+        text-decoration: none;
+    }
+    
+    .menu a:link,
+    .menu a:visited,
+    .menu a:active {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        color: darkblue;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        text-decoration: none;
+    }
+    
+    .menu a:hover {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        color: black;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        text-decoration: none;
+    }
+
+    .share-container2 a {
+        font-size: 40px;
+        color: gray;
+        transition: 0.2s;
+    }
+    
+    .share-container2 a i {
+        font-size: 40px;
+    }
+    
+    .fa-facebook-square:hover {
+        color: #0a80ed;
+    }
+    
+    .fa-twitter-square:hover {
+        color: #1a8cd8;
+    }
+    
+    .fa-instagram-square:hover {
+        color: #db2e7d;
+    }
+    
+    .fa-youtube-square:hover {
+        color: #ff0000;
+    }
+}
+
+
+@media only screen AND (max-width: 338px) /*XSSS Ekran Boyutu*/ {
+    footer{
+        position: sticky;
+        display: flex;
+   
+ margin: 0 auto;
+ padding: 0;
+ bottom: 0px;
+ left: 10px;
+
+ justify-content: space-evenly;
+        
+    }
+    #fixeds2 {
+
+        position: sticky;
+        display: flex;
+        background-color: white;
+     width: 100%;
+ justify-content: space-evenly;
+     
+      
+  
+    }
+    #fixed-popular2 {
+        padding-top: 5px;
+        font-size: 10px;
+    }
+
+    #fixed-share2 {
+    
+        padding-top: 5px;
+        
+        display: grid;
+        padding: 10px;
+       column-count: 2;
+
+      
+        font-size: 10px;
+    }
+
+    #fixed-share2 a,
+    #fixed-share2 i {
+        font-size: 20px;
+    }
+    #fixeds {
+        display: none;
+    }
+    #post {
+        display: block;
+        width: 100%;
+        margin: 10px 100px;
+        background-color: #fff;
+        position: relative;
+        left: -100px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .post-title {
+        margin: 0 5px;
+
+        font-size: 20px;
+    }
+
+    .post-title::before {
+        margin: 0 5px;
+
+        font-size: 20px;
+    }
+
+    .post-content {
+        margin: 0 auto;
+        text-indent: 25px;
+        font-size: 13px;
+    }
+    #post-subtitle {
+        width: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .Langs {
+        text-align: center;
+        font-size: 10px;
+        margin: 0px;
+        padding: 5px 12px;
+    }
+    
+    .logo {
+        height: auto;
+        font-size: 40px;
+      width: 50%;
+    }
+    .menu{
+        width: 70%;
+        text-align: left;
+    }
+    .menu li {
+        font-size: 13px;
+        margin: 0 0 0 15px;
+        text-align: left;
+
+     
+
+    }
+    .menu a {
+        color: cornflowerblue;
+        text-decoration: none;
+    }
+    
+    .menu a:link,
+    .menu a:visited,
+    .menu a:active {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        color: darkblue;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        text-decoration: none;
+    }
+    
+    .menu a:hover {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        color: black;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        text-decoration: none;
+    }
+
+    .share-container2 a {
+        font-size: 40px;
+        color: gray;
+        transition: 0.2s;
+    }
+    
+    .share-container2 a i {
+        font-size: 40px;
+    }
+    
+    .fa-facebook-square:hover {
+        color: #0a80ed;
+    }
+    
+    .fa-twitter-square:hover {
+        color: #1a8cd8;
+    }
+    
+    .fa-instagram-square:hover {
+        color: #db2e7d;
+    }
+    
+    .fa-youtube-square:hover {
+        color: #ff0000;
+    }
+}
+
