@@ -237,9 +237,9 @@ header .container #links ul li a {
     }
 
     header .container label {
-        font-size: 25px;
+        font-size: 20px;
         position: absolute;
-        top: 10px;
+        top: 12px;
         right: 20px;
         z-index: 1;
         border: 1px solid white;
