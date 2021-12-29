@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link type="text/css" rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <title>Başlığımız</title>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                border: none;
+                outline: none;
+                overflow-x: hidden;
+                box-sizing: border-box;
+                text-decoration: none;
+                list-style-type: none;
+            }
+
+            body {
+                font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            body::-webkit-scrollbar {
+                background-color: #212121;
+                width: 10px;
+            }
+
+            body::-webkit-scrollbar-thumb {
+                background-color: #fff;
+                border-radius: 10px;
+                border: 3px solid #212121;
+            }
+
+            header {
+                display: block;
+                width: 100%;
+                background-color: #15947a;
+                color: #ffffff;
+            }
+
+            header #header-container {
+                display: flex;
+                width: 1100px;
+                margin: auto;
+                padding: 20px 0;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            header #header-container #logo {
+                font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+                font-size: 40px;
+                font-weight: 600;
+                text-shadow: 2px 2px 3px #000;
+                width: 50%;
+            }
+
+            header #header-container #links {
+                width: 50%;
+            }
+
+            header #header-container #links ul {
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            header #header-container #links ul li {
+                margin: 0 10px;
+                font-size: 20px;
+            }
+
+            header #header-container #links ul li a {
+                color: white;
+            }
+
+            #border {
+                width: 100%;
+                height: 15px;
+                background-color: #212121;
+            }
+
+            /*--------------*/
+
+            main {
+                display: block;
+                width: 100%;
+                background-color: #fff;
+                color: #000;
+            }
+
+            main #main-container {
+                display: flex;
+                width: 1100px;
+                margin: auto;
+                padding: 100px 0;
+                column-gap: 20px;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-start;
+                text-align: justify;
+            }
+
+            main #left-article h3,
+            main #right-article h3 {
+                font-size: 30px;
+                color: #15947a;
+                margin-bottom: 40px;
+            }
+
+            main #left-article h3 span {
+                font-size: 14px;
+                display: block;
+                font-weight: 500;
+                color: #969696;
+            }
+
+            /*------------*/
+
+            footer {
+                display: block;
+                width: 100%;
+                background-color: #212121;
+                color: #ffffff;
+            }
+
+            footer #footer-container {
+                display: flex;
+                width: 1100px;
+                margin: auto;
+                padding: 50px 0;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-start;
+            }
+
+            footer #footer-container .footer-menu h3 {
+                font-size: 25px;
+                font-weight: 500;
+                margin-bottom: 20px;
+            }
+
+            footer #footer-container .footer-menu li {
+                font-size: 20px;
+                margin-bottom: 10px;
+                padding: 5px 0;
+            }
+
+            footer #footer-container .footer-menu li a {
+                color: #a1a1a1;
+            }
+
+            footer #footer-container .footer-menu p {
+                color: #a1a1a1;
+            }
+
+            footer #footer-container .footer-menu #social-links {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            footer #footer-container .footer-menu #social-links a {
+                color: #15947a;
+                font-size: 50px;
+            }
+
+            @media only screen and (min-width: 1200px) {
+                /* XL ekranlar için*/
+                body{
+                    font-size: 16px;
+                }
+                
+                header #header-container {
+                    width: 1100px;
+                }
+
+                main #main-container {
+                    width: 1100px;
+                }
+
+                footer #footer-container {
+                    width: 1100px;
+                }
+            }
+
+            @media only screen and (min-width: 992px) and (max-width: 1199px) {
+                /* L ekranlar için*/
+                body{
+                    font-size: 15px;
+                }
+
+                header #header-container {
+                    width: 800px;
+                }
+
+                main #main-container {
+                    width: 800px;
+                    flex-direction: column;
+                }
+
+                main #main-container div {
+                    margin: 20px 0;
+                }
+
+                footer #footer-container {
+                    width: 800px;
+                }
+            }
+
+            @media only screen and (max-width: 991px) {
+                /* M ekranlar için*/
+                body{
+                    font-size: 15px;
+                }
+
+                header #header-container {
+                    width: 800px;
+                    flex-direction: column;
+                }
+                header #header-container #logo {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                header #header-container #links {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                main #main-container {
+                    width: 700px;
+                    flex-direction: column;
+                    padding: 50px 0;
+                }
+
+                main #main-container div {
+                    margin: 20px 0;
+                }
+
+                footer #footer-container {
+                    width: 700px;
+                    margin: auto;
+                    padding: 50px 0;
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+
+                footer #footer-container .footer-menu:nth-child(1),
+                footer #footer-container .footer-menu:nth-child(2) {
+                    margin-bottom: 50px;
+                    border-bottom: 2px solid white;
+                    width: 100%;
+                    padding: 20px 0;
+                }
+            }
+
+            @media only screen and (min-width: 576px) and (max-width: 767px) {
+                /* S ekranlar için*/
+                body{
+                    font-size: 13px;
+                }
+
+                header #header-container {
+                    width: 600px;
+                }
+
+                header #header-container #links {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                main #main-container {
+                    width: 500px;
+                    flex-direction: column;
+                    padding: 35px 0;
+                }
+
+                main #main-container div {
+                    margin: 20px 0;
+                }
+
+                footer #footer-container {
+                    width: 500px;
+                    margin: auto;
+                    padding: 50px 0;
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+
+                footer #footer-container .footer-menu:nth-child(1),
+                footer #footer-container .footer-menu:nth-child(2) {
+                    margin-bottom: 50px;
+                    border-bottom: 2px solid white;
+                    width: 100%;
+                    padding: 20px 0;
+                }
+            }
+
+            @media only screen and (max-width: 575px) {
+                /* XS ekranlar için*/
+                body{
+                    font-size: 13px;
+                }
+
+                header #header-container {
+                    width: 400px;
+                    margin: 0 20px;
+                }
+
+                main #main-container {
+                    width: 400px;
+                    flex-direction: column;
+                    padding: 0;
+                }
+
+                main #main-container div {
+                    margin: 20px 0;
+                }
+
+                footer #footer-container {
+                    width: 400px;
+                    padding: 50px 0;
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+
+                footer #footer-container .footer-menu:nth-child(1),
+                footer #footer-container .footer-menu:nth-child(2) {
+                    margin-bottom: 50px;
+                    border-bottom: 2px solid white;
+                    width: 100%;
+                    padding: 20px 0;
+                }
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <header>
+            <div id="header-container">
+                <div id="logo">UGY Store</div>
+                <nav id="links">
+                    <ul>
+                        <li><a href="#">Ana Sayfa</a></li>
+                        <li><a href="#">Ürünler</a></li>
+                        <li><a href="#">İletişim</a></li>
+                        <li><a href="#">Hakkımızda</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="border"></div>
+        </header>
+
+        <main>
+            <div id="main-container">
+                <div id="left-article">
+                    <h3>Lorem Ipsum Nedir?
+                        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </span>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, mollitia fuga dolores earum inventore enim nesciunt error facere cum a autem, eius culpa quidem voluptatem adipisci repellendus laborum tenetur aspernatur.
+                    Alias, dolorum aut distinctio impedit sint eligendi voluptate eius illum? Maiores vel ratione, dolorum laboriosam vero voluptatibus velit placeat incidunt molestiae, inventore magni est ad labore adipisci totam itaque ipsam.
+                    Expedita non voluptatibus, hic nobis dolorum saepe explicabo officia placeat recusandae deleniti aspernatur neque sunt minima provident temporibus cupiditate consectetur repellendus dolore amet excepturi quia in vitae! Sint, aspernatur provident?
+                    Sunt reiciendis dicta, maiores, deleniti cumque illo eum voluptatum perferendis sed similique quis tempore! Quia iure at magnam repudiandae dicta ab maiores, rem, ducimus necessitatibus atque deleniti veniam, accusantium fuga?
+                    Soluta expedita atque sunt tempore, dicta magnam eaque sapiente eius eum officiis nesciunt tempora aliquid ipsam alias quaerat voluptatem blanditiis aut obcaecati enim, provident cumque. Totam inventore necessitatibus dignissimos dicta.</p>
+                </div>
+                <div id="right-article">
+                    <h3>Neden Kullanırız?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vero quam error sed totam qui, dicta dolorum pariatur accusamus assumenda beatae consequatur suscipit velit culpa perferendis vel! Ad, accusamus laudantium?
+                    Saepe minus voluptatem quibusdam laboriosam veniam. Doloremque natus perferendis exercitationem earum? Rerum, eius magni deserunt asperiores, distinctio, dolor quae veniam eveniet nemo molestias ab deleniti libero quis quaerat? Saepe, praesentium!</p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div id="footer-container">
+                <div class="footer-menu">
+                    <h3>Son Yazılar</h3>
+                    <ul>
+                        <li><a href="#">Responsive Web Tasarımı Nedir?</a></li>
+                        <li><a href="#">Responsive Web Tasarımı Nasıl Yapılır?</a></li>
+                        <li><a href="#">Responsive Web Tasarımı Önemi</a></li>
+                        <li><a href="#">Responsive Frameworkler</a></li>
+                    </ul>
+                </div>
+                <div class="footer-menu">
+                    <h3>Popüler Linkler</h3>
+                    <ul>
+                        <li><a href="#">Deneme Link</a></li>
+                        <li><a href="#">Deneme Link</a></li>
+                    </ul>
+                </div>
+                <div class="footer-menu">
+                    <h3>Takip Edin</h3>
+                    <p>Sosyal medyada bizi takip edin.</p>
+                    <div id="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>

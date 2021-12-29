@@ -1,0 +1,256 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 16px;
+}
+
+header {
+    display: block;
+    background-color: #1e1e1e;
+}
+
+header .container {
+    color: white;
+    display: flex;
+    width: 1100px;
+    padding: 10px 0;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container #logo {
+    font-size: 50px;
+    text-shadow: 4px 2px 2px gray;
+    font-weight: 600;
+    width: 240px;
+    /* width vermeseydik LOGO yazısının gölgesi 
+    sağdan kesik olacaktı. örn için width i kaldırıp dene. */
+}
+
+header .container #links ul {
+    display: flex;
+}
+
+header .container #links ul li {
+    margin-left: 20px;
+}
+
+header .container #links ul li a {
+    color: white;
+    font-weight: 700;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (min-width: 1200px) /*XL Ekran Boyutu*/ {
+    header .container #hamburger-menu {
+        display: none;
+    }
+
+    header .container label {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) /*L Ekran Boyutu*/ {
+    body {
+        font-size: 14px;
+    }
+
+    header .container {
+        width: 900px;
+    }
+
+    header .container #hamburger-menu {
+        display: none;
+    }
+
+    header .container label {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) /*M Ekran Boyutu*/ {
+    body {
+        font-size: 14px;
+    }
+
+    header .container {
+        width: 700px;
+    }
+
+    header .container #logo {
+        font-size: 40px;
+        text-shadow: 3px 1px 2px gray;
+        font-weight: 600;
+        width: 240px;
+        /* width vermeseydik LOGO yazısının gölgesi 
+        sağdan kesik olacaktı. örn için width i kaldırıp dene. */
+    }
+
+    header .container #hamburger-menu {
+        display: none;
+    }
+
+    header .container label {
+        display: none;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) /*S Ekran Boyutu*/ {
+    body {
+        font-size: 13px;
+    }
+
+    header .container {
+        width: 600px;
+        justify-content: center;
+        align-content: center;
+    }
+
+    header .container #logo {
+        font-size: 40px;
+        text-shadow: 3px 1px 2px gray;
+
+        text-align: center;
+        /* width vermeseydik LOGO yazısının gölgesi 
+        sağdan kesik olacaktı. örn için width i kaldırıp dene. */
+    }
+
+    header .container #links {
+        display: none;
+    }
+
+    header .container #hamburger-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 200px;
+        height: 100%;
+        background-color: #1e1e1e;
+        right: 0;
+        top: 0;
+        transform: translateX(200px);
+        transition: 0.5s;
+        box-shadow: 0px 0px 0px gray;
+    }
+
+    header .container #hamburger-menu #menu-container {
+        height: 50%;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    header .container #hamburger-menu #menu-container ul li {
+        margin-bottom: 20px;
+    }
+
+    header .container #hamburger-menu #menu-container ul li a {
+        color: white;
+        font-size: 20px;
+    }
+
+    header .container label {
+        font-size: 25px;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        z-index: 1;
+        border: 1px solid white;
+        padding: 10px;
+        align-content: center;
+        display: flex;
+        border-radius: 5px;
+    }
+
+    header .container input:checked + #hamburger-menu {
+        transform: translateX(0);
+        box-shadow: -3px 0px 3px gray;
+    }
+}
+
+@media only screen and (max-width: 575px) /*XS Ekran Boyutu*/ {
+    body {
+        font-size: 13px;
+    }
+
+    header .container {
+        width: 500px;
+        justify-content: center;
+        align-content: center;
+    }
+
+    header .container #logo {
+        font-size: 40px;
+        text-shadow: 3px 1px 2px gray;
+        text-align: center;
+        /* width vermeseydik LOGO yazısının gölgesi 
+        sağdan kesik olacaktı. örn için width i kaldırıp dene. */
+    }
+
+    header .container #links {
+        display: none;
+    }
+
+    header .container #hamburger-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 200px;
+        height: 100%;
+        background-color: #1e1e1e;
+        right: 0;
+        top: 0;
+        transform: translateX(200px);
+        transition: 0.5s;
+        box-shadow: 0px 0px 0px gray;
+    }
+
+    header .container #hamburger-menu #menu-container {
+        height: 50%;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    header .container #hamburger-menu #menu-container ul li {
+        margin-bottom: 20px;
+    }
+
+    header .container #hamburger-menu #menu-container ul li a {
+        color: white;
+        font-size: 20px;
+    }
+
+    header .container label {
+        font-size: 25px;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        z-index: 1;
+        border: 1px solid white;
+        padding: 10px;
+        align-content: center;
+        display: flex;
+        border-radius: 5px;
+    }
+
+    header .container input:checked + #hamburger-menu {
+        transform: translateX(0);
+        box-shadow: -3px 0px 3px gray;
+    }
+}

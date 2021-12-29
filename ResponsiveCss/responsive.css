@@ -1,0 +1,12 @@
+@media only screen and (min-width: 1200px) /*XL Ekran Boyutu*/ {
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) /*L Ekran Boyutu*/ {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) /*M Ekran Boyutu*/ {
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) /*S Ekran Boyutu*/ {
+}
+@media only screen and (max-width: 575px) /*XS Ekran Boyutu*/ {
+}
