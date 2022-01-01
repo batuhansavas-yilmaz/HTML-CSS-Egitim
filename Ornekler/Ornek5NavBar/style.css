@@ -1,0 +1,60 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    background-color: goldenrod;
+    justify-content: flex-end;
+    color: white;
+    align-items: center;
+    /* burda flex-end vererek içerileri (ul ve içerisindeki li leri ve içerilerindeki a ları) fleximizn en sonuna yani sağa dayadık */
+}
+#container ul {
+    display: flex;
+    /* display flex vererek ul nin içindeki elemanları yatay hizaladık çünkü flex-direct. özelliği otomaik olarak row alıyor. */
+}
+
+#container ul li a {
+    display: block;
+    /* a etiketi default olarak inline bir elementtir. inline elementlere boyutlandırma özellikleri tanımlanamaz. bu yüzden inline-block yada block olacak ki burda padding verebilelim. biz block verdik çünkü en ufak ekranda alt alta gelecektiler,link alanı tüm satırı kaplasın diye block verdik*/
+    color: white;
+    padding: 30px;
+}
+#container ul li:hover {
+    background-color: rgb(233, 181, 61);
+}
+
+/*RESPONSİVE*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) /*M Ekran Boyutu*/ {
+    #container ul {
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+@media only screen and (max-width: 767px) /*S Ekran Boyutu*/ {
+    #container ul {
+        width: 100%;
+        flex-direction: column;
+        /* flex direct. column verdiğimiz için alt alta geldiler, width 100% verdiğimiz içinde ortalandılar. */
+    }
+
+    #container ul li:nth-child(1),
+    #container ul li:nth-child(2),
+    #container ul li:nth-child(3) {
+        border-bottom-style: ridge;
+    }
+}

@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.media {
+    display: flex;
+    align-items: flex-start;
+    background-color: antiquewhite;
+    padding: 16px;
+    max-width: 600px;
+    margin: 20px;
+}
+.media img {
+    width: 100px;
+    margin-right: 16px;
+}
+
+.media .content h3 {
+    margin: 0 0 8px;
+}
+.media .img-right {
+    order: 1;
+}
+.media-inner {
+    margin-left: 0;
+    margin-right: 0;
+}
