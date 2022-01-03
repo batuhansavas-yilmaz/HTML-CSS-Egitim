@@ -1,0 +1,133 @@
+@charset "utf-8";
+* {
+    font-family: "Courier New", Courier, monospace;
+
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    list-style-type: none;
+    color: w;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(background.png);
+    background-size: cover;
+}
+
+#header-container {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 5px;
+    box-sizing: border-box;
+    display: flex;
+    background-color: darkblue;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+#header-container .logo {
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    flex-basis: 50%;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+#header-container .logo i {
+    flex: 1;
+}
+
+#header-container .logo div {
+    flex: 5;
+}
+
+#header-container .menu ul {
+    display: flex;
+}
+
+#header-container .menu ul li a {
+    font-family: "Courier New", Courier, monospace;
+
+    padding: 30px;
+    display: block;
+    color: white;
+}
+
+#header-container .menu ul li a:hover {
+    background-color: rgba(255, 0, 0, 0.325);
+}
+#header-container .menu ul li .uc:hover {
+    background-color: rgba(255, 0, 0, 0.325);
+    border-bottom-right-radius: 10px;
+}
+
+main {
+    color: white;
+}
+
+main .main-container {
+    margin: 10px;
+}
+
+main .main-container .post {
+    background-color: rgba(0, 0, 255, 0.525);
+    display: flex;
+    margin: 0 60px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+main .main-container .post .post-image img {
+    border-radius: 10px;
+    display: flex;
+}
+
+main .main-container .post .post-content {
+    padding: 10px;
+}
+
+#footer-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 0px 5px;
+    box-sizing: border-box;
+    display: flex;
+    background-color: darkblue;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 10px;
+    align-items: flex-start;
+}
+
+#footer-container .adress {
+    width: 195px;
+}
+
+#footer-container .info h4,
+#footer-container .adress h4,
+#footer-container .social h4 {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+#footer-container .info ul li {
+    list-style-type: circle;
+}
+#footer-container .social ul li a {
+    color: white;
+}
+
+#footer-container .social ul li a:hover {
+    color: yellow;
+}
