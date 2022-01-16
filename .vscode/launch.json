@@ -5,6 +5,12 @@
             "name": "http://127.0.0.1:3000/Ornekler/Ornek5NavBar/index.html",
             "request": "launch",
             "url": "http://127.0.0.1:3000/Ornekler/Ornek5NavBar/index.html"
+        },
+        {
+            "type": "pwa-chrome",
+            "name": "http://127.0.0.1:3000/sablon/index.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/sablon/index.html"
         }
     ]
 }
