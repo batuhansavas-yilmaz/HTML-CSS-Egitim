@@ -1,0 +1,156 @@
+@charset "utf-8";
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+#header {
+    background-color: #e0f1fa;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 5px 10px #ddd;
+    overflow-x: hidden;
+}
+
+#header .header-menu-container ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 800px;
+    max-width: 800px;
+    width: 800px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#header .header-menu-container ul li a {
+    display: inline-block;
+    color: #333;
+    border-bottom: 3px solid transparent;
+}
+#header .header-menu-container ul li a:hover {
+    border-bottom: 3px solid green;
+}
+#header .header-menu-container {
+    display: flex;
+    min-width: 1000px;
+    max-width: 1000px;
+    width: 1000px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header .header-menu-container .login {
+    background-color: green;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+}
+#check {
+    display: none;
+}
+#header .left-side-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: #333;
+    padding: 30px;
+    transform: translateX(-200px);
+    width: 200px;
+    transition: all 0.2s;
+}
+#header .left-side-menu ul li {
+    margin-bottom: 20px;
+}
+#header .left-side-menu ul li a {
+    color: #fff;
+}
+#header .left-side-menu ul li a:hover {
+    color: #3bbe71;
+}
+#check:checked + .left-side-menu {
+    transform: translate(0);
+}
+#header .side-menu {
+    padding: 10px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    background-color: #3bbe71;
+    color: white;
+    border-radius: 10px;
+}
+/* RESPONSIVE */
+
+@media only screen and (min-width: 1200px) /*XL Ekran Boyutu*/ {
+    .side-menu {
+        display: none;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) /*L Ekran Boyutu*/ {
+    .side-menu {
+        display: none;
+    }
+    #header .header-menu-container {
+        min-width: 700px;
+        max-width: 700px;
+        width: 700px;
+        font-size: 14px;
+    }
+    #header .header-menu-container ul {
+        min-width: 600px;
+        max-width: 600px;
+        width: 600px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) /*M Ekran Boyutu*/ {
+    #header .header-menu-container {
+        min-width: 400px;
+        max-width: 400px;
+        width: 400px;
+        font-size: 12px;
+        justify-content: flex-end;
+    }
+    #header .header-menu-container ul,
+    #header .header-menu-container .login {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) /*S Ekran Boyutu*/ {
+    #header .header-menu-container ul,
+    #header .header-menu-container .login {
+        display: none;
+    }
+    #header .header-menu-container {
+        min-width: 200px;
+        max-width: 200px;
+        width: 200px;
+        font-size: 12px;
+        justify-content: flex-end;
+    }
+}
+@media only screen and (max-width: 575px) /*XS Ekran Boyutu*/ {
+    #header .header-menu-container ul,
+    #header .header-menu-container .login {
+        display: none;
+    }
+    #header {
+        justify-content: last baseline;
+    }
+    #header .header-menu-container {
+        min-width: 50px;
+        max-width: 50px;
+        width: 50px;
+    }
+}
