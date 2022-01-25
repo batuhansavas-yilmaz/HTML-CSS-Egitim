@@ -16,6 +16,7 @@ body {
 /* HEADER */
 #header {
     background-color: #e0f1fa;
+    height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -326,7 +327,7 @@ body {
     }
 }
 
-/* SERVICES */
+/* MAİN SERVICES */
 #main .services {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -449,7 +450,7 @@ body {
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) /*S Ekran Boyutu*/ {
     #main .services {
-        width: 400px;
+        width: 80%;
         grid-template-columns: 1fr;
     }
     #main .services .service-header {
@@ -474,11 +475,11 @@ body {
 }
 @media only screen and (max-width: 575px) /*XS Ekran Boyutu*/ {
     #main .services {
-        width: 300px;
+        width: 80%;
         grid-template-columns: 1fr;
     }
     #main .services .service-header {
-        width: 200px;
+        width: 100%;
         grid-column-start: span 1;
     }
     #main .services .service-header h2 {
@@ -496,4 +497,159 @@ body {
     #main .services .service-content h2 {
         font-size: 20px;
     }
+}
+/* MAIN WORKFLOW */
+
+#main .workflow {
+    background-color: #e3fbeb;
+    width: 100%;
+    padding: 150px 0;
+}
+#main .workflow-header {
+    padding: 0 0 50px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+#main .workflow-header h2 {
+    font-size: 50px;
+    color: #17015d;
+}
+#main .workflow-header p {
+    color: #504f4f;
+}
+#main .workflow .workflow-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main .workflow .workflow-container .content h3 {
+    color: #17015d;
+    font-size: 30px;
+    text-align: right;
+    margin: 20px 0 20px;
+}
+#main .workflow .workflow-container .content p {
+    color: #aaa;
+    font-size: 20px;
+}
+#main .workflow .workflow-container .content {
+    width: 700px;
+    margin: 0 80px;
+}
+#main .workflow .workflow-container .content .circle {
+    height: 150px;
+    width: 150px;
+    border: 4px solid tomato;
+    flex-shrink: 0;
+    border-radius: 50%;
+    margin: 0 10px 20px;
+    box-shadow: 3px 3px 3px #aaa;
+    background-image: url(imgs/programming-1000.png);
+    background-size: cover;
+}
+#main .workflow .workflow-container .content .content-div {
+    display: flex;
+}
+#main .workflow .workflow-container .workflow-left p {
+    text-align: right;
+}
+#main .workflow .workflow-container .workflow-right .content h3 {
+    text-align: left;
+}
+
+#main .workflow .workflow-container .line {
+    align-self: stretch;
+    width: 4px;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#main .workflow .workflow-container .line div {
+    width: 30px;
+    height: 30px;
+    border: 1px solid tomato;
+    border-radius: 50%;
+    background-color: tomato;
+}
+.col-content {
+    display: none;
+}
+
+/* RESPONSIVE */
+@media only screen and (min-width: 1200px) and (max-width: 1667px) /*XL Ekran Boyutu*/ {
+    #main .workflow .workflow-container .content {
+        width: 420px;
+        margin: 0 80px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) /*L Ekran Boyutu*/ {
+    #main .workflow .workflow-container .content {
+        width: 325px;
+        margin: 0 80px;
+    }
+    #main .workflow .workflow-container .content h3 {
+        color: #17015d;
+        font-size: 25px;
+        text-align: right;
+        margin: 20px 0 20px;
+    }
+    #main .workflow .workflow-container .content p {
+        color: #aaa;
+        font-size: 18px;
+    }
+    #main .workflow .workflow-container .content .circle {
+        height: 120px;
+        width: 120px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) /*M Ekran Boyutu*/ {
+    #main .workflow .workflow-container .content {
+        width: 325px;
+        margin: 0 80px;
+    }
+    #main .workflow .workflow-container .content h3 {
+        color: #17015d;
+        font-size: 25px;
+        text-align: right;
+        margin: 20px 0 20px;
+    }
+    #main .workflow .workflow-container .content p {
+        color: #aaa;
+        font-size: 18px;
+    }
+    #main .workflow .workflow-container .content .circle {
+        height: 120px;
+        width: 120px;
+    }
+    .workflow-left {
+        display: none;
+    }
+    .workflow-right {
+        display: none;
+    }
+
+    .col-content {
+        display: block;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) /*S Ekran Boyutu*/ {
+    .workflow-left {
+        display: none;
+    }
+    .workflow-right {
+        display: none;
+    }
+
+    .col-content {
+        display: block;
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 575px) /*XS Ekran Boyutu*/ {
 }
