@@ -1,0 +1,48 @@
+@charset "utf-8";
+body {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "content"
+        "footer";
+    height: 1500px;
+    grid-template-rows: 100px 1fr 350px;
+}
+div {
+    background-color: red;
+    border: 1px solid;
+}
+#header {
+    grid-area: header;
+    display: flex;
+}
+#content {
+    grid-area: content;
+    display: grid;
+    grid-template-rows: 3fr 8fr;
+}
+#footer {
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 3fr 0.5fr;
+}
+.copyRightBox {
+    grid-column: 1 / span 4;
+    text-align: center;
+}
+
+.article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 4fr 5fr 4fr;
+    grid-gap: 5px;
+}
+
+.contentBox:nth-child(1) {
+    grid-column: 1 / span 2;
+}
+
+.contentBox:nth-child(7) {
+    grid-column-end: span 2;
+}
