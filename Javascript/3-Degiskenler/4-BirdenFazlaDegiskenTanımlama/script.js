@@ -1,0 +1,1 @@
+var isim = "ulaş", isim2 = "batu";
