@@ -9,7 +9,7 @@ document.write(islemYap + "<br>");
 
 //lastIndexOf: dizi içerisinde parametrik olarak verilen değeri arar ve son eşleşmeyi sağlayan elemanın indis değerini geriye döndürür.
 
-var isimler2 = ["Ulaş", "Gülhan", "Yiğit"];
+var isimler2 = ["Ulaş", "Gülhan", "Yiğit", "Gülhan"];
 document.write(isimler2 + "<br>");
 
 var islemYap2 = isimler2.lastIndexOf("Gülhan");

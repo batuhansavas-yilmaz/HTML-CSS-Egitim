@@ -6,7 +6,7 @@ document.write(renk + "<br>");
 document.write(isim + "<br>");
 
 var kopya = renk.concat(isim);
-document.write(kopya + "<br>");
+document.write(kopya + "53" + "<br>");
 
 var kopya2 = renk.concat(isim[2]);
 document.write(kopya2 + "<br>");

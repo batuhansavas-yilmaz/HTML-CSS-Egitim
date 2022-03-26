@@ -1,12 +1,12 @@
-function test(isim){
+function test(isim) {
     document.write(isim);
 }
 
-test("Merhaba");
+test("Merhaba ");
 
-function topla(sayi1,sayi2){
-    var topla=sayi1+sayi2;
+function topla(sayi1, sayi2) {
+    var topla = sayi1 + sayi2;
     document.write(topla);
 }
 
-topla(2,4);
+topla(2, 2);

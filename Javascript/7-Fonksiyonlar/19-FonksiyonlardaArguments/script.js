@@ -6,4 +6,4 @@ function ornek() {
     }
 }
 
-ornek("Ulaş", "Yılmaz");
+ornek("Ulaş", "Yılmaz", 3);

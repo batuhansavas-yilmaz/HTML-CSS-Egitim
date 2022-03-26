@@ -5,7 +5,7 @@ function islem(a, b, c) {
 }
 var sonuc;
 
-var sayi = [2, 7, 3, 4, 1, 9];
+var sayi = [158, 2, 7, 3, 4, 1, 9, 8];
 document.write(sayi + "<br>");
 
 sayi.some(islem);

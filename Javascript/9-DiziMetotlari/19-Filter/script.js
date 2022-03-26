@@ -1,5 +1,5 @@
 //filter: fonsiyondan geriye true dönen tüm elemanları kopyalayarak yeni bir dizi oluşturur.
-function islem (a,b,c){
+function islem(a, b, c) {
     return a % 2 == 0;
 }
 
